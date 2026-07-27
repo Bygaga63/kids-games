@@ -1,3 +1,5 @@
+import { say } from './voice';
+
 // Звуковые эффекты: верно/неверно (Web Audio, без файлов)
 let AC: AudioContext | null = null;
 
@@ -36,17 +38,14 @@ export function sfx(ok: boolean): void {
   } catch {}
 }
 
-/** Озвучка текста по-русски (используется играми с загадками/буквами). */
+/**
+ * Озвучка текста: предзаписанный нейро-клип, при отсутствии — speechSynthesis
+ * (см. lib/voice.ts). rate/pitch оставлены для совместимости и влияют только
+ * на фолбэк через выбор пресета; новые фразы добавляются в scripts/generate-voice.mjs.
+ */
 export function speak(
   text: string,
   opts: { rate?: number; pitch?: number; lang?: string } = {},
 ): void {
-  try {
-    const u = new SpeechSynthesisUtterance(text);
-    u.lang = opts.lang || 'ru-RU';
-    u.rate = opts.rate ?? 0.95;
-    u.pitch = opts.pitch ?? 1.05;
-    speechSynthesis.cancel();
-    speechSynthesis.speak(u);
-  } catch {}
+  say(text, opts.lang && /^en/i.test(opts.lang) ? 'en-letter' : 'ru');
 }

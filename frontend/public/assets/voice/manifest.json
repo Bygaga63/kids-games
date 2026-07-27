@@ -149,6 +149,246 @@
     "rate": "-10%",
     "from": "animals"
   },
+  "3o9b9x-1c4yelz.mp3": {
+    "text": "Кто мама у бельчонка?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "babies"
+  },
+  "1xzjlbl-y9amxf.mp3": {
+    "text": "Кто мама у волчонка?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "babies"
+  },
+  "1k9rzaa-7shji8.mp3": {
+    "text": "Кто мама у ежонка?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "babies"
+  },
+  "1vib0ll-5p4iuj.mp3": {
+    "text": "Кто мама у жеребёнка?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "babies"
+  },
+  "1w8tbnc-1gz9tp6.mp3": {
+    "text": "Кто мама у зайчонка?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "babies"
+  },
+  "2lrbqe-r857k4.mp3": {
+    "text": "Кто мама у козлёнка?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "babies"
+  },
+  "zpte7c-1tj91l6.mp3": {
+    "text": "Кто мама у котёнка?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "babies"
+  },
+  "9vfq3w-164ffv2.mp3": {
+    "text": "Кто мама у лисёнка?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "babies"
+  },
+  "1wnsea3-1q32ig9.mp3": {
+    "text": "Кто мама у львёнка?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "babies"
+  },
+  "815uvh-1pfticv.mp3": {
+    "text": "Кто мама у медвежонка?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "babies"
+  },
+  "19gnlku-p5vjq4.mp3": {
+    "text": "Кто мама у мышонка?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "babies"
+  },
+  "1b5zsjn-jt1lpd.mp3": {
+    "text": "Кто мама у оленёнка?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "babies"
+  },
+  "jn2o40-1f4ivle.mp3": {
+    "text": "Кто мама у поросёнка?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "babies"
+  },
+  "k2m5kn-ei6vyt.mp3": {
+    "text": "Кто мама у слонёнка?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "babies"
+  },
+  "i1u3lu-166ilsw.mp3": {
+    "text": "Кто мама у телёнка?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "babies"
+  },
+  "6s7p6v-19x8xid.mp3": {
+    "text": "Кто мама у тигрёнка?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "babies"
+  },
+  "s9t4zz-99vz3h.mp3": {
+    "text": "Кто мама у утёнка?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "babies"
+  },
+  "1w7jbrb-sxvvhh.mp3": {
+    "text": "Кто мама у цыплёнка?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "babies"
+  },
+  "1hka3j7-16r3cn5.mp3": {
+    "text": "Кто мама у щенка?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "babies"
+  },
+  "1lokx67-fh15e5.mp3": {
+    "text": "Кто мама у ягнёнка?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "babies"
+  },
+  "j16cgd-15q6ckv.mp3": {
+    "text": "Мама у бельчонка — белка",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "babies"
+  },
+  "1s336w2-1ix1w8w.mp3": {
+    "text": "Мама у волчонка — волчица",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "babies"
+  },
+  "r8ff8h-43ndxf.mp3": {
+    "text": "Мама у ежонка — ежиха",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "babies"
+  },
+  "171t80x-wiv8jn.mp3": {
+    "text": "Мама у жеребёнка — лошадь",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "babies"
+  },
+  "buk4yp-2y6pvn.mp3": {
+    "text": "Мама у зайчонка — зайчиха",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "babies"
+  },
+  "7vcb48-1i413fu.mp3": {
+    "text": "Мама у козлёнка — коза",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "babies"
+  },
+  "c4owjn-11iqdup.mp3": {
+    "text": "Мама у котёнка — кошка",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "babies"
+  },
+  "kke9bh-1qtu43z.mp3": {
+    "text": "Мама у лисёнка — лисица",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "babies"
+  },
+  "sfq5pp-1dm35ov.mp3": {
+    "text": "Мама у львёнка — львица",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "babies"
+  },
+  "1wzglcw-xonf5u.mp3": {
+    "text": "Мама у медвежонка — медведица",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "babies"
+  },
+  "eqws3k-1wftqci.mp3": {
+    "text": "Мама у мышонка — мышь",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "babies"
+  },
+  "1qjwbla-1qjebws.mp3": {
+    "text": "Мама у оленёнка — олениха",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "babies"
+  },
+  "13ajwzs-1h87yei.mp3": {
+    "text": "Мама у поросёнка — свинья",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "babies"
+  },
+  "1emd0tq-1rb8z64.mp3": {
+    "text": "Мама у слонёнка — слониха",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "babies"
+  },
+  "oq30jb-c7k6z9.mp3": {
+    "text": "Мама у телёнка — корова",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "babies"
+  },
+  "3vx571-1iyc0bz.mp3": {
+    "text": "Мама у тигрёнка — тигрица",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "babies"
+  },
+  "1oh0bah-e4qkqz.mp3": {
+    "text": "Мама у утёнка — утка",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "babies"
+  },
+  "rm360t-1oymllr.mp3": {
+    "text": "Мама у цыплёнка — курица",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "babies"
+  },
+  "19dw1lm-1b3ibso.mp3": {
+    "text": "Мама у щенка — собака",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "babies"
+  },
+  "174yeu0-1f60ayi.mp3": {
+    "text": "Мама у ягнёнка — овца",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "babies"
+  },
   "lhu9za-1qgrd44.mp3": {
     "text": "Им мы говорим, поём песенки и улыбаемся.",
     "voice": "ru-RU-DmitryNeural",
@@ -226,6 +466,318 @@
     "voice": "ru-RU-DmitryNeural",
     "rate": "-10%",
     "from": "body"
+  },
+  "ir31u7-rx7wml.mp3": {
+    "text": "Прыгаем десятками",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "count-order"
+  },
+  "i4eh02-11iwncg.mp3": {
+    "text": "Прыгаем по нечётным числам",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "count-order"
+  },
+  "1abqwqi-1m6ysm0.mp3": {
+    "text": "Прыгаем по порядку от одного до двенадцати",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "count-order"
+  },
+  "fmzte1-15l9o8b.mp3": {
+    "text": "Прыгаем по порядку от одного до десяти",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "count-order"
+  },
+  "1wdtw3e-1mh6li0.mp3": {
+    "text": "Прыгаем по чётным числам",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "count-order"
+  },
+  "12w3ftu-vqzs8w.mp3": {
+    "text": "Считаем обратно, от десяти до одного",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "count-order"
+  },
+  "1x6xu4d-1glkb6n.mp3": {
+    "text": "Сколько бабочек?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "counting"
+  },
+  "1qvselc-p4g2gy.mp3": {
+    "text": "Сколько белок?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "counting"
+  },
+  "1e4z72l-1wayu0f.mp3": {
+    "text": "Сколько грибов?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "counting"
+  },
+  "1q7enc3-13gk1s1.mp3": {
+    "text": "Сколько груш?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "counting"
+  },
+  "1ivy6t8-1kof1we.mp3": {
+    "text": "Сколько гусениц?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "counting"
+  },
+  "mcejd3-z1rag5.mp3": {
+    "text": "Сколько ёлочек?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "counting"
+  },
+  "1wrzg4a-dhy1ko.mp3": {
+    "text": "Сколько звёздочек?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "counting"
+  },
+  "uaysxu-t0tr8g.mp3": {
+    "text": "Сколько лилий?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "counting"
+  },
+  "bkuake-ym4i1o.mp3": {
+    "text": "Сколько машинок?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "counting"
+  },
+  "ptmniw-r0nqwq.mp3": {
+    "text": "Сколько мишек?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "counting"
+  },
+  "1x7r3k1-pxfa77.mp3": {
+    "text": "Сколько мячиков?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "counting"
+  },
+  "1peelet-j7vx3b.mp3": {
+    "text": "Сколько планет?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "counting"
+  },
+  "1p2guh5-13i3sh7.mp3": {
+    "text": "Сколько пчёл?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "counting"
+  },
+  "3hea92-10r8zr8.mp3": {
+    "text": "Сколько ракет?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "counting"
+  },
+  "2t0v45-1004zaf.mp3": {
+    "text": "Сколько рыбок?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "counting"
+  },
+  "1qld653-13qke0l.mp3": {
+    "text": "Сколько утят?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "counting"
+  },
+  "8jj2uv-dl5xg5.mp3": {
+    "text": "Сколько цветочков?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "counting"
+  },
+  "af18wq-108ktrs.mp3": {
+    "text": "Сколько яблок?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "counting"
+  },
+  "1fj32zq-931b0k.mp3": {
+    "text": "Домик",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "dots"
+  },
+  "61vi3f-l36mk9.mp3": {
+    "text": "Ёлочка",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "dots"
+  },
+  "vqmj12-1v5ejg4.mp3": {
+    "text": "Звёздочка",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "dots"
+  },
+  "tlo9fy-15wsq3w.mp3": {
+    "text": "Кораблик",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "dots"
+  },
+  "1fkehli-974pkk.mp3": {
+    "text": "Котик",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "dots"
+  },
+  "1gd5j5u-b2cfvk.mp3": {
+    "text": "Рыбка",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "dots"
+  },
+  "hmy218-1q6l25q.mp3": {
+    "text": "Чем угостим белку?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "eats"
+  },
+  "10z9s4u-2qrtn0.mp3": {
+    "text": "Чем угостим гусеницу?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "eats"
+  },
+  "qjxbbz-18wbct.mp3": {
+    "text": "Чем угостим ёжика?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "eats"
+  },
+  "xcebmp-1fjluf7.mp3": {
+    "text": "Чем угостим зайчика?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "eats"
+  },
+  "n8qrnq-1uopl2c.mp3": {
+    "text": "Чем угостим коалу?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "eats"
+  },
+  "1o3v5gh-1xe5y83.mp3": {
+    "text": "Чем угостим корову?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "eats"
+  },
+  "1o53se6-1xcpefw.mp3": {
+    "text": "Чем угостим котика?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "eats"
+  },
+  "1rmybkj-16yjc4x.mp3": {
+    "text": "Чем угостим курочку?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "eats"
+  },
+  "v0oedb-1kgri71.mp3": {
+    "text": "Чем угостим лягушку?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "eats"
+  },
+  "2656gb-1u01o09.mp3": {
+    "text": "Чем угостим медведя?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "eats"
+  },
+  "il4yx8-1se08tq.mp3": {
+    "text": "Чем угостим мышку?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "eats"
+  },
+  "1pr19c0-u2a44i.mp3": {
+    "text": "Чем угостим обезьянку?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "eats"
+  },
+  "kcr2mn-1rkgkml.mp3": {
+    "text": "Чем угостим панду?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "eats"
+  },
+  "qsfn6s-1rufwee.mp3": {
+    "text": "Чем угостим пингвина?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "eats"
+  },
+  "1i7lidu-1tymeuo.mp3": {
+    "text": "Чем угостим поросёнка?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "eats"
+  },
+  "1776bn5-13hr74j.mp3": {
+    "text": "Чем угостим птичку?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "eats"
+  },
+  "18owgch-17glzc3.mp3": {
+    "text": "Чем угостим пчёлку?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "eats"
+  },
+  "zbnrur-1ffxh29.mp3": {
+    "text": "Чем угостим слона?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "eats"
+  },
+  "g5yep6-h59t8o.mp3": {
+    "text": "Чем угостим собачку?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "eats"
+  },
+  "13osghf-1cb4wep.mp3": {
+    "text": "Чем угостим тигра?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "eats"
+  },
+  "nuat59-1d73dnz.mp3": {
+    "text": "Чем угостим утёнка?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "eats"
+  },
+  "gvjvs8-1fccpca.mp3": {
+    "text": "Чем угостим хомяка?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "eats"
   },
   "36nztd-igwp0z.mp3": {
     "text": "A",
@@ -382,6 +934,714 @@
     "voice": "en-US-JennyNeural",
     "rate": "-25%",
     "from": "english"
+  },
+  "ox7wlb-10sdcwt.mp3": {
+    "text": "Автобус",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "1sevfab-da7ugx.mp3": {
+    "text": "Ананас",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "1ff7rgn-8xsgrp.mp3": {
+    "text": "Арбуз",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "jf3yz5-1gan4xf.mp3": {
+    "text": "Бабочка",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "1fjo80z-8zgxc1.mp3": {
+    "text": "Банан",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "j6e2cf-1fxqcl9.mp3": {
+    "text": "Барабан",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "tf1yn5-1yryzb7.mp3": {
+    "text": "Вертолёт",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "ej9elo-1lo5bim.mp3": {
+    "text": "Виноград",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "3pkypr-lsr3a5.mp3": {
+    "text": "Волк",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "1u7flq3-ckiztl.mp3": {
+    "text": "Гитара",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "3plrm0-lsqoa2.mp3": {
+    "text": "Гриб",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "1ffw2e2-918ut4.mp3": {
+    "text": "Груша",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "1xwaydh-1b8s6nb.mp3": {
+    "text": "Дельфин",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "1upu14a-ebzoco.mp3": {
+    "text": "Дерево",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "19bazfo-oc5hmu.mp3": {
+    "text": "Дом",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "3psvxv-lsroi9.mp3": {
+    "text": "Ежик",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "19bb3lc-oc5ff6.mp3": {
+    "text": "Ель",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "1fhu3hk-94hbyi.mp3": {
+    "text": "Жираф",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "19bazul-oc5jkv.mp3": {
+    "text": "Жук",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "3prios-lsrrem.mp3": {
+    "text": "Заяц",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "1wn8tqp-f0arw3.mp3": {
+    "text": "Звезда",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "1fjln8x-93lbgz.mp3": {
+    "text": "Зебра",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "3psbea-lsvmts.mp3": {
+    "text": "Игла",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "1flsvef-95qvdh.mp3": {
+    "text": "Индюк",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "3pqmxm-lswt6g.mp3": {
+    "text": "Ключ",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "19bb0yc-oc5mgm.mp3": {
+    "text": "Кот",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "1fnql7y-95143w.mp3": {
+    "text": "Лимон",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "3pud40-lsungi.mp3": {
+    "text": "Лиса",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "k5pyei-15fsb9k.mp3": {
+    "text": "Морковь",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "3pu1nl-lsvttv.mp3": {
+    "text": "Мышь",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "19bb4hy-oc5l44.mp3": {
+    "text": "Мяч",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "1hqnn0v-1e3i0dp.mp3": {
+    "text": "Ножницы",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "1frqw5u-96f7zk.mp3": {
+    "text": "Носки",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "1eua9gj-1eytbb5.mp3": {
+    "text": "Носорог",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "1yn9e7m-m3pys0.mp3": {
+    "text": "Облако",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "3ptve0-lt04ui.mp3": {
+    "text": "Овца",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "f3qrh1-1si2b07.mp3": {
+    "text": "Осьминог",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "eug630-n3fg1a.mp3": {
+    "text": "Пингвин",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "1fql4bp-97shc7.mp3": {
+    "text": "Пицца",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "1fo900k-99k94m.mp3": {
+    "text": "Пчела",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "osykqe-a5gtxw.mp3": {
+    "text": "Радуга",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "ot0pgf-a5lv25.mp3": {
+    "text": "Ракета",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "3qm3w8-luyc0q.mp3": {
+    "text": "Рыба",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "1ay74h5-ar86yz.mp3": {
+    "text": "Самолёт",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "3qnbbf-lv0xyh.mp3": {
+    "text": "Слон",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "3ql2rf-lv1p09.mp3": {
+    "text": "Тигр",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "3ql4x8-lv1pfy.mp3": {
+    "text": "Торт",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "q55ko6-m4zr44.mp3": {
+    "text": "Трактор",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "n3zdiy-dei254.mp3": {
+    "text": "Улитка",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "3qppwu-lv39ak.mp3": {
+    "text": "Флаг",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "q7kqvd-e2mjfv.mp3": {
+    "text": "Фонарь",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "3qqco8-lv3zbe.mp3": {
+    "text": "Хлеб",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "1ggxpa8-b7jhpe.mp3": {
+    "text": "Хомяк",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "ox1q2d-f7kbfb.mp3": {
+    "text": "Цветок",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "1qcz3lf-1xq2uz5.mp3": {
+    "text": "Цыплёнок",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "pgf12b-fxtloh.mp3": {
+    "text": "Чайник",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "3qoqzz-lv5bm5.mp3": {
+    "text": "Часы",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "p584r3-ton65p.mp3": {
+    "text": "Черепаха",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "1fb8f6n-b9ho71.mp3": {
+    "text": "Шапка",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "19baq5m-oc82vc.mp3": {
+    "text": "Шар",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "18xkly7-1aedczh.mp3": {
+    "text": "Шоколад",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "1qfixdq-1fjn0gs.mp3": {
+    "text": "Эскимо",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "1pibkz1-1fvm9fz.mp3": {
+    "text": "Яблоко",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "1fd85jp-a6g5br.mp3": {
+    "text": "Якорь",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "first-letter"
+  },
+  "425sm1-3jnk1n.mp3": {
+    "text": "Бабочка — насекомое. Её крылья покрыты крошечными чешуйками.",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "1hchsnv-f6w6yh.mp3": {
+    "text": "Бабочка. Это насекомое?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "8qhw3z-fo7ip9.mp3": {
+    "text": "Божья коровка — это жук, значит насекомое. Она ест тлю и спасает растения.",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "1nbcurk-1xrg0bm.mp3": {
+    "text": "Божья коровка. Это насекомое?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "1nge1wo-bduzbe.mp3": {
+    "text": "Гусеница — детёныш насекомого: она подрастёт и станет бабочкой.",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "1l8rfin-1c4t7ot.mp3": {
+    "text": "Гусеница. Это насекомое?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "1chtyfh-uglui7.mp3": {
+    "text": "Жук — насекомое. Его лётные крылья спрятаны под твёрдой спинкой.",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "1jp0won-ugez9.mp3": {
+    "text": "Жук. Это насекомое?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "uy5l1e-1hbahcw.mp3": {
+    "text": "Комар — насекомое. Он пищит, потому что очень быстро машет крыльями.",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "sc17bk-1s5rnle.mp3": {
+    "text": "Комар. Это насекомое?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "1s12oxy-1h63kx0.mp3": {
+    "text": "Кузнечик — насекомое. Сильные задние лапки помогают ему далеко прыгать.",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "bx58yj-1pjdpa1.mp3": {
+    "text": "Кузнечик. Это насекомое?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "vzp5fc-1eh3vtm.mp3": {
+    "text": "Муравей — насекомое: шесть лапок и усики. Живёт большой семьёй в муравейнике.",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "1wvenc9-jwidvv.mp3": {
+    "text": "Муравей. Это насекомое?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "6iiac-p8vbjq.mp3": {
+    "text": "Муха — насекомое. У неё всего одна пара крыльев и большие глаза.",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "eqeh6a-10g680g.mp3": {
+    "text": "Муха. Это насекомое?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "1n05u7r-1ufsdqt.mp3": {
+    "text": "Найди, где бабочка",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "1qpe5o-1ke691q.mp3": {
+    "text": "Найди, где божья коровка",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "17z8cyr-yt988x.mp3": {
+    "text": "Найди, где гусеница",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "rcu09n-je2rw9.mp3": {
+    "text": "Найди, где жук",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "thcfb0-m4j55q.mp3": {
+    "text": "Найди, где комар",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "k53647-1u5aifp.mp3": {
+    "text": "Найди, где кузнечик",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "nt1ebp-1y41v1j.mp3": {
+    "text": "Найди, где муравей",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "1ee7aou-o6wvw.mp3": {
+    "text": "Найди, где муха",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "rcu717-je4gah.mp3": {
+    "text": "Найди, где оса",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "1ee95s2-o5qsg.mp3": {
+    "text": "Найди, где паук",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "tekkhe-m4gh00.mp3": {
+    "text": "Найди, где пчела",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "1575m9-nktr0z.mp3": {
+    "text": "Найди, где сверчок",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "y7dap3-z81jet.mp3": {
+    "text": "Найди, где светлячок",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "ci3w1h-osxcif.mp3": {
+    "text": "Найди, где скорпион",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "xatptt-emkk4j.mp3": {
+    "text": "Найди, где стрекоза",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "b0fept-xk79b7.mp3": {
+    "text": "Найди, где таракан",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "2bj4bg-1ud4dku.mp3": {
+    "text": "Найди, где улитка",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "vtphd-1ro6x0j.mp3": {
+    "text": "Найди, где червяк",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "rgc354-5l8sju.mp3": {
+    "text": "Оса — насекомое. У неё тонкая талия, и мёд она не делает.",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "3z3w3b-1y90nbp.mp3": {
+    "text": "Оса. Это насекомое?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "12oa5rh-12j5e1b.mp3": {
+    "text": "Паук — не насекомое. У насекомых шесть лапок, а у паука восемь.",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "1a8rzse-100i28c.mp3": {
+    "text": "Паук. Это насекомое?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "1hl0o6y-v5uie0.mp3": {
+    "text": "Пчела — насекомое. Она собирает нектар с цветов и делает мёд.",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "ffq3ku-1oe4ews.mp3": {
+    "text": "Пчела. Это насекомое?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "1yhd6fw-1fvvkvy.mp3": {
+    "text": "Сверчок — насекомое. Вечером он стрекочет, потирая крылышки.",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "opaqot-16ososf.mp3": {
+    "text": "Сверчок. Это насекомое?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "1wzbel-isk93z.mp3": {
+    "text": "Светлячок — жук, а значит насекомое. В темноте его брюшко светится.",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "1d58363-1hrrgvd.mp3": {
+    "text": "Светлячок. Это насекомое?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "ve60xe-ev8cpc.mp3": {
+    "text": "Скорпион — не насекомое. У него восемь лапок и клешни, как у родственника-паука.",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "1vnz2c9-10yk0mz.mp3": {
+    "text": "Скорпион. Это насекомое?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "19nornb-q39fh1.mp3": {
+    "text": "Стрекоза — насекомое. У неё четыре крыла, и она ловит комаров в полёте.",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "ron4rx-1nqgamn.mp3": {
+    "text": "Стрекоза. Это насекомое?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "1g3qeat-44ywzr.mp3": {
+    "text": "Таракан — насекомое. Длинными усами он ощупывает всё вокруг.",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "k4mnal-159fp5b.mp3": {
+    "text": "Таракан. Это насекомое?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "1lmmusu-1wtv2h8.mp3": {
+    "text": "Улитка — не насекомое. У неё совсем нет лапок, зато есть домик-раковина.",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "1cs51tc-1ra0fiq.mp3": {
+    "text": "Улитка. Это насекомое?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "vk27xh-y178g7.mp3": {
+    "text": "Червяк — не насекомое. У него нет ни лапок, ни усиков, ни крыльев.",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
+  },
+  "1glpdbh-1foqu4v.mp3": {
+    "text": "Червяк. Это насекомое?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "insects"
   },
   "vus2bo-10ege3q.mp3": {
     "text": "А",
@@ -580,6 +1840,96 @@
     "voice": "ru-RU-DmitryNeural",
     "rate": "-25%",
     "from": "letters-ru"
+  },
+  "1jnanf0-6odwu.mp3": {
+    "text": "Белый гриб съедобный: у него толстая ножка и плотная коричневая шляпка.",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mushrooms"
+  },
+  "1jowd1f-1ul26w1.mp3": {
+    "text": "Бледная поганка — самый опасный гриб в лесу, её нельзя брать в руки.",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mushrooms"
+  },
+  "yh9ww-ef7iky.mp3": {
+    "text": "Груздь съедобный: белая шляпка воронкой. Перед солением его долго вымачивают.",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mushrooms"
+  },
+  "1gg727d-s4ab4b.mp3": {
+    "text": "Жёлчный гриб похож на белый, но очень горький, поэтому его не едят.",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mushrooms"
+  },
+  "g453so-8a7uqi.mp3": {
+    "text": "Лисичка съедобная: жёлтая, с шляпкой-воронкой, и почти никогда не червивая.",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mushrooms"
+  },
+  "6k1vvn-yd2135.mp3": {
+    "text": "Ложные опята ядовиты: юбочки на ножке нет, а на вкус они горькие.",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mushrooms"
+  },
+  "1bbzqx2-9cbh2c.mp3": {
+    "text": "Маслёнок съедобный, шляпка у него скользкая, будто масляная.",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mushrooms"
+  },
+  "1o3kq8-1jngfki.mp3": {
+    "text": "Мухомор ядовит, есть его нельзя: красная шляпка в белых точках и юбочка на ножке.",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mushrooms"
+  },
+  "1pf9wdn-29njpl.mp3": {
+    "text": "Незнакомые грибы в лесу не трогай — спроси взрослых.",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mushrooms"
+  },
+  "1ohyx1c-1c0zm8y.mp3": {
+    "text": "Опята съедобные, растут дружными семейками на пнях, а на ножке у них юбочка.",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mushrooms"
+  },
+  "1imh6fm-19nwrhs.mp3": {
+    "text": "Подберёзовик съедобный, растёт под берёзами, а ножка у него в серых крапинках.",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mushrooms"
+  },
+  "14fa9gs-5vvl3i.mp3": {
+    "text": "Подосиновик съедобный, его узнают по яркой оранжевой шляпке.",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mushrooms"
+  },
+  "ji7kdu-q0a7rk.mp3": {
+    "text": "Сатанинский гриб ядовит: светлая шляпка и толстая красноватая ножка.",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mushrooms"
+  },
+  "1jmbn06-1qu0ot0.mp3": {
+    "text": "Сыроежка съедобная, но, несмотря на имя, сырой её есть нельзя — нужно варить.",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mushrooms"
+  },
+  "htr7c4-6uiosm.mp3": {
+    "text": "Шампиньон съедобный, его выращивают на грядках и продают в магазине.",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mushrooms"
   },
   "1opakm6-1mq7vgc.mp3": {
     "text": "Буль-буль!",
@@ -947,6 +2297,456 @@
     "rate": "-10%",
     "from": "pet-shop"
   },
+  "1edbc8g-1i3am1e.mp3": {
+    "text": "Кому нужен этот предмет?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "professions"
+  },
+  "1jz9wrw-c0mo3y.mp3": {
+    "text": "Кто bad?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "professions"
+  },
+  "fu5wo-15bzcui.mp3": {
+    "text": "Кто good?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "professions"
+  },
+  "14lt8hv-gly8pt.mp3": {
+    "text": "Кто ведёт большой корабль по морю?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "professions"
+  },
+  "1je5j0u-1oy886k.mp3": {
+    "text": "Кто водит самолёт высоко в небе?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "professions"
+  },
+  "1xg5r8z-1dmwm4x.mp3": {
+    "text": "Кто готовит вкусный суп и котлеты?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "professions"
+  },
+  "1xiib9f-umqz6p.mp3": {
+    "text": "Кто играет музыку на скрипке?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "professions"
+  },
+  "xhdga9-1ceclxv.mp3": {
+    "text": "Кто летает в космос на ракете?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "professions"
+  },
+  "1ncxi51-tf40xj.mp3": {
+    "text": "Кто лечит людей?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "professions"
+  },
+  "wjjrce-uk0ft8.mp3": {
+    "text": "Кто лечит собак, кошек и других зверей?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "professions"
+  },
+  "13n2kne-bji86g.mp3": {
+    "text": "Кто пашет поле на большом тракторе?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "professions"
+  },
+  "12drng8-syydsq.mp3": {
+    "text": "Кто пишет программы для компьютера?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "professions"
+  },
+  "18j8mlf-1s1vb41.mp3": {
+    "text": "Кто разносит по домам письма и посылки?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "professions"
+  },
+  "1p1dr9h-1u4bh47.mp3": {
+    "text": "Кто ремонтирует машины?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "professions"
+  },
+  "1m61zk5-w2286f.mp3": {
+    "text": "Кто рисует картины красками?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "professions"
+  },
+  "17qlxqp-15vgdtf.mp3": {
+    "text": "Кто следит за порядком на улице?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "professions"
+  },
+  "1u749ni-edrvp8.mp3": {
+    "text": "Кто смотрит в микроскоп и делает опыты?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "professions"
+  },
+  "13ts5oh-fua5ur.mp3": {
+    "text": "Кто стрижёт волосы и делает причёски?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "professions"
+  },
+  "1yapix1-1q9ckrr.mp3": {
+    "text": "Кто строит новые дома?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "professions"
+  },
+  "h9sdlz-18ms7lx.mp3": {
+    "text": "Кто тушит огонь и спасает людей?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "professions"
+  },
+  "19z1xqb-u02y01.mp3": {
+    "text": "Кто учит детей читать и считать?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "professions"
+  },
+  "1lqgtq-bx5e18.mp3": {
+    "text": "Кто шьёт красивую одежду?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "professions"
+  },
+  "xyo75w-uz0kiu.mp3": {
+    "text": "Будильник",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "179i8pj-el4e7p.mp3": {
+    "text": "Велосипед",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "1fj04a5-92y4en.mp3": {
+    "text": "Дверь",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "3q1jqf-lt0dvp.mp3": {
+    "text": "Ёжик",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "1wm6h61-f1xfez.mp3": {
+    "text": "Зайчик",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "3prm90-lsrux2.mp3": {
+    "text": "Зонт",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "1tgu4fi-1xubm4s.mp3": {
+    "text": "Клубника",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "1uh8mra-bug4ic.mp3": {
+    "text": "Кукуруза",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "12zv2ix-r0vt63.mp3": {
+    "text": "Лампочка",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "1fnusyz-952aq1.mp3": {
+    "text": "Ложка",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "1fok4yc-98dp86.mp3": {
+    "text": "Мишка",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "pys0bw-hvtdzi.mp3": {
+    "text": "Морковка",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "11xc3cr-ojmee1.mp3": {
+    "text": "Мороженое",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "1knefov-nbtjf1.mp3": {
+    "text": "Найди тень. Автобус",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "aa2p6p-u1tsir.mp3": {
+    "text": "Найди тень. Бабочка",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "w3mm43-bi9ryp.mp3": {
+    "text": "Найди тень. Банан",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "ygcutw-1876sxi.mp3": {
+    "text": "Найди тень. Будильник",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "mp30zr-17jn3s5.mp3": {
+    "text": "Найди тень. Велосипед",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "1sk13sh-1w8z9sj.mp3": {
+    "text": "Найди тень. Вертолёт",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "io5njw-5ew3ha.mp3": {
+    "text": "Найди тень. Виноград",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "w5m1rx-bltxpb.mp3": {
+    "text": "Найди тень. Дверь",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "v3j7qv-1olwmz9.mp3": {
+    "text": "Найди тень. Ёжик",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "w4durc-bnaxga.mp3": {
+    "text": "Найди тень. Жираф",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "1u6m5dl-tqaesb.mp3": {
+    "text": "Найди тень. Зайчик",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "v3xvw4-1ome7h2.mp3": {
+    "text": "Найди тень. Зонт",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "w8mz3y-avu198.mp3": {
+    "text": "Найди тень. Клубника",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "v3yfd6-1ol4iw8.mp3": {
+    "text": "Найди тень. Ключ",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "10q5692-b0xbyc.mp3": {
+    "text": "Найди тень. Кукуруза",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "1wetfix-12w1baz.mp3": {
+    "text": "Найди тень. Лампочка",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "w951iz-aipcyh.mp3": {
+    "text": "Найди тень. Ложка",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "w9s37o-ajdtd2.mp3": {
+    "text": "Найди тень. Мишка",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "1igr6yk-i7v6e6.mp3": {
+    "text": "Найди тень. Морковка",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "pcw7xn-ziooqx.mp3": {
+    "text": "Найди тень. Мороженое",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "dqh2jj-1o02ef1.mp3": {
+    "text": "Найди тень. Ножницы",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "wd3dhg-ak4hba.mp3": {
+    "text": "Найди тень. Носок",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "9lfm28-mmth5e.mp3": {
+    "text": "Найди тень. Парусник",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "wbq0ol-alho7r.mp3": {
+    "text": "Найди тень. Пицца",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "wbsnv9-alczhz.mp3": {
+    "text": "Найди тень. Поезд",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "wbmmpw-amk46e.mp3": {
+    "text": "Найди тень. Пчела",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "42cg7j-1v135gt.mp3": {
+    "text": "Найди тень. Ракета",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "wdxqc2-al0bxs.mp3": {
+    "text": "Найди тень. Рыбка",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "2ybjnd-xxtw0r.mp3": {
+    "text": "Найди тень. Самолёт",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "v44w63-1olchkp.mp3": {
+    "text": "Найди тень. Слон",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "v48309-1olctln.mp3": {
+    "text": "Найди тень. Стул",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "18przna-1sqquqc.mp3": {
+    "text": "Найди тень. Трактор",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "w0fiay-1y9x7wo.mp3": {
+    "text": "Найди тень. Улитка",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "v2rvqh-1olb8ej.mp3": {
+    "text": "Найди тень. Утка",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "whtyvz-1hcs7i5.mp3": {
+    "text": "Найди тень. Черепаха",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "9z65rx-6w59b3.mp3": {
+    "text": "Найди тень. Яблоко",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "1frqw9g-96f83a.mp3": {
+    "text": "Носок",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "1cgk1ls-1xtjtaa.mp3": {
+    "text": "Парусник",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "1fqiih1-97q0fb.mp3": {
+    "text": "Поезд",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
+  "3ql949-lv3emj.mp3": {
+    "text": "Стул",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "shadow"
+  },
   "m8yx7d-1r50ni3.mp3": {
     "text": "Молодец! Все покупки собраны!",
     "voice": "ru-RU-DmitryNeural",
@@ -1073,6 +2873,18 @@
     "rate": "-10%",
     "from": "shop"
   },
+  "2zqel7-g3w3nd.mp3": {
+    "text": "Нажимай от самого большого к самому маленькому",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "sizes"
+  },
+  "1t3ywij-xq6jp5.mp3": {
+    "text": "Нажимай от самого маленького к самому большому",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "sizes"
+  },
   "qs0kgd-q24d9r.mp3": {
     "text": "Днём я зелёная и сижу на болоте, а ночью сбрасываю кожу и становлюсь красавицей.",
     "voice": "ru-RU-DmitryNeural",
@@ -1168,5 +2980,293 @@
     "voice": "ru-RU-DmitryNeural",
     "rate": "-10%",
     "from": "tales"
+  },
+  "4j79r9-ornuvb.mp3": {
+    "text": "Вагончик",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "transport"
+  },
+  "briild-rk31j7.mp3": {
+    "text": "Воздушный шар",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "transport"
+  },
+  "1wvolzv-1t7arqx.mp3": {
+    "text": "Грузовик",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "transport"
+  },
+  "1fkhntb-974stp.mp3": {
+    "text": "Катер",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "transport"
+  },
+  "15skirk-19pyjm.mp3": {
+    "text": "Корабль",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "transport"
+  },
+  "1ydqz6f-1678q7p.mp3": {
+    "text": "Легковая машина",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "transport"
+  },
+  "1fnuujt-952957.mp3": {
+    "text": "Лодка",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "transport"
+  },
+  "1fopadj-98lvxh.mp3": {
+    "text": "Метро",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "transport"
+  },
+  "pz9g2b-gpujw1.mp3": {
+    "text": "Мотоцикл",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "transport"
+  },
+  "10u6vxj-10trw1x.mp3": {
+    "text": "Найди автобус",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "transport"
+  },
+  "1skpy2l-19mt21r.mp3": {
+    "text": "Найди вагончик",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "transport"
+  },
+  "1mjgtn3-djabfx.mp3": {
+    "text": "Найди велосипед",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "transport"
+  },
+  "1wf21ix-1rsu7rv.mp3": {
+    "text": "Найди вертолёт",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "transport"
+  },
+  "1d4spbt-8ej7dn.mp3": {
+    "text": "Найди воздушный шар",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "transport"
+  },
+  "862sw3-1k3gwo1.mp3": {
+    "text": "Найди грузовик",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "transport"
+  },
+  "747psn-1lyowad.mp3": {
+    "text": "Найди катер",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "transport"
+  },
+  "1anzdeg-1jyggxm.mp3": {
+    "text": "Найди корабль",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "transport"
+  },
+  "1azu1pq-hb05sc.mp3": {
+    "text": "Найди легковую машину",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "transport"
+  },
+  "76kmgy-1lzmyw0.mp3": {
+    "text": "Найди лодку",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "transport"
+  },
+  "78dtun-1m06071.mp3": {
+    "text": "Найди метро",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "transport"
+  },
+  "19mu3uz-183ucvd.mp3": {
+    "text": "Найди мотоцикл",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "transport"
+  },
+  "793ytj-1m27zl1.mp3": {
+    "text": "Найди паром",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "transport"
+  },
+  "13sr9o8-vbn7ve.mp3": {
+    "text": "Найди парусник",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "transport"
+  },
+  "798asd-1m2aqm7.mp3": {
+    "text": "Найди поезд",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "transport"
+  },
+  "1jazzkv-1weoi7x.mp3": {
+    "text": "Найди пожарную машину",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "transport"
+  },
+  "kj6s5y-1fa3upg.mp3": {
+    "text": "Найди полицейскую машину",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "transport"
+  },
+  "8d1uus-1289zkm.mp3": {
+    "text": "Найди ракету",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "transport"
+  },
+  "asvh0x-g8pedv.mp3": {
+    "text": "Найди самокат",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "transport"
+  },
+  "asvfap-g8pb4j.mp3": {
+    "text": "Найди самолёт",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "transport"
+  },
+  "1drrgh-12pwvs3.mp3": {
+    "text": "Найди самосвал",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "transport"
+  },
+  "1n1ak9w-b0c5vq.mp3": {
+    "text": "Найди скорую помощь",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "transport"
+  },
+  "8osp0q-e39bwo.mp3": {
+    "text": "Найди спутник",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "transport"
+  },
+  "8tnzq3-1l5t7ax.mp3": {
+    "text": "Найди такси",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "transport"
+  },
+  "kpib0e-ycka1o.mp3": {
+    "text": "Найди трактор",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "transport"
+  },
+  "kpmh8f-ydxb31.mp3": {
+    "text": "Найди трамвай",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "transport"
+  },
+  "4bxo6h-znrdqj.mp3": {
+    "text": "Найди троллейбус",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "transport"
+  },
+  "1sie81j-hpucgl.mp3": {
+    "text": "Найди электричку",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "transport"
+  },
+  "1fqr733-980bjx.mp3": {
+    "text": "Паром",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "transport"
+  },
+  "sec9d2-171x7t0.mp3": {
+    "text": "Пожарная машина",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "transport"
+  },
+  "c632pb-18yhk7h.mp3": {
+    "text": "Полицейская машина",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "transport"
+  },
+  "1ay7161-ar86yz.mp3": {
+    "text": "Самокат",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "transport"
+  },
+  "1lnvsm1-1ysxxyz.mp3": {
+    "text": "Самосвал",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "transport"
+  },
+  "1vqi5bi-1fckhfw.mp3": {
+    "text": "Скорая помощь",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "transport"
+  },
+  "kr6d4i-1bks380.mp3": {
+    "text": "Спутник",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "transport"
+  },
+  "1gddav7-b3xgm9.mp3": {
+    "text": "Такси",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "transport"
+  },
+  "q57ihz-m566bp.mp3": {
+    "text": "Трамвай",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "transport"
+  },
+  "2zfp0x-u1ukyb.mp3": {
+    "text": "Троллейбус",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "transport"
+  },
+  "s1rnrw-jzsf26.mp3": {
+    "text": "Электричка",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "transport"
   }
 }

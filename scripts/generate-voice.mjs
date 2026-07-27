@@ -109,6 +109,73 @@ for (const v of all(
 add('Привет!', 'ru', 'pet-shop');
 add('Ура! Новый уровень!', 'ru', 'pet-shop');
 
+// --- Мамы и малыши: вопрос и подсказка при ошибке ---
+const babies = src('babies/BabiesGame.tsx');
+const babyGens = all(babies, /babyGen:\s*'([^']+)'/g);
+const moms = all(babies, /mom:\s*'([^']+)'/g);
+if (babyGens.length !== moms.length)
+  throw new Error('babies: babyGen/mom рассинхронизированы');
+babyGens.forEach((bg, i) => {
+  add('Кто мама у ' + bg + '?', 'ru', 'babies');
+  add('Мама у ' + bg + ' — ' + moms[i].toLowerCase(), 'ru', 'babies');
+});
+
+// --- Счёт по порядку: подсказки уровней ---
+for (const s of all(src('count-order/CountOrderGame.tsx'), /say:\s*'([^']+)'/g))
+  add(s, 'ru', 'count-order');
+
+// --- Посчитай: «Сколько <кого>?» ---
+for (const m of all(src('counting/CountingGame.tsx'), /many:\s*'([^']+)'/g))
+  add('Сколько ' + m + '?', 'ru', 'counting');
+
+// --- Точки: название фигуры (без «!») ---
+for (const n of all(src('dots/DotsGame.tsx'), /name:\s*'([^']+)'/g))
+  add(n.replace('!', ''), 'ru', 'dots');
+
+// --- Кто что ест: «Чем угостим <кого>?» ---
+for (const t of all(src('eats/EatsGame.tsx'), /to:\s*'([^']+)'/g))
+  add('Чем угостим ' + t + '?', 'ru', 'eats');
+
+// --- Первая буква: названия слов ---
+for (const n of all(src('first-letter/FirstLetterGame.tsx'), /n:\s*'([^']+)'/g))
+  add(n, 'ru', 'first-letter');
+
+// --- Насекомые: два вида вопросов + факты ---
+const insects = src('insects/InsectsGame.tsx');
+for (const n of all(insects, /n:\s*'([^']+)'/g)) {
+  add('Найди, где ' + n.toLowerCase(), 'ru', 'insects');
+  add(n + '. Это насекомое?', 'ru', 'insects');
+}
+for (const f of all(insects, /fact:\s*'([^']+)'/g)) add(f, 'ru', 'insects');
+
+// --- Грибы: факты + напоминание о безопасности ---
+const mushrooms = src('mushrooms/MushroomsGame.tsx');
+for (const f of all(mushrooms, /fact:\s*'([^']+)'/g)) add(f, 'ru', 'mushrooms');
+add(mushrooms.match(/const SAFETY = '([^']+)'/)[1], 'ru', 'mushrooms');
+
+// --- Профессии: «Кто <что делает>?» + вопрос про предмет ---
+for (const d of all(src('professions/ProfessionsGame.tsx'), /d:\s*'([^']+)'/g))
+  add('Кто ' + d + '?', 'ru', 'professions');
+add('Кому нужен этот предмет?', 'ru', 'professions');
+
+// --- Тени: «Найди тень. <кто>» + название ---
+for (const n of all(src('shadow/ShadowGame.tsx'), /n:\s*'([^']+)'/g)) {
+  add('Найди тень. ' + n, 'ru', 'shadow');
+  add(n, 'ru', 'shadow');
+}
+
+// --- Размеры: две просьбы ---
+const sizes = src('sizes/SizesGame.tsx');
+add(sizes.match(/const ASK_UP = '([^']+)'/)[1], 'ru', 'sizes');
+add(sizes.match(/const ASK_DOWN = '([^']+)'/)[1], 'ru', 'sizes');
+
+// --- Транспорт: «Найди <что>» + название ---
+const transport = src('transport/TransportGame.tsx');
+const tNames = all(transport, /n:\s*'([^']+)'/g);
+const tAccs = all(transport, /acc:\s*'([^']+)'/g);
+for (const n of tNames) add(n, 'ru', 'transport');
+for (const a of tAccs) add('Найди ' + a, 'ru', 'transport');
+
 // --- дедупликация и план генерации ---
 const seen = new Set();
 const plan = [];
