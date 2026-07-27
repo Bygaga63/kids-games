@@ -1,0 +1,16 @@
+Картинки эмоций: OpenMoji — the open-source emoji and icon project
+https://openmoji.org
+Лицензия: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+
+radost.png       — 1F604 Grinning face with smiling eyes
+grust.png        — 1F622 Crying face
+zlost.png        — 1F620 Angry face
+strah.png        — 1F628 Fearful face
+udivlenie.png    — 1F632 Astonished face
+spokoystvie.png  — 1F60C Relieved face
+ustalost.png     — 1F634 Sleeping face
+smushchenie.png  — 1F633 Flushed face
+zadumchivost.png — 1F914 Thinking face
+vostorg.png      — 1F973 Partying face
+obida.png        — 1F97A Pleading face
+lyubov.png       — 1F970 Smiling face with hearts

@@ -134,6 +134,11 @@ body {
   font-size: clamp(88px, 24vw, 132px);
   line-height: 1;
 }
+.face img {
+  width: 82%;
+  height: 82%;
+  object-fit: contain;
+}
 .face.pop {
   animation: pop 0.45s ease;
 }

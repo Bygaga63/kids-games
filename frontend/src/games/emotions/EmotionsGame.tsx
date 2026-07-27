@@ -6,63 +6,79 @@ import { saveBest } from '@lib/best';
 import { burstConfetti } from '@lib/confetti';
 import './emotions.css';
 
-type Emo = { e: string; n: string; tip: string };
+type Emo = { e: string; img: string; n: string; tip: string };
 
-// 12 эмоций: лицо, название, добрый совет
+// 12 эмоций: картинка (OpenMoji, см. /assets/emotions/credits.txt), эмодзи-фолбэк, название, добрый совет
 const DATA: Emo[] = [
   {
     e: '😄',
+    img: '/assets/emotions/radost.png',
     n: 'Радость',
     tip: 'Когда мы радуемся, хочется прыгать и смеяться. Поделись радостью — её станет больше!',
   },
   {
     e: '😢',
+    img: '/assets/emotions/grust.png',
     n: 'Грусть',
     tip: 'Грустить — нормально. Помогает рассказать о грусти маме или папе.',
   },
   {
     e: '😠',
+    img: '/assets/emotions/zlost.png',
     n: 'Злость',
     tip: 'Когда злишься, помогает глубоко подышать: вдо-о-ох и вы-ы-ыдох. И злость улетает!',
   },
   {
     e: '😨',
+    img: '/assets/emotions/strah.png',
     n: 'Страх',
     tip: 'Бояться — не стыдно. Смелый не тот, кто не боится, а тот, кто справляется!',
   },
   {
     e: '😲',
+    img: '/assets/emotions/udivlenie.png',
     n: 'Удивление',
     tip: 'Мы удивляемся, когда случается что-то неожиданное. Вот это да!',
   },
   {
     e: '😌',
+    img: '/assets/emotions/spokoystvie.png',
     n: 'Спокойствие',
     tip: 'Спокойствие — как тихая вода. В нём хорошо думается и отдыхается.',
   },
   {
     e: '😴',
+    img: '/assets/emotions/ustalost.png',
     n: 'Усталость',
     tip: 'Когда устал, лучший помощник — отдых и крепкий сон.',
   },
   {
     e: '😳',
+    img: '/assets/emotions/smushchenie.png',
     n: 'Смущение',
     tip: 'Щёки краснеют, хочется спрятаться? Это смущение, оно бывает у всех.',
   },
   {
     e: '🤔',
+    img: '/assets/emotions/zadumchivost.png',
     n: 'Задумчивость',
     tip: 'Когда мы думаем, мозг тренируется — как мышцы на зарядке!',
   },
-  { e: '🥳', n: 'Восторг', tip: 'Восторг — это радость размером с праздник!' },
+  {
+    e: '🥳',
+    img: '/assets/emotions/vostorg.png',
+    n: 'Восторг',
+    tip: 'Восторг — это радость размером с праздник!',
+  },
   {
     e: '🥺',
+    img: '/assets/emotions/obida.png',
     n: 'Обида',
     tip: 'Если обидели — скажи словами: «Мне обидно». Это очень помогает.',
   },
   {
     e: '🥰',
+    img: '/assets/emotions/lyubov.png',
     n: 'Любовь',
     tip: 'Любовь — когда кто-то очень-очень дорог. Обними того, кого любишь!',
   },
@@ -90,6 +106,7 @@ export default function EmotionsGame() {
   const [starsOn, setStarsOn] = useState(0);
   const [bar, setBar] = useState(0);
   const [popKey, setPopKey] = useState(0); // рестарт pop-анимации лица
+  const [imgFail, setImgFail] = useState(false); // не загрузилась картинка — покажем эмодзи
   const queue = useRef<Emo[]>([]);
 
   useEffect(() => {
@@ -101,6 +118,7 @@ export default function EmotionsGame() {
     setLocked(false);
     setPicked(null);
     setToast(null);
+    setImgFail(false);
     if (queue.current.length === 0) queue.current = shuffle(DATA);
     const cur = queue.current.shift()!;
     setCurrent(cur);
@@ -212,7 +230,16 @@ export default function EmotionsGame() {
           >
             <div className="lead">Что чувствует этот человечек?</div>
             <div key={popKey} className="face pop">
-              {current.e}
+              {imgFail ? (
+                current.e
+              ) : (
+                <img
+                  src={current.img}
+                  alt=""
+                  draggable={false}
+                  onError={() => setImgFail(true)}
+                />
+              )}
             </div>
             <div className="opts">
               {opts.map((o) => (
