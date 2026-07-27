@@ -2,6 +2,10 @@
 // даже если предпросмотр изолирует localStorage). e — заработано, s — потрачено, p — питомцы.
 export type Wallet = { e: number; s: number; p: string[] };
 
+// ТЕСТОВЫЙ РЕЖИМ: баланс никогда не опускается ниже этого значения (кошелёк
+// автоматически пополняется при чтении). Выключить — поставить null.
+export const TEST_MIN_COINS: number | null = 10;
+
 export function loadWallet(): Wallet {
   const w: Wallet = { e: 0, s: 0, p: [] };
   try {
@@ -30,6 +34,9 @@ export function loadWallet(): Wallet {
       });
     }
   } catch {}
+  if (TEST_MIN_COINS != null && (w.e || 0) - (w.s || 0) < TEST_MIN_COINS) {
+    w.e = (w.s || 0) + TEST_MIN_COINS;
+  }
   return w;
 }
 

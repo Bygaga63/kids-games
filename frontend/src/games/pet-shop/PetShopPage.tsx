@@ -1,7 +1,8 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, type CSSProperties } from 'react';
 import { loadWallet, saveWallet, coinBalance, syncWallet } from '@lib/wallet';
 import type { Wallet } from '@lib/wallet';
 import { burstConfetti } from '@lib/confetti';
+import { pick, shuffle } from '@lib/random';
 import './pet-shop.css';
 
 type Breed = { k: string; e: string; n: string };
@@ -58,7 +59,7 @@ const PETS: Pet[] = [
   { k: 'flamingo', e: '🦩', n: 'Фламинго', price: 250 },
   { k: 'dragon', e: '🐉', n: 'Дракончик', price: 400 },
 ];
-// еда — съедается сразу (кормим питомцев)
+// еда — съедается сразу (кормим кота и его друзей)
 const FOOD: Good[] = [
   { k: 'nut', e: '🌰', n: 'Орешек', price: 3 },
   { k: 'carrot', e: '🥕', n: 'Морковка', price: 4 },
@@ -68,7 +69,7 @@ const FOOD: Good[] = [
   { k: 'cookie', e: '🍪', n: 'Печенька', price: 6 },
   { k: 'meat', e: '🥩', n: 'Мясо', price: 8 },
 ];
-// вещи — остаются в домике навсегда (в кошельке хранятся с префиксом "t:")
+// вещи — остаются в комнате навсегда (в кошельке хранятся с префиксом "t:")
 const THINGS: Good[] = [
   { k: 't:bow', e: '🎀', n: 'Бантик', price: 10 },
   { k: 't:yarn', e: '🧶', n: 'Клубочек', price: 12 },
@@ -95,17 +96,6 @@ if (TEST_MODE) {
       item.price = 1;
     });
   });
-}
-
-// --- кошелёк общий с играми (@lib/wallet); тут только выборки ---
-function ownedAll(): string[] {
-  return loadWallet().p || [];
-}
-function ownedPets(): string[] {
-  return ownedAll().filter((k) => k.indexOf('t:') !== 0);
-}
-function ownedThings(): string[] {
-  return ownedAll().filter((k) => k.indexOf('t:') === 0);
 }
 
 function speak(text: string, pitch?: number, rate?: number): void {
@@ -142,361 +132,54 @@ const VOICES: Record<string, string> = {
   dragon: 'Р-р-р-р!',
   cow: 'Му-у-у!',
   pig: 'Хрю-хрю!',
-  hamster: 'Пи-пи!',
-};
-const SOUND_KEYS = [
-  'snail',
-  'mouse',
-  'fish',
-  'turtle',
-  'parrot',
-  'rabbit',
-  'hedgehog',
-  'cat',
-  'dog',
-  'pig',
-  'cow',
-  'horse',
-  'flamingo',
-  'dragon',
-];
-
-// ================= деревушка: 2D-игра на Phaser =================
-// кто в каком домике живёт: тип жилища + его название
-const HOMES: Record<string, [string, string]> = {
-  snail: ['garden', 'Грядка'],
-  mouse: ['cage', 'Клетка'],
-  hamster: ['cage', 'Клетка'],
-  fish: ['pond', 'Пруд'],
-  turtle: ['pond', 'Пруд'],
-  parrot: ['birdcage', 'Птичья клетка'],
-  rabbit: ['hutch', 'Крольчатник'],
-  hedgehog: ['bush', 'Норка под кустом'],
-  cat: ['cathouse', 'Кошкин дом'],
-  kitten: ['cathouse', 'Кошкин дом'],
-  dog: ['kennel', 'Будка'],
-  puppy: ['kennel', 'Будка'],
-  horse: ['stable', 'Конюшня'],
-  pony: ['stable', 'Конюшня'],
-  cow: ['barn', 'Хлев'],
-  pig: ['barn', 'Хлев'],
-  flamingo: ['lake', 'Озеро'],
-  unicorn: ['lake', 'Озеро'],
-  dragon: ['cave', 'Пещера'],
-};
-// реальные пропорции: лошадь в несколько раз больше черепашки (размер эмодзи в px)
-const PSIZE: Record<string, number> = {
-  snail: 16,
-  mouse: 20,
-  hamster: 22,
-  fish: 24,
-  turtle: 30,
-  parrot: 30,
-  hedgehog: 28,
-  rabbit: 36,
-  cat: 46,
-  kitten: 36,
-  dog: 54,
-  puppy: 40,
-  pig: 64,
-  cow: 92,
-  horse: 106,
-  pony: 82,
-  flamingo: 72,
-  unicorn: 72,
-  dragon: 112,
-};
-const PSIZE_KEY: Record<string, number> = {
-  'dog:maltipoo': 42,
-  'dog:poodle': 48,
-}; // мелкие породы
-// размеры домиков под жильца [ширина, высота]
-const HOUSEDEF: Record<string, [number, number]> = {
-  kennel: [96, 68],
-  cathouse: [112, 80],
-  stable: [204, 134],
-  barn: [198, 132],
-  hutch: [106, 76],
-  shedh: [126, 88],
-  cage: [64, 58],
-  birdcage: [60, 56],
-  pond: [122, 64],
-  lake: [184, 94],
-  bush: [106, 62],
-  garden: [114, 54],
-  cave: [172, 102],
-};
-const WALLC: Record<string, string> = {
-  kennel: '#b98a5a',
-  cathouse: '#ffd3e0',
-  stable: '#a9743f',
-  barn: '#d9480f',
-  hutch: '#b98a5a',
-  shedh: '#9db4c0',
-};
-const ROOFC: Record<string, string> = {
-  kennel: '#7c5230',
-  cathouse: '#f06595',
-  stable: '#6f4a24',
-  barn: '#a63106',
-  hutch: '#7c5230',
-  shedh: '#5f7a8a',
-};
-const DOORC: Record<string, string> = {
-  kennel: '#42290f',
-  cathouse: '#c2255c',
-  stable: '#54351a',
-  barn: '#8a2b06',
-  hutch: '#6b4423',
-  shedh: '#3e5561',
 };
 
-const GAME_W = 960;
-const GAME_H = 640;
-
-// места вдоль дорожки: нижние ряды ближе и крупнее, верхние — дальше и мельче
-const SLOTS: [number, number][] = (() => {
-  const s: [number, number][] = [];
-  const rows = [600, 512, 424, 336, 248, 164, 84];
-  rows.forEach((y, r) => {
-    const xs = r % 2 ? [230, 560, 850] : [110, 400, 690, 880];
-    xs.forEach((x, i) => {
-      const jit = (((r * 13 + i * 7) % 7) - 3) * 9;
-      s.push([Math.min(895, Math.max(65, x + jit)), y]);
-    });
-  });
-  return s;
-})();
-// деревья и цветы: [эмодзи, x, y, размер]
-const DECOR: [string, number, number, number][] = [
-  ['🌳', 40, 380, 40],
-  ['🌲', 924, 340, 36],
-  ['🌼', 85, 608, 16],
-  ['🌳', 912, 596, 44],
-  ['🌼', 502, 492, 16],
-  ['🌲', 232, 246, 30],
-  ['🌼', 618, 388, 16],
-  ['🌳', 838, 120, 28],
-  ['🌼', 356, 96, 14],
-  ['🌲', 50, 148, 26],
-  ['🌼', 750, 516, 16],
-];
-
-function rr(
-  c: CanvasRenderingContext2D,
-  x: number,
-  y: number,
-  w: number,
-  h: number,
-  r: number,
-): void {
-  // скруглённый прямоугольник на canvas
-  c.beginPath();
-  c.moveTo(x + r, y);
-  c.arcTo(x + w, y, x + w, y + h, r);
-  c.arcTo(x + w, y + h, x, y + h, r);
-  c.arcTo(x, y + h, x, y, r);
-  c.arcTo(x, y, x + w, y, r);
-  c.closePath();
-}
-
-// рисуем домик нужного типа в текстуру (один раз на тип)
-function houseTexture(s: any, type: string): string {
-  const key = 'home-' + type;
-  if (s.textures.exists(key)) return key;
-  const W = HOUSEDEF[type][0],
-    H = HOUSEDEF[type][1];
-  const t = s.textures.createCanvas(key, W, H);
-  const c: CanvasRenderingContext2D = t.getContext();
-  if (WALLC[type]) {
-    // домик со стенами, крышей и дверью
-    const wallY = H * 0.42;
-    c.fillStyle = WALLC[type];
-    rr(c, W * 0.03, wallY, W * 0.94, H - wallY - 1, 7);
-    c.fill();
-    if (type === 'hutch') {
-      // сетка крольчатника
-      c.strokeStyle = 'rgba(255,255,255,.35)';
-      c.lineWidth = 2;
-      for (let gx = W * 0.08; gx < W * 0.95; gx += 11) {
-        c.beginPath();
-        c.moveTo(gx, wallY + 3);
-        c.lineTo(gx, H - 3);
-        c.stroke();
-      }
-      for (let gy = wallY + 8; gy < H - 3; gy += 11) {
-        c.beginPath();
-        c.moveTo(W * 0.05, gy);
-        c.lineTo(W * 0.95, gy);
-        c.stroke();
-      }
-    }
-    c.fillStyle = ROOFC[type];
-    c.beginPath();
-    c.moveTo(0, wallY + 4);
-    c.lineTo(W / 2, 0);
-    c.lineTo(W, wallY + 4);
-    c.closePath();
-    c.fill();
-    const dw = W * 0.22,
-      dh = (H - wallY) * 0.66;
-    c.fillStyle = DOORC[type];
-    rr(c, W / 2 - dw / 2, H - dh, dw, dh, dw * 0.35);
-    c.fill();
-    if (type === 'barn') {
-      // крестовина на воротах хлева
-      c.strokeStyle = '#f3c197';
-      c.lineWidth = 4;
-      c.beginPath();
-      c.moveTo(W / 2 - dw / 2 + 4, H - dh + 4);
-      c.lineTo(W / 2 + dw / 2 - 4, H - 4);
-      c.moveTo(W / 2 + dw / 2 - 4, H - dh + 4);
-      c.lineTo(W / 2 - dw / 2 + 4, H - 4);
-      c.stroke();
-    }
-  } else if (type === 'cage' || type === 'birdcage') {
-    const col = type === 'cage' ? '#7f8b98' : '#d99e00';
-    c.fillStyle = 'rgba(255,255,255,.4)';
-    c.beginPath();
-    c.moveTo(3, H - 3);
-    c.lineTo(3, H * 0.42);
-    c.quadraticCurveTo(3, 4, W / 2, 4);
-    c.quadraticCurveTo(W - 3, 4, W - 3, H * 0.42);
-    c.lineTo(W - 3, H - 3);
-    c.closePath();
-    c.fill();
-    c.strokeStyle = col;
-    c.lineWidth = 3;
-    c.stroke();
-    for (let b = 1; b < 6; b++) {
-      const bx = 3 + ((W - 6) * b) / 6;
-      c.beginPath();
-      c.moveTo(bx, H - 4);
-      c.lineTo(bx, H * 0.22);
-      c.stroke();
-    }
-    c.beginPath();
-    c.arc(W / 2, 6, 5, Math.PI, 0);
-    c.stroke(); // ручка
-    c.fillStyle = col;
-    c.fillRect(3, H - 7, W - 6, 4); // поддон
-  } else if (type === 'pond' || type === 'lake') {
-    const rg = c.createRadialGradient(
-      W * 0.35,
-      H * 0.32,
-      4,
-      W / 2,
-      H / 2,
-      W * 0.55,
-    );
-    rg.addColorStop(0, '#b3ecff');
-    rg.addColorStop(0.55, '#66c7f0');
-    rg.addColorStop(1, '#3aa4d8');
-    c.fillStyle = rg;
-    c.beginPath();
-    c.ellipse(W / 2, H / 2, W / 2 - 2, H / 2 - 2, 0, 0, Math.PI * 2);
-    c.fill();
-    c.font = '18px sans-serif';
-    c.textBaseline = 'bottom';
-    c.fillText('🌾', 4, H - 2);
-  } else if (type === 'bush') {
-    c.fillStyle = '#4c8527';
-    c.beginPath();
-    c.ellipse(W / 2, H * 0.62, W / 2 - 2, H * 0.37, 0, 0, Math.PI * 2);
-    c.fill();
-    c.fillStyle = '#6faf3f';
-    c.beginPath();
-    c.arc(W * 0.32, H * 0.36, W * 0.2, 0, Math.PI * 2);
-    c.arc(W * 0.64, H * 0.3, W * 0.21, 0, Math.PI * 2);
-    c.fill();
-    c.fillStyle = '#332412';
-    c.beginPath();
-    c.arc(W / 2, H, 16, Math.PI, 0);
-    c.closePath();
-    c.fill(); // норка
-  } else if (type === 'garden') {
-    c.fillStyle = '#6f4324';
-    rr(c, 0, 4, W, H - 4, 10);
-    c.fill();
-    c.fillStyle = '#8a5a33';
-    for (let sy = 10; sy < H - 5; sy += 12) c.fillRect(4, sy, W - 8, 6);
-    c.font = '20px sans-serif';
-    c.textBaseline = 'top';
-    c.fillText('🥬', W - 28, 0);
-  } else if (type === 'cave') {
-    const cg = c.createLinearGradient(0, 0, 0, H);
-    cg.addColorStop(0, '#8b95a1');
-    cg.addColorStop(1, '#5f6b78');
-    c.fillStyle = cg;
-    c.beginPath();
-    c.moveTo(2, H);
-    c.quadraticCurveTo(2, H * 0.14, W * 0.36, H * 0.07);
-    c.quadraticCurveTo(W - 2, 0, W - 2, H);
-    c.closePath();
-    c.fill();
-    c.fillStyle = '#2b3440';
-    c.beginPath();
-    c.arc(W / 2, H, H * 0.4, Math.PI, 0);
-    c.closePath();
-    c.fill(); // вход
+function petVoice(key: string): void {
+  let a = key.split(':')[0];
+  a = SOUND_ALIAS[a] || a;
+  try {
+    const audio = new Audio('/assets/sounds/' + a + '.mp3');
+    audio.play().catch(() => speak(VOICES[a] || 'Привет!', 1.4, 1.05));
+  } catch {
+    speak(VOICES[a] || 'Привет!', 1.4, 1.05);
   }
-  t.refresh();
-  return key;
 }
 
-// фон: газон с полосами, извилистая дорожка, деревья
-function makeBackground(s: any): void {
-  const t = s.textures.createCanvas('bg', GAME_W, GAME_H);
-  const c: CanvasRenderingContext2D = t.getContext();
-  const g = c.createLinearGradient(0, 0, GAME_W * 0.35, GAME_H);
-  g.addColorStop(0, '#a9d774');
-  g.addColorStop(1, '#7cb840');
-  c.fillStyle = g;
-  c.fillRect(0, 0, GAME_W, GAME_H);
-  c.save();
-  c.globalAlpha = 0.08;
-  c.fillStyle = '#ffffff';
-  c.translate(GAME_W / 2, GAME_H / 2);
-  c.rotate(-Math.PI / 4);
-  for (let i = -24; i < 24; i += 2)
-    c.fillRect(i * 44, -GAME_H * 1.6, 44, GAME_H * 3.2);
-  c.restore();
-  c.beginPath();
-  c.moveTo(-50, GAME_H * 0.87);
-  c.bezierCurveTo(
-    GAME_W * 0.25,
-    GAME_H * 0.8,
-    GAME_W * 0.34,
-    GAME_H * 0.6,
-    GAME_W * 0.52,
-    GAME_H * 0.55,
-  );
-  c.bezierCurveTo(
-    GAME_W * 0.72,
-    GAME_H * 0.49,
-    GAME_W * 0.82,
-    GAME_H * 0.33,
-    GAME_W + 50,
-    GAME_H * 0.24,
-  );
-  c.strokeStyle = '#e9cf9e';
-  c.lineWidth = 48;
-  c.lineCap = 'round';
-  c.stroke();
-  c.strokeStyle = 'rgba(255,251,232,.95)';
-  c.lineWidth = 4;
-  c.setLineDash([16, 14]);
-  c.stroke();
-  c.setLineDash([]);
-  t.refresh();
-  s.add.image(0, 0, 'bg').setOrigin(0).setDepth(0);
-  DECOR.forEach((d) => {
-    s.add
-      .text(d[1], d[2], d[0], { fontSize: d[3] + 'px' })
-      .setOrigin(0.5, 1)
-      .setDepth(d[2]);
-  });
-}
+// реальные пропорции эмодзи-друзей в комнате (px)
+const PSIZE: Record<string, number> = {
+  snail: 20,
+  mouse: 24,
+  hamster: 26,
+  fish: 26,
+  turtle: 32,
+  parrot: 32,
+  hedgehog: 30,
+  rabbit: 38,
+  cat: 44,
+  kitten: 38,
+  dog: 50,
+  puppy: 40,
+  pig: 56,
+  cow: 72,
+  horse: 80,
+  pony: 64,
+  flamingo: 60,
+  unicorn: 60,
+  dragon: 84,
+};
+// места друзей в комнате (по кругу от кота)
+const SPOTS: CSSProperties[] = [
+  { left: '13%', bottom: '22%' },
+  { right: '13%', bottom: '24%' },
+  { left: '24%', bottom: '13%' },
+  { right: '25%', bottom: '12%' },
+  { left: '6%', bottom: '36%' },
+  { right: '6%', bottom: '38%' },
+  { left: '36%', bottom: '8%' },
+  { right: '37%', bottom: '7%' },
+  { left: '16%', bottom: '46%' },
+  { right: '17%', bottom: '48%' },
+];
 
 // найти карточку каталога по ключу покупки
 function lookup(key: string): CardInfo | null {
@@ -515,6 +198,24 @@ function lookup(key: string): CardInfo | null {
   return null;
 }
 
+// --- уровень питомца: опыт за кормёжку (iu:pet:xp) ---
+const XP_PER_LEVEL = 10;
+function loadXp(): number {
+  try {
+    return parseInt(localStorage.getItem('iu:pet:xp') || '0', 10) || 0;
+  } catch {
+    return 0;
+  }
+}
+function saveXp(xp: number): void {
+  try {
+    localStorage.setItem('iu:pet:xp', String(xp));
+  } catch {}
+}
+function levelOf(xp: number): number {
+  return Math.floor(xp / XP_PER_LEVEL) + 1;
+}
+
 const COIN_SVG = (
   <svg
     viewBox="0 0 24 24"
@@ -525,6 +226,7 @@ const COIN_SVG = (
     strokeLinejoin="round"
   >
     <circle cx="12" cy="12" r="8.5" />
+    <path d="M12 8.2v7.6M9.8 10c0-.9 1-1.5 2.2-1.5s2.2.6 2.2 1.5c0 2.3-4.4 1.1-4.4 3.4 0 .9 1 1.5 2.2 1.5s2.2-.6 2.2-1.5" />
   </svg>
 );
 
@@ -537,6 +239,82 @@ function Price({ p }: { p: number }) {
   );
 }
 
+// большой кот — хозяин комнаты (в стиле котёнка с главной)
+const BIG_CAT = (
+  <svg viewBox="0 0 200 200" aria-hidden="true">
+    {/* хвост */}
+    <path
+      className="tail"
+      d="M152 150c26-4 34-28 24-46"
+      stroke="#f2811d"
+      strokeWidth="16"
+      fill="none"
+      strokeLinecap="round"
+    />
+    {/* тело */}
+    <ellipse cx="100" cy="150" rx="56" ry="42" fill="#ff9f43" />
+    <ellipse cx="100" cy="158" rx="34" ry="26" fill="#ffd8a8" />
+    {/* уши */}
+    <path d="M56 66 48 22l34 22z" fill="#f2811d" />
+    <path d="M144 66l8-44-34 22z" fill="#f2811d" />
+    <path d="M59 58l-5-24 20 13z" fill="#ffc9de" />
+    <path d="M141 58l5-24-20 13z" fill="#ffc9de" />
+    {/* голова */}
+    <circle cx="100" cy="82" r="48" fill="#ff9f43" />
+    {/* чёлка */}
+    <path
+      d="M78 44c6-10 16-14 22-14s16 4 22 14c-7-3-12-2-15 2-3-5-7-6-11-4-5 2-8 2-18 2z"
+      fill="#ffd166"
+    />
+    {/* глаза */}
+    <circle cx="82" cy="80" r="13" fill="#fff" />
+    <circle cx="118" cy="80" r="13" fill="#fff" />
+    <circle cx="84.5" cy="82.5" r="7" fill="#3b2313" />
+    <circle cx="115.5" cy="82.5" r="7" fill="#3b2313" />
+    <circle cx="87" cy="80" r="2.6" fill="#fff" />
+    <circle cx="118" cy="80" r="2.6" fill="#fff" />
+    {/* бровки */}
+    <path
+      d="M72 62c3-4 8-5 12-3M116 59c4-2 9-1 12 3"
+      stroke="#e78a2e"
+      strokeWidth="3.5"
+      fill="none"
+      strokeLinecap="round"
+    />
+    {/* щёки */}
+    <circle cx="68" cy="96" r="8" fill="#ffb8cf" opacity=".7" />
+    <circle cx="132" cy="96" r="8" fill="#ffb8cf" opacity=".7" />
+    {/* нос и рот */}
+    <path d="M94 96h12l-6 8z" fill="#ff7aa2" />
+    <path
+      d="M100 104v4M100 108c-3 4-8 4-11 1M100 108c3 4 8 4 11 1"
+      stroke="#7a4a1d"
+      strokeWidth="2.6"
+      fill="none"
+      strokeLinecap="round"
+    />
+    {/* усы */}
+    <path
+      d="M52 90h16M54 99l15-3M148 90h-16M146 99l-15-3"
+      stroke="#e78a2e"
+      strokeWidth="2.6"
+      strokeLinecap="round"
+    />
+    {/* медалька на груди */}
+    <circle cx="100" cy="140" r="13" fill="#ff922b" />
+    <circle cx="100" cy="140" r="7.5" fill="#ffd43b" />
+    {/* лапки */}
+    <ellipse cx="76" cy="186" rx="15" ry="10" fill="#ffb367" />
+    <ellipse cx="124" cy="186" rx="15" ry="10" fill="#ffb367" />
+    <path
+      d="M71 182v7M81 182v7M119 182v7M129 182v7"
+      stroke="#f2811d"
+      strokeWidth="2.4"
+      strokeLinecap="round"
+    />
+  </svg>
+);
+
 const TABS: { t: Tab; label: string }[] = [
   { t: 'pets', label: 'Питомцы' },
   { t: 'food', label: 'Еда' },
@@ -546,192 +324,68 @@ const TABS: { t: Tab; label: string }[] = [
 const TAB_HINTS: Record<Tab, string> = {
   pets: 'Выбирай друга — у щенков, котиков и рыбок есть разные породы!',
   food: 'Еда съедается сразу — питомцы обожают угощения!',
-  things: 'Вещи остаются в домике навсегда.',
+  things: 'Вещи остаются в комнате навсегда.',
 };
 
 export default function PetShopPage() {
   const [wallet, setWallet] = useState<Wallet>({ e: 0, s: 0, p: [] });
+  const [xp, setXp] = useState(0);
+  const [wish, setWish] = useState<Good | null>(null);
+  const [dishes, setDishes] = useState<Good[]>([]);
+  const [servedKey, setServedKey] = useState<string | null>(null);
+  const [mood, setMood] = useState<'yum' | 'party' | null>(null);
+  const [heartsKey, setHeartsKey] = useState(0);
+  const [bouncing, setBouncing] = useState<string | null>(null);
+  const [shopOpen, setShopOpen] = useState(false);
   const [tab, setTab] = useState<Tab>('pets');
   const [hintOverride, setHintOverride] = useState<string | null>(null);
   const [openCards, setOpenCards] = useState<Record<string, boolean>>({});
   const walletRef = useRef<HTMLSpanElement>(null);
-  const villageRef = useRef<HTMLDivElement>(null);
-  const vsceneRef = useRef<any>(null);
+  const timers = useRef<ReturnType<typeof setTimeout>[]>([]);
 
   const coins = Math.max(0, (wallet.e || 0) - (wallet.s || 0));
   const have = wallet.p || [];
-  const hasResidents = have.length > 0;
+  const level = levelOf(xp);
+  const levelPct = ((xp % XP_PER_LEVEL) / XP_PER_LEVEL) * 100;
 
-  // расставляем жителей по карте (вызывается после каждой покупки)
-  function villageRefresh(): void {
-    const s = vsceneRef.current;
-    if (!s) return;
-    s.vobjs.forEach((o: any) => {
-      o.destroy();
-    });
-    s.vobjs = [];
-    const pets = ownedPets(),
-      things = ownedThings();
-    const entries: { k?: string; it?: CardInfo | null; shed?: boolean }[] = pets
-      .map((k) => ({ k, it: lookup(k) }))
-      .filter((e) => e.it);
-    if (things.length) entries.push({ shed: true });
-    entries.forEach((en, i) => {
-      const sl = SLOTS[i % SLOTS.length],
-        x = sl[0],
-        y = sl[1];
-      const ds = 0.62 + (y / GAME_H) * 0.42; // перспектива: ближе — крупнее
-      const hm = en.shed
-        ? ['shedh', 'Сарайчик с вещами']
-        : HOMES[en.k!.split(':')[0]] || ['kennel', 'Домик'];
-      const type = hm[0];
-      s.vobjs.push(
-        s.add
-          .image(x, y, houseTexture(s, type))
-          .setOrigin(0.5, 1)
-          .setScale(ds)
-          .setDepth(y),
-      );
-      let labelText: string;
-      let front: any;
-      if (en.shed) {
-        const em = things
-          .map((k) => {
-            const it = lookup(k);
-            return it ? it.e : '';
-          })
-          .join('');
-        front = s.add
-          .text(x, y + 4, em, { fontSize: Math.round(20 * ds) + 'px' })
-          .setOrigin(0.5, 1)
-          .setDepth(y + 2);
-        labelText = hm[1];
-      } else {
-        const base = en.k!.split(':')[0];
-        const sz = (PSIZE_KEY[en.k!] || PSIZE[base] || 40) * ds;
-        const inside =
-          type === 'pond' ||
-          type === 'lake' ||
-          type === 'cage' ||
-          type === 'birdcage';
-        const py = inside ? y - HOUSEDEF[type][1] * ds * 0.18 : y + 6;
-        front = s.add
-          .text(x, py, en.it!.e, { fontSize: Math.round(sz) + 'px' })
-          .setOrigin(0.5, 1)
-          .setDepth(y + 2);
-        front.isPet = true;
-        front.setInteractive({ useHandCursor: true });
-        const key = en.k!;
-        const pet = front;
-        pet.on('pointerdown', () => {
-          petSay(pet, key);
-        });
-        labelText = en.it!.n + ' · ' + hm[1];
-      }
-      s.vobjs.push(front);
-      s.vobjs.push(
-        s.add
-          .text(x, y + 8, labelText, {
-            fontFamily: 'Nunito, sans-serif',
-            fontSize: '13px',
-            fontStyle: 'bold',
-            color: '#3d5a1e',
-            backgroundColor: 'rgba(255,255,255,.88)',
-            padding: { x: 6, y: 2 },
-          })
-          .setOrigin(0.5, 0)
-          .setDepth(y + 3),
-      );
-    });
-  }
+  const companions = have
+    .filter((k) => k.indexOf('t:') !== 0)
+    .map((k) => ({ k, it: lookup(k) }))
+    .filter((x): x is { k: string; it: CardInfo } => x.it !== null);
+  const ownedThings = have
+    .filter((k) => k.indexOf('t:') === 0)
+    .map((k) => lookup(k))
+    .filter((it): it is CardInfo => it !== null);
 
-  // клик по питомцу: подпрыгивает и подаёт голос (настоящая запись, см. assets/sounds)
-  function petSay(obj: any, key: string): void {
-    let a = key.split(':')[0];
-    a = SOUND_ALIAS[a] || a;
-    const vscene = vsceneRef.current;
-    try {
-      if (vscene && vscene.cache.audio.exists(a)) {
-        vscene.sound.stopAll();
-        vscene.sound.play(a);
-      } else speak(VOICES[a] || 'Привет!', 1.4, 1.05);
-    } catch {
-      speak(VOICES[a] || 'Привет!', 1.4, 1.05);
-    }
-    if (vscene && obj)
-      vscene.tweens.add({
-        targets: obj,
-        y: obj.y - 16,
-        duration: 150,
-        yoyo: true,
-        ease: 'Quad.easeOut',
-      });
-  }
-
-  // все питомцы радуются кормёжке
-  function villageCelebrate(): void {
-    const vscene = vsceneRef.current;
-    if (!vscene) return;
-    vscene.vobjs.forEach((o: any) => {
-      if (o.isPet)
-        vscene.tweens.add({
-          targets: o,
-          y: o.y - 14,
-          duration: 170,
-          yoyo: true,
-          repeat: 1,
-          ease: 'Quad.easeOut',
-        });
-    });
+  function newTable(): void {
+    const wishF = pick(FOOD);
+    const others = shuffle(FOOD.filter((f) => f.k !== wishF.k)).slice(0, 2);
+    setWish(wishF);
+    setDishes(shuffle([wishF, ...others]));
   }
 
   useEffect(() => {
     syncWallet(); // синхронизируем кошелёк при входе (в оригинале _wSave(_wLoad()))
     setWallet(loadWallet());
-
-    // запускаем 2D-игру (сцена сама расставит жителей в vCreate)
-    const PhaserLib = (window as any).Phaser;
-    let game: any = null;
-    if (PhaserLib && villageRef.current) {
-      const vPreload = function (this: any) {
-        SOUND_KEYS.forEach((k) => {
-          this.load.audio(k, '/assets/sounds/' + k + '.mp3');
-        });
-      };
-      const vCreate = function (this: any) {
-        vsceneRef.current = this;
-        this.vobjs = [];
-        makeBackground(this);
-        villageRefresh();
-      };
-      game = new PhaserLib.Game({
-        type: PhaserLib.AUTO,
-        parent: villageRef.current,
-        width: GAME_W,
-        height: GAME_H,
-        transparent: true,
-        scale: {
-          mode: PhaserLib.Scale.FIT,
-          autoCenter: PhaserLib.Scale.CENTER_BOTH,
-        },
-        scene: { preload: vPreload, create: vCreate },
-      });
-    }
-
+    setXp(loadXp());
+    newTable();
     const onStorage = () => {
       setWallet(loadWallet());
+      setXp(loadXp());
       setHintOverride(null);
       setOpenCards({});
-      villageRefresh();
     };
     window.addEventListener('storage', onStorage);
+    const t = timers.current;
     return () => {
       window.removeEventListener('storage', onStorage);
-      vsceneRef.current = null;
-      if (game) game.destroy(true);
+      t.forEach(clearTimeout);
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  function later(fn: () => void, ms: number): void {
+    timers.current.push(setTimeout(fn, ms));
+  }
 
   function shakeWallet(): void {
     const el = walletRef.current;
@@ -748,6 +402,46 @@ export default function PetShopPage() {
     );
   }
 
+  function addXp(n: number): void {
+    setXp((x) => {
+      const nx = x + n;
+      saveXp(nx);
+      if (levelOf(nx) > levelOf(x)) {
+        burst();
+        later(() => speak('Ура! Новый уровень!'), 400);
+      }
+      return nx;
+    });
+  }
+
+  // покормить кота с общего стола (или из магазина)
+  function serve(f: Good): void {
+    if (servedKey) return; // ждём, пока дожуёт
+    if (coinBalance() < f.price) {
+      shakeWallet();
+      return;
+    }
+    const w = loadWallet();
+    w.s = (w.s || 0) + f.price;
+    saveWallet(w);
+    setWallet(w);
+    const isWish = wish !== null && f.k === wish.k;
+    setServedKey(f.k);
+    setMood(isWish ? 'party' : 'yum');
+    if (isWish) setHeartsKey((k) => k + 1);
+    addXp(isWish ? 3 : 1);
+    speak(
+      isWish
+        ? 'Ням-ням! Обожаю ' + f.n.toLowerCase() + '!'
+        : 'Ням-ням! Спасибо за ' + f.n.toLowerCase() + '!',
+    );
+    later(() => {
+      setServedKey(null);
+      setMood(null);
+      if (isWish) newTable();
+    }, 1300);
+  }
+
   function buy(key: string, price: number, name: string): void {
     if (coinBalance() < price) {
       shakeWallet();
@@ -760,35 +454,13 @@ export default function PetShopPage() {
     setWallet(w);
     setHintOverride(null);
     setOpenCards({});
-    villageRefresh();
     const isThing = key.indexOf('t:') === 0;
     speak(
       isThing
-        ? 'Класс! Теперь у питомцев есть ' + name.toLowerCase() + '!'
+        ? 'Класс! Теперь в комнате есть ' + name.toLowerCase() + '!'
         : 'Ура! У тебя новый друг — ' + name.toLowerCase() + '!',
     );
     burst();
-  }
-
-  function feed(f: Good): void {
-    if (ownedPets().length === 0) {
-      shakeWallet();
-      setHintOverride('Сначала купи питомца — потом будет кого кормить!');
-      return;
-    }
-    if (coinBalance() < f.price) {
-      shakeWallet();
-      return;
-    }
-    const w = loadWallet();
-    w.s = (w.s || 0) + f.price;
-    saveWallet(w);
-    setWallet(w);
-    setHintOverride(null);
-    villageRefresh();
-    // питомцы радостно подпрыгивают в своих домиках
-    villageCelebrate();
-    speak('Ням-ням! Питомцы говорят спасибо за ' + f.n.toLowerCase() + '!');
   }
 
   function buyButton(price: number, ownedFlag: boolean, onClick: () => void) {
@@ -812,186 +484,305 @@ export default function PetShopPage() {
   }
 
   return (
-    <>
-      <header className="bar">
-        <a className="back" href="/">
-          <svg
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2.4"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          >
-            <path d="M19 12H5M11 6l-6 6 6 6" />
-          </svg>
-          Игры
-        </a>
-        <span className="title">Зоомагазин</span>
-        <span className="spacer" />
-        <span className="wallet" id="wallet" ref={walletRef}>
-          <svg
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          >
-            <circle cx="12" cy="12" r="8.5" />
-            <path d="M12 8v8M9.5 10.2c0-1 1.1-1.7 2.5-1.7s2.5.7 2.5 1.7c0 2.6-5 1.2-5 3.7 0 1 1.1 1.7 2.5 1.7s2.5-.7 2.5-1.7" />
-          </svg>
-          <span id="coins">{coins}</span>
-        </span>
-      </header>
-
-      <main className="stage">
-        <div className="hint">
-          Монетки даются за правильные ответы в любой игре.{' '}
-          <b>Заработал — трать в зоомагазине!</b>
+    <div className="room">
+      {/* декорации комнаты */}
+      <div className="wall" aria-hidden="true">
+        <span className="hangstar s1">✦</span>
+        <span className="hangstar s2">✧</span>
+        <span className="hangstar s3">🌙</span>
+        <div className="window w1">
+          <span className="moon">🌙</span>
+          <span className="wstar">✦</span>
         </div>
-
-        <h2 className="sect">
-          Моя деревушка <small>у каждого питомца — свой домик!</small>
-        </h2>
-        <div className="village" id="village" ref={villageRef}>
-          <div
-            className="vsign"
-            id="village-sign"
-            style={{ display: hasResidents ? 'none' : undefined }}
-          >
-            Пока в деревушке никого… Заработай монетки в играх и купи первого
-            жителя!
-          </div>
+        <div className="window w2">
+          <span className="wstar">✧</span>
+          <span className="wstar two">✦</span>
         </div>
+        <span className="prop plant">🪴</span>
+        <span className="prop pic">🖼️</span>
+      </div>
+      <div className="floor" aria-hidden="true">
+        <div className="rug" />
+        <span className="prop yarn">🧶</span>
+        <span className="prop book">📖</span>
+        <span className="prop dino">🦖</span>
+      </div>
 
-        <div
-          className="seg"
-          id="tabs"
-          role="group"
-          aria-label="Отделы магазина"
+      {/* верхняя панель */}
+      <a className="scene-back" href="/" title="К играм">
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="3"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         >
-          {TABS.map((b) => (
-            <button
-              key={b.t}
-              type="button"
-              data-t={b.t}
-              aria-pressed={tab === b.t}
-              onClick={() => {
-                setTab(b.t);
-                setHintOverride(null);
-                setOpenCards({});
-              }}
-            >
-              {b.label}
-            </button>
+          <path d="M15 5l-7 7 7 7" />
+        </svg>
+      </a>
+      <div className="lvl" title={`Опыт: ${xp}`}>
+        <b>{level} уровень</b>
+        <span className="lvlbar">
+          <i style={{ width: `${levelPct}%` }} />
+        </span>
+        <span className="lvlstar">⭐</span>
+      </div>
+      <div className="scene-right">
+        <span className="wallet" ref={walletRef}>
+          {COIN_SVG}
+          <span>{coins}</span>
+        </span>
+        <button
+          className="shopbtn"
+          type="button"
+          onClick={() => setShopOpen(true)}
+        >
+          Магазин <span aria-hidden="true">🎁</span>
+        </button>
+      </div>
+
+      {/* большой кот и пузырь с хотелкой */}
+      <div className="pethero">
+        {mood === 'party' && (
+          <div className="hearts" key={heartsKey} aria-hidden="true">
+            <i>💛</i>
+            <i>💗</i>
+            <i>💖</i>
+          </div>
+        )}
+        <button
+          className={'bigcat' + (mood ? ' ' + mood : '')}
+          type="button"
+          title="Погладить кота"
+          onClick={() => petVoice('cat')}
+        >
+          {BIG_CAT}
+        </button>
+        {wish && !mood && (
+          <div className="bubble" aria-label={'Кот хочет: ' + wish.n}>
+            <span className="plate">🍽️</span>
+            <span className="want">{wish.e}</span>
+          </div>
+        )}
+        {mood && (
+          <div className="bubble yumtxt">
+            {mood === 'party' ? 'Обожаю!' : 'Ням-ням!'}
+          </div>
+        )}
+      </div>
+
+      {/* купленные друзья и вещи в комнате */}
+      {companions.map((c, i) => (
+        <button
+          key={c.k}
+          type="button"
+          className={'buddy' + (bouncing === c.k ? ' jump' : '')}
+          style={{
+            ...SPOTS[i % SPOTS.length],
+            fontSize: (PSIZE[c.k.split(':')[0]] || 36) + 'px',
+          }}
+          title={c.it.n}
+          onClick={() => {
+            petVoice(c.k);
+            setBouncing(c.k);
+            later(() => setBouncing(null), 450);
+          }}
+        >
+          {c.it.e}
+        </button>
+      ))}
+      {ownedThings.length > 0 && (
+        <div className="shelf" title="Вещи питомцев">
+          {ownedThings.map((t, i) => (
+            <span key={i}>{t.e}</span>
           ))}
         </div>
-        <div className="hint" id="tab-hint">
-          {hintOverride ?? TAB_HINTS[tab]}
-        </div>
+      )}
 
-        <div className="grid" id="shop">
-          {tab === 'pets' &&
-            PETS.map((p) => {
-              if (p.breeds) {
-                const ownedCnt = p.breeds.filter(
-                  (b) => have.indexOf(b.k) >= 0,
-                ).length;
-                return (
-                  <div
-                    key={p.k}
-                    className={'pet' + (openCards[p.k] ? ' open' : '')}
-                    id={'card-' + p.k}
+      {/* стол с едой */}
+      <div className="table">
+        <div className="dishes">
+          {dishes.map((f) => (
+            <div key={f.k} className="dish">
+              <span className="plate-food" aria-hidden="true">
+                <i className="plate-oval" />
+                <b>{f.e}</b>
+              </span>
+              <span className="fname">{f.n}</span>
+              <span className="fprice">
+                {f.price}
+                {COIN_SVG}
+              </span>
+              {servedKey === f.k ? (
+                <button className="add done" type="button" disabled>
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="3"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   >
-                    <span className="e">{p.e}</span>
-                    <h3>{p.n}</h3>
-                    <Price p={p.price} />
-                    <button
-                      type="button"
-                      onClick={() =>
-                        setOpenCards((o) => ({ ...o, [p.k]: !o[p.k] }))
-                      }
-                    >
-                      {ownedCnt
-                        ? 'Породы (' +
-                          ownedCnt +
-                          '/' +
-                          p.breeds.length +
-                          ' дома)'
-                        : 'Выбрать породу'}
-                    </button>
-                    <div className="breeds">
-                      {p.breeds.map((br) => {
-                        const isOwned = have.indexOf(br.k) >= 0;
-                        return (
-                          <div
-                            key={br.k}
-                            className={'breed' + (isOwned ? ' owned' : '')}
-                          >
-                            <span className="be">{br.e}</span>
-                            <span className="bn">{br.n}</span>
-                            {buyButton(p.price, isOwned, () =>
-                              buy(br.k, p.price, br.n),
-                            )}
-                          </div>
-                        );
-                      })}
-                    </div>
-                  </div>
-                );
-              }
-              const isOwned = have.indexOf(p.k) >= 0;
-              return (
-                <div
-                  key={p.k}
-                  className={'pet' + (isOwned ? ' owned' : '')}
-                  id={'card-' + p.k}
-                >
-                  <span className="e">{p.e}</span>
-                  <h3>{p.n}</h3>
-                  <Price p={p.price} />
-                  {buyButton(p.price, isOwned, () => buy(p.k, p.price, p.n))}
-                </div>
-              );
-            })}
-
-          {tab === 'food' &&
-            FOOD.map((f) => (
-              <div key={f.k} className="pet">
-                <span className="e">{f.e}</span>
-                <h3>{f.n}</h3>
-                <Price p={f.price} />
-                {coins >= f.price ? (
-                  <button type="button" onClick={() => feed(f)}>
-                    Покормить
-                  </button>
-                ) : (
-                  <button type="button" disabled>
-                    Не хватает
-                  </button>
-                )}
-              </div>
-            ))}
-
-          {tab === 'things' &&
-            THINGS.map((t) => {
-              const isOwned = have.indexOf(t.k) >= 0;
-              return (
-                <div
-                  key={t.k}
-                  className={'pet' + (isOwned ? ' owned' : '')}
-                  id={'card-' + t.k.replace(':', '-')}
-                >
-                  <span className="e">{t.e}</span>
-                  <h3>{t.n}</h3>
-                  <Price p={t.price} />
-                  {buyButton(t.price, isOwned, () => buy(t.k, t.price, t.n))}
-                </div>
-              );
-            })}
+                    <path d="M5 13l4 4 10-10" />
+                  </svg>
+                </button>
+              ) : (
+                <button className="add" type="button" onClick={() => serve(f)}>
+                  Добавить
+                </button>
+              )}
+            </div>
+          ))}
         </div>
-      </main>
-    </>
+        <div className="tablelegs" aria-hidden="true" />
+      </div>
+
+      {/* выдвижной магазин */}
+      {shopOpen && (
+        <div className="drawer-wrap" onClick={() => setShopOpen(false)}>
+          <aside className="drawer" onClick={(e) => e.stopPropagation()}>
+            <header className="dhead">
+              <h2>Магазин</h2>
+              <span className="wallet small">
+                {COIN_SVG}
+                <span>{coins}</span>
+              </span>
+              <button
+                className="dclose"
+                type="button"
+                aria-label="Закрыть"
+                onClick={() => setShopOpen(false)}
+              >
+                ✕
+              </button>
+            </header>
+            <div className="seg" role="group" aria-label="Отделы магазина">
+              {TABS.map((b) => (
+                <button
+                  key={b.t}
+                  type="button"
+                  data-t={b.t}
+                  aria-pressed={tab === b.t}
+                  onClick={() => {
+                    setTab(b.t);
+                    setHintOverride(null);
+                    setOpenCards({});
+                  }}
+                >
+                  {b.label}
+                </button>
+              ))}
+            </div>
+            <div className="hint">{hintOverride ?? TAB_HINTS[tab]}</div>
+
+            <div className="grid">
+              {tab === 'pets' &&
+                PETS.map((p) => {
+                  if (p.breeds) {
+                    const ownedCnt = p.breeds.filter(
+                      (b) => have.indexOf(b.k) >= 0,
+                    ).length;
+                    return (
+                      <div
+                        key={p.k}
+                        className={'pet' + (openCards[p.k] ? ' open' : '')}
+                        id={'card-' + p.k}
+                      >
+                        <span className="e">{p.e}</span>
+                        <h3>{p.n}</h3>
+                        <Price p={p.price} />
+                        <button
+                          type="button"
+                          onClick={() =>
+                            setOpenCards((o) => ({ ...o, [p.k]: !o[p.k] }))
+                          }
+                        >
+                          {ownedCnt
+                            ? 'Породы (' +
+                              ownedCnt +
+                              '/' +
+                              p.breeds.length +
+                              ' дома)'
+                            : 'Выбрать породу'}
+                        </button>
+                        <div className="breeds">
+                          {p.breeds.map((br) => {
+                            const isOwned = have.indexOf(br.k) >= 0;
+                            return (
+                              <div
+                                key={br.k}
+                                className={'breed' + (isOwned ? ' owned' : '')}
+                              >
+                                <span className="be">{br.e}</span>
+                                <span className="bn">{br.n}</span>
+                                {buyButton(p.price, isOwned, () =>
+                                  buy(br.k, p.price, br.n),
+                                )}
+                              </div>
+                            );
+                          })}
+                        </div>
+                      </div>
+                    );
+                  }
+                  const isOwned = have.indexOf(p.k) >= 0;
+                  return (
+                    <div
+                      key={p.k}
+                      className={'pet' + (isOwned ? ' owned' : '')}
+                      id={'card-' + p.k}
+                    >
+                      <span className="e">{p.e}</span>
+                      <h3>{p.n}</h3>
+                      <Price p={p.price} />
+                      {buyButton(p.price, isOwned, () =>
+                        buy(p.k, p.price, p.n),
+                      )}
+                    </div>
+                  );
+                })}
+
+              {tab === 'food' &&
+                FOOD.map((f) => (
+                  <div key={f.k} className="pet">
+                    <span className="e">{f.e}</span>
+                    <h3>{f.n}</h3>
+                    <Price p={f.price} />
+                    {coins >= f.price ? (
+                      <button type="button" onClick={() => serve(f)}>
+                        Покормить
+                      </button>
+                    ) : (
+                      <button type="button" disabled>
+                        Не хватает
+                      </button>
+                    )}
+                  </div>
+                ))}
+
+              {tab === 'things' &&
+                THINGS.map((t) => {
+                  const isOwned = have.indexOf(t.k) >= 0;
+                  return (
+                    <div
+                      key={t.k}
+                      className={'pet' + (isOwned ? ' owned' : '')}
+                      id={'card-' + t.k.replace(':', '-')}
+                    >
+                      <span className="e">{t.e}</span>
+                      <h3>{t.n}</h3>
+                      <Price p={t.price} />
+                      {buyButton(t.price, isOwned, () =>
+                        buy(t.k, t.price, t.n),
+                      )}
+                    </div>
+                  );
+                })}
+            </div>
+          </aside>
+        </div>
+      )}
+    </div>
   );
 }
