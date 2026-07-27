@@ -83,14 +83,26 @@ for (const r of all(src('body/BodyGame.tsx'), /riddle:\s*'([^']+)'/g))
 const petShop = src('pet-shop/PetShopPage.tsx');
 const between = (from, to) =>
   petShop.slice(petShop.indexOf(from), petShop.indexOf(to));
-const foodNames = all(between('const FOOD', 'const THINGS'), /n:\s*'([^']+)'/g);
+const petFoodSrc = src('pet-shop/petData.tsx');
+const foodBlock = petFoodSrc.slice(
+  petFoodSrc.indexOf('const FOOD_ITEMS'),
+  petFoodSrc.indexOf('};', petFoodSrc.indexOf('const FOOD_ITEMS')),
+);
+const foodNames = all(foodBlock, /(?<![\w])n:\s*'([^']+)'/g);
+if (!foodNames.length) throw new Error('pet-shop: FOOD_ITEMS не найдены');
 for (const n of foodNames) {
   add('Ням-ням! Обожаю ' + n.toLowerCase() + '!', 'ru', 'pet-shop');
   add('Ням-ням! Спасибо за ' + n.toLowerCase() + '!', 'ru', 'pet-shop');
 }
-const petNames = all(between('const PETS', 'const FOOD'), /n:\s*'([^']+)'/g);
+const petNames = all(between('const PETS', 'const THINGS'), /n:\s*'([^']+)'/g);
 for (const n of petNames)
-  add('Ура! У тебя новый друг — ' + n.toLowerCase() + '!', 'ru', 'pet-shop');
+  add(
+    'Ура! У тебя новый друг — ' +
+      n.toLowerCase() +
+      '! Смотри, какой у него домик!',
+    'ru',
+    'pet-shop',
+  );
 const thingNames = all(
   between('const THINGS', 'const LEGACY'),
   /n:\s*'([^']+)'/g,
@@ -175,6 +187,77 @@ const tNames = all(transport, /n:\s*'([^']+)'/g);
 const tAccs = all(transport, /acc:\s*'([^']+)'/g);
 for (const n of tNames) add(n, 'ru', 'transport');
 for (const a of tAccs) add('Найди ' + a, 'ru', 'transport');
+
+// --- Алфавит по порядку: буквы (обычный пресет 'ru' — игра говорит через sfx.speak) ---
+const alphabet = src('alphabet/AlphabetGame.tsx').match(
+  /const ALPHABET = '([^']+)'/,
+)[1];
+for (const ch of alphabet.split('')) add(ch, 'ru', 'alphabet');
+
+// --- Календарь: дни недели, месяцы, времена года ---
+const calendar = src('calendar/CalendarGame.tsx');
+const calDaysBlock = calendar.slice(
+  calendar.indexOf('const DAYS'),
+  calendar.indexOf('const MONTHS'),
+);
+const calMonthsBlock = calendar.slice(
+  calendar.indexOf('const MONTHS'),
+  calendar.indexOf('const SEASONS'),
+);
+const dayNs = all(calDaysBlock, /(?<![\w])n:\s*'([^']+)'/g);
+const dayGens = all(calDaysBlock, /gen:\s*'([^']+)'/g);
+const dayIns = all(calDaysBlock, /ins:\s*'([^']+)'/g);
+if (dayNs.length !== 7 || dayGens.length !== 7 || dayIns.length !== 7)
+  throw new Error('calendar: не 7 дней недели');
+dayNs.forEach((n, i) => {
+  add(n, 'ru', 'calendar'); // подсказка при ошибке в «расставь по порядку»
+  const after = dayNs[(i + 1) % 7];
+  const before = dayNs[(i + 6) % 7];
+  add(`Какой день после ${dayGens[i]}?`, 'ru', 'calendar');
+  add(`После ${dayGens[i]} — ${after.toLowerCase()}`, 'ru', 'calendar');
+  add(`Какой день перед ${dayIns[i]}?`, 'ru', 'calendar');
+  add(`Перед ${dayIns[i]} — ${before.toLowerCase()}`, 'ru', 'calendar');
+});
+const monNs = all(calMonthsBlock, /(?<![\w])n:\s*'([^']+)'/g);
+const monGens = all(calMonthsBlock, /gen:\s*'([^']+)'/g);
+const monSeasons = all(calMonthsBlock, /season:\s*'([^']+)'/g);
+if (monNs.length !== 12) throw new Error('calendar: не 12 месяцев');
+monNs.forEach((n, i) => {
+  const next = monNs[(i + 1) % 12];
+  add(`Какое время года: ${n.toLowerCase()}?`, 'ru', 'calendar');
+  add(`${n} — это ${monSeasons[i].toLowerCase()}`, 'ru', 'calendar');
+  add(`Какой месяц после ${monGens[i]}?`, 'ru', 'calendar');
+  add(`После ${monGens[i]} — ${next.toLowerCase()}`, 'ru', 'calendar');
+});
+add('Расставь дни недели по порядку', 'ru', 'calendar');
+add('Сколько месяцев в году?', 'ru', 'calendar');
+add('В году 12 месяцев', 'ru', 'calendar');
+
+// --- Смешиваем краски: «Получи … цвет» + подсказка «Смешай … и …» ---
+const mixing = src('mixing/MixingGame.tsx');
+for (const n of all(mixing, /n:\s*'([^']+)'/g))
+  add('Получи ' + n.toLowerCase() + ' цвет', 'ru', 'mixing');
+const jarIds = all(mixing, /id:\s*'([^']+)'/g);
+const jarMs = all(mixing, /m:\s*'([^']+)'/g);
+const jarM = Object.fromEntries(jarIds.map((id, i) => [id, jarMs[i]]));
+for (const key of all(mixing, /'(\w+\+\w+)':/g)) {
+  const [a, b] = key.split('+').map((id) => jarM[id]);
+  if (!a || !b) throw new Error('mixing: неизвестная банка в ' + key);
+  // порядок банок в задании может быть любым — озвучиваем обе перестановки
+  add(`Смешай ${a.toLowerCase()} и ${b.toLowerCase()}`, 'ru', 'mixing');
+  add(`Смешай ${b.toLowerCase()} и ${a.toLowerCase()}`, 'ru', 'mixing');
+}
+
+// --- Противоположности: просьбы «Нажми на то, что …» ---
+const opposites = src('opposites/OppositesGame.tsx');
+for (const a of all(opposites, /posAsk:\s*'([^']+)'/g))
+  add(a, 'ru', 'opposites');
+for (const a of all(opposites, /negAsk:\s*'([^']+)'/g))
+  add(a, 'ru', 'opposites');
+
+// --- Сортировка: названия предметов ---
+for (const l of all(src('sorting/SortingGame.tsx'), /label:\s*'([^']+)'/g))
+  add(l, 'ru', 'sorting');
 
 // --- дедупликация и план генерации ---
 const seen = new Set();

@@ -1,4 +1,202 @@
 {
+  "vvduzm-10f26kg.mp3": {
+    "text": "А",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "alphabet"
+  },
+  "vvduzn-10f26kh.mp3": {
+    "text": "Б",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "alphabet"
+  },
+  "vvduzk-10f26ki.mp3": {
+    "text": "В",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "alphabet"
+  },
+  "vvduzl-10f26kj.mp3": {
+    "text": "Г",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "alphabet"
+  },
+  "vvduzq-10f26kk.mp3": {
+    "text": "Д",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "alphabet"
+  },
+  "vvduzr-10f26kl.mp3": {
+    "text": "Е",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "alphabet"
+  },
+  "vvdv03-10f26kx.mp3": {
+    "text": "Ё",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "alphabet"
+  },
+  "vvduzo-10f26km.mp3": {
+    "text": "Ж",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "alphabet"
+  },
+  "vvduzp-10f26kn.mp3": {
+    "text": "З",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "alphabet"
+  },
+  "vvduzu-10f26ko.mp3": {
+    "text": "И",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "alphabet"
+  },
+  "vvduzv-10f26kp.mp3": {
+    "text": "Й",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "alphabet"
+  },
+  "vvduzs-10f26kq.mp3": {
+    "text": "К",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "alphabet"
+  },
+  "vvduzt-10f26kr.mp3": {
+    "text": "Л",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "alphabet"
+  },
+  "vvduzy-10f26ks.mp3": {
+    "text": "М",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "alphabet"
+  },
+  "vvduzz-10f26kt.mp3": {
+    "text": "Н",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "alphabet"
+  },
+  "vvduzw-10f26ku.mp3": {
+    "text": "О",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "alphabet"
+  },
+  "vvduzx-10f26kv.mp3": {
+    "text": "П",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "alphabet"
+  },
+  "vvduz6-10f26ls.mp3": {
+    "text": "Р",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "alphabet"
+  },
+  "vvduz7-10f26lt.mp3": {
+    "text": "С",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "alphabet"
+  },
+  "vvduz4-10f26lu.mp3": {
+    "text": "Т",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "alphabet"
+  },
+  "vvduz5-10f26lv.mp3": {
+    "text": "У",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "alphabet"
+  },
+  "vvduza-10f26lw.mp3": {
+    "text": "Ф",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "alphabet"
+  },
+  "vvduzb-10f26lx.mp3": {
+    "text": "Х",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "alphabet"
+  },
+  "vvduz8-10f26ly.mp3": {
+    "text": "Ц",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "alphabet"
+  },
+  "vvduz9-10f26lz.mp3": {
+    "text": "Ч",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "alphabet"
+  },
+  "vvduze-10f26m0.mp3": {
+    "text": "Ш",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "alphabet"
+  },
+  "vvduzf-10f26m1.mp3": {
+    "text": "Щ",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "alphabet"
+  },
+  "vvduzc-10f26m2.mp3": {
+    "text": "Ъ",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "alphabet"
+  },
+  "vvduzd-10f26m3.mp3": {
+    "text": "Ы",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "alphabet"
+  },
+  "vvduzi-10f26m4.mp3": {
+    "text": "Ь",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "alphabet"
+  },
+  "vvduzj-10f26m5.mp3": {
+    "text": "Э",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "alphabet"
+  },
+  "vvduzg-10f26m6.mp3": {
+    "text": "Ю",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "alphabet"
+  },
+  "vvduzh-10f26m7.mp3": {
+    "text": "Я",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "alphabet"
+  },
   "1ue1qg4-1mtuo6.mp3": {
     "text": "column",
     "voice": "ru-RU-DmitryNeural",
@@ -466,6 +664,522 @@
     "voice": "ru-RU-DmitryNeural",
     "rate": "-10%",
     "from": "body"
+  },
+  "u4jhmc-1qeryvq.mp3": {
+    "text": "Август — это лето",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "18pd4oh-2d0lcj.mp3": {
+    "text": "Апрель — это весна",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "1aneae7-1vrtdml.mp3": {
+    "text": "В году 12 месяцев",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "1f5lly8-1rizbb6.mp3": {
+    "text": "Воскресенье",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "1vaw603-1ja6wld.mp3": {
+    "text": "Вторник",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "dx2m6a-1ykn2xs.mp3": {
+    "text": "Декабрь — это зима",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "5kl8x0-18g4hs6.mp3": {
+    "text": "Июль — это лето",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "1fsurmq-1ti8dmo.mp3": {
+    "text": "Июнь — это лето",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "1c08zxc-23qybm.mp3": {
+    "text": "Какое время года: август?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "106trw-11zluji.mp3": {
+    "text": "Какое время года: апрель?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "6dm5j-1ido7lx.mp3": {
+    "text": "Какое время года: декабрь?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "pt9uk0-18j1dsi.mp3": {
+    "text": "Какое время года: июль?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "pt9ss6-18j1lw4.mp3": {
+    "text": "Какое время года: июнь?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "78gspw-kpulc6.mp3": {
+    "text": "Какое время года: май?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "po00cf-18f3ftp.mp3": {
+    "text": "Какое время года: март?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "5lp9i8-gfwpc2.mp3": {
+    "text": "Какое время года: ноябрь?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "1xh3zxh-1ih34uf.mp3": {
+    "text": "Какое время года: октябрь?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "12akn60-1s36e5m.mp3": {
+    "text": "Какое время года: сентябрь?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "18qmto5-1sw6xzr.mp3": {
+    "text": "Какое время года: февраль?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "yroo19-1a3qu8f.mp3": {
+    "text": "Какое время года: январь?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "1k0iyvj-13yfyr1.mp3": {
+    "text": "Какой день перед воскресеньем?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "17mmi4y-105r08g.mp3": {
+    "text": "Какой день перед вторником?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "iohyv7-hej7kx.mp3": {
+    "text": "Какой день перед понедельником?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "i5glp8-1c4c1tq.mp3": {
+    "text": "Какой день перед пятницей?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "bz5r3a-zkbvyc.mp3": {
+    "text": "Какой день перед средой?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "1wkqowo-1d515ve.mp3": {
+    "text": "Какой день перед субботой?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "12ovbxj-1dyw0zp.mp3": {
+    "text": "Какой день перед четвергом?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "qp61ho-6mnipa.mp3": {
+    "text": "Какой день после воскресенья?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "1b4swkl-1n16rgn.mp3": {
+    "text": "Какой день после вторника?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "kwfl04-60901i.mp3": {
+    "text": "Какой день после понедельника?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "9faon2-3q8jfg.mp3": {
+    "text": "Какой день после пятницы?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "8z9zov-1wond1p.mp3": {
+    "text": "Какой день после среды?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "1v7ya8h-1rns12r.mp3": {
+    "text": "Какой день после субботы?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "1eikdm8-1qfvgb6.mp3": {
+    "text": "Какой день после четверга?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "1pdy55g-1hiixo6.mp3": {
+    "text": "Какой месяц после августа?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "lyy8mz-uzqwgp.mp3": {
+    "text": "Какой месяц после апреля?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "jfzdcw-1o5g7pe.mp3": {
+    "text": "Какой месяц после декабря?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "1xozptj-y9edn9.mp3": {
+    "text": "Какой месяц после июля?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "1xp0xyp-y9foyb.mp3": {
+    "text": "Какой месяц после июня?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "1ok53l7-qe1pc9.mp3": {
+    "text": "Какой месяц после марта?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "1wsxi9i-1a7cjro.mp3": {
+    "text": "Какой месяц после мая?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "tmwxbb-17llpqd.mp3": {
+    "text": "Какой месяц после ноября?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "uv1l7m-6quz0g.mp3": {
+    "text": "Какой месяц после октября?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "1j3ibkf-cri8dp.mp3": {
+    "text": "Какой месяц после сентября?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "19iszqq-n6wu34.mp3": {
+    "text": "Какой месяц после февраля?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "1gvdcq2-1enma2w.mp3": {
+    "text": "Какой месяц после января?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "11v8e21-1vn6y8b.mp3": {
+    "text": "Май — это весна",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "1lx58ya-13ikrow.mp3": {
+    "text": "Март — это весна",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "1bwzrx-1x9js8v.mp3": {
+    "text": "Ноябрь — это осень",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "mz3q9k-16pgj2y.mp3": {
+    "text": "Октябрь — это осень",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "15i7pxp-17x4kq7.mp3": {
+    "text": "Перед воскресеньем — суббота",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "10hvlum-orup4s.mp3": {
+    "text": "Перед вторником — понедельник",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "1slodst-1iv1m7z.mp3": {
+    "text": "Перед понедельником — воскресенье",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "1en5tjo-12eab92.mp3": {
+    "text": "Перед пятницей — четверг",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "4eh1h7-diizfd.mp3": {
+    "text": "Перед средой — вторник",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "106ewxh-1adqlp3.mp3": {
+    "text": "Перед субботой — пятница",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "1ydnkaj-3suhqx.mp3": {
+    "text": "Перед четвергом — среда",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "1rvyr0y-20ogxc.mp3": {
+    "text": "Понедельник",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "1qqt4pc-18ztcmq.mp3": {
+    "text": "После августа — сентябрь",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "1jcurrn-1ugr969.mp3": {
+    "text": "После апреля — май",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "1wvj4u8-pjeqq.mp3": {
+    "text": "После воскресенья — понедельник",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "ojv3bt-il1wl7.mp3": {
+    "text": "После вторника — среда",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "17a8uch-1wnucn7.mp3": {
+    "text": "После декабря — январь",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "1c6kc0r-twz3uh.mp3": {
+    "text": "После июля — август",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "1y3uhhp-orn38v.mp3": {
+    "text": "После июня — июль",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "q3xye3-zl7gft.mp3": {
+    "text": "После марта — апрель",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "1gb6zws-fab3i.mp3": {
+    "text": "После мая — июнь",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "2l4tkc-198e61a.mp3": {
+    "text": "После ноября — декабрь",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "7wiz4e-1s9tkmk.mp3": {
+    "text": "После октября — ноябрь",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "1p745ft-1q6rsrv.mp3": {
+    "text": "После понедельника — вторник",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "pz49mk-1fqiy72.mp3": {
+    "text": "После пятницы — суббота",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "179qv46-14agdwk.mp3": {
+    "text": "После сентября — октябрь",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "g6ea1z-3hdlvp.mp3": {
+    "text": "После среды — четверг",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "fmpwun-xduld9.mp3": {
+    "text": "После субботы — воскресенье",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "19dyajl-n4d4jn.mp3": {
+    "text": "После февраля — март",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "x8t465-hzpkzj.mp3": {
+    "text": "После четверга — пятница",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "1fs87pv-yhd99t.mp3": {
+    "text": "После января — февраль",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "8lv79v-1wrfwxd.mp3": {
+    "text": "Пятница",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "exnwyf-msobed.mp3": {
+    "text": "Расставь дни недели по порядку",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "qkuhpx-1bzu2jb.mp3": {
+    "text": "Сентябрь — это осень",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "ui8jx1-sqf4vr.mp3": {
+    "text": "Сколько месяцев в году?",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "1gcf99e-b6ufgg.mp3": {
+    "text": "Среда",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "z0lwyk-16v7m9q.mp3": {
+    "text": "Суббота",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "wmd4k0-1rmufsi.mp3": {
+    "text": "Февраль — это зима",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "gss5o6-ojblhw.mp3": {
+    "text": "Четверг",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
+  },
+  "frkuyw-1gzso2y.mp3": {
+    "text": "Январь — это зима",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "calendar"
   },
   "ir31u7-rx7wml.mp3": {
     "text": "Прыгаем десятками",
@@ -1841,6 +2555,276 @@
     "rate": "-25%",
     "from": "letters-ru"
   },
+  "zcuyd5-12e6fyz.mp3": {
+    "text": "Получи бирюзовый цвет",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mixing"
+  },
+  "14tz0z6-sj72s0.mp3": {
+    "text": "Получи бордовый цвет",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mixing"
+  },
+  "1ddl47o-fwjss6.mp3": {
+    "text": "Получи голубой цвет",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mixing"
+  },
+  "15hz925-k0ygn3.mp3": {
+    "text": "Получи жёлто-зелёный цвет",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mixing"
+  },
+  "1spa5bk-1c85k7m.mp3": {
+    "text": "Получи зелёный цвет",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mixing"
+  },
+  "10w3bms-1j0d1c6.mp3": {
+    "text": "Получи коричневый цвет",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mixing"
+  },
+  "18n93lm-19vo848.mp3": {
+    "text": "Получи кремовый цвет",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mixing"
+  },
+  "xz9tfg-1kretjy.mp3": {
+    "text": "Получи оливковый цвет",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mixing"
+  },
+  "12d3ls7-1g6nbtx.mp3": {
+    "text": "Получи оранжевый цвет",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mixing"
+  },
+  "argfxc-1pg4qma.mp3": {
+    "text": "Получи розовый цвет",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mixing"
+  },
+  "be0035-5tflxv.mp3": {
+    "text": "Получи салатовый цвет",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mixing"
+  },
+  "1ckt575-czh75f.mp3": {
+    "text": "Получи серый цвет",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mixing"
+  },
+  "6jav75-1y0ixhv.mp3": {
+    "text": "Получи тёмно-зелёный цвет",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mixing"
+  },
+  "tjl0c3-1q0dqz5.mp3": {
+    "text": "Получи тёмно-синий цвет",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mixing"
+  },
+  "10fvllz-p7azut.mp3": {
+    "text": "Получи фиолетовый цвет",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mixing"
+  },
+  "1y082ci-1gozszk.mp3": {
+    "text": "Смешай белый и жёлтый",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mixing"
+  },
+  "139f5l5-8yvhez.mp3": {
+    "text": "Смешай белый и зелёный",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mixing"
+  },
+  "ut9vka-vm1a5k.mp3": {
+    "text": "Смешай белый и красный",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mixing"
+  },
+  "134ankb-194neqx.mp3": {
+    "text": "Смешай белый и синий",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mixing"
+  },
+  "6w0zbr-1urve7p.mp3": {
+    "text": "Смешай белый и чёрный",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mixing"
+  },
+  "a6zczm-1eo5zj4.mp3": {
+    "text": "Смешай жёлтый и белый",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mixing"
+  },
+  "13i6r7s-1a6rp62.mp3": {
+    "text": "Смешай жёлтый и зелёный",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mixing"
+  },
+  "wfaiiz-1y35q09.mp3": {
+    "text": "Смешай жёлтый и красный",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mixing"
+  },
+  "9ce822-1g7ugyw.mp3": {
+    "text": "Смешай жёлтый и синий",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mixing"
+  },
+  "hhw86u-hws384.mp3": {
+    "text": "Смешай жёлтый и чёрный",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mixing"
+  },
+  "agwki1-x59gyz.mp3": {
+    "text": "Смешай зелёный и белый",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mixing"
+  },
+  "1lnvrc8-na34p6.mp3": {
+    "text": "Смешай зелёный и жёлтый",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mixing"
+  },
+  "1uutb40-81q3m.mp3": {
+    "text": "Смешай зелёный и красный",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mixing"
+  },
+  "9jwe69-w9pj8j.mp3": {
+    "text": "Смешай зелёный и синий",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mixing"
+  },
+  "uf5jx9-1rcd2db.mp3": {
+    "text": "Смешай зелёный и чёрный",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mixing"
+  },
+  "18guw22-10mlsyw.mp3": {
+    "text": "Смешай красный и белый",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mixing"
+  },
+  "19iw2yz-17s7c9.mp3": {
+    "text": "Смешай красный и жёлтый",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mixing"
+  },
+  "oyorgg-1z4uhu.mp3": {
+    "text": "Смешай красный и зелёный",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mixing"
+  },
+  "16c1daa-ygge1s.mp3": {
+    "text": "Смешай красный и синий",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mixing"
+  },
+  "181vose-11h7bfg.mp3": {
+    "text": "Смешай красный и чёрный",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mixing"
+  },
+  "1qtfte3-2ltb8p.mp3": {
+    "text": "Смешай синий и белый",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mixing"
+  },
+  "6smqwa-ey5494.mp3": {
+    "text": "Смешай синий и жёлтый",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mixing"
+  },
+  "ov2dkx-u4pgv7.mp3": {
+    "text": "Смешай синий и зелёный",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mixing"
+  },
+  "n3layq-il5gio.mp3": {
+    "text": "Смешай синий и красный",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mixing"
+  },
+  "7siecf-1lg3dkt.mp3": {
+    "text": "Смешай синий и чёрный",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mixing"
+  },
+  "kryx6f-1g4riol.mp3": {
+    "text": "Смешай чёрный и белый",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mixing"
+  },
+  "1cupaom-h0fqr8.mp3": {
+    "text": "Смешай чёрный и жёлтый",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mixing"
+  },
+  "4xiwl9-1y803hb.mp3": {
+    "text": "Смешай чёрный и зелёный",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mixing"
+  },
+  "11d6uv2-14f5xcs.mp3": {
+    "text": "Смешай чёрный и красный",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mixing"
+  },
+  "o7e22n-1i6vxwd.mp3": {
+    "text": "Смешай чёрный и синий",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "mixing"
+  },
   "1jnanf0-6odwu.mp3": {
     "text": "Белый гриб съедобный: у него толстая ножка и плотная коричневая шляпка.",
     "voice": "ru-RU-DmitryNeural",
@@ -1931,6 +2915,114 @@
     "rate": "-10%",
     "from": "mushrooms"
   },
+  "139tu3y-rzswwc.mp3": {
+    "text": "Нажми на то, что больше",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "opposites"
+  },
+  "xob7hu-1r4785s.mp3": {
+    "text": "Нажми на то, что быстрее",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "opposites"
+  },
+  "id37jj-1jgucwd.mp3": {
+    "text": "Нажми на то, что выше",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "opposites"
+  },
+  "19ydm8e-14rqnzg.mp3": {
+    "text": "Нажми на то, что горячее",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "opposites"
+  },
+  "1dxn49o-s92ri.mp3": {
+    "text": "Нажми на то, что длиннее",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "opposites"
+  },
+  "jmxz9y-16njzsk.mp3": {
+    "text": "Нажми на то, что есть нельзя",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "opposites"
+  },
+  "2z98sj-mhnvz5.mp3": {
+    "text": "Нажми на то, что короче",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "opposites"
+  },
+  "12t36h0-1iielye.mp3": {
+    "text": "Нажми на то, что легче",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "opposites"
+  },
+  "5lao54-1t0aowq.mp3": {
+    "text": "Нажми на то, что медленнее",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "opposites"
+  },
+  "11cpwsu-os20q4.mp3": {
+    "text": "Нажми на то, что меньше",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "opposites"
+  },
+  "i5dr7x-1b9b4mn.mp3": {
+    "text": "Нажми на то, что можно съесть",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "opposites"
+  },
+  "id1n9p-1jgr7qn.mp3": {
+    "text": "Нажми на то, что ниже",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "opposites"
+  },
+  "3k7nku-mhuv7g.mp3": {
+    "text": "Нажми на то, что тяжелее",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "opposites"
+  },
+  "19rar2j-1nssasp.mp3": {
+    "text": "Нажми на то, что уже",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "opposites"
+  },
+  "apmd5j-r4gv1x.mp3": {
+    "text": "Нажми на то, что холодное",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "opposites"
+  },
+  "idaxf2-1jjpmvg.mp3": {
+    "text": "Нажми на то, что шире",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "opposites"
+  },
+  "9pypvo-1wtc7ja.mp3": {
+    "text": "Нажми туда, где много",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "opposites"
+  },
+  "s9wwe1-1flckkb.mp3": {
+    "text": "Нажми туда, где один",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "opposites"
+  },
   "1opakm6-1mq7vgc.mp3": {
     "text": "Буль-буль!",
     "voice": "ru-RU-DmitryNeural",
@@ -2009,8 +3101,74 @@
     "rate": "-10%",
     "from": "pet-shop"
   },
+  "1tya1f5-1ud23ir.mp3": {
+    "text": "Ням-ням! Обожаю арбузик!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "1s2qv6f-altkdx.mp3": {
+    "text": "Ням-ням! Обожаю банан!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "xt30va-1y6wo3o.mp3": {
+    "text": "Ням-ням! Обожаю вишенка!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "1i5mba4-37y7y6.mp3": {
+    "text": "Ням-ням! Обожаю водоросли!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "blfat4-1xaufyy.mp3": {
+    "text": "Ням-ням! Обожаю грибок!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "1cx63i4-2if2vy.mp3": {
+    "text": "Ням-ням! Обожаю зёрнышки!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "xx05kz-1rgknq9.mp3": {
+    "text": "Ням-ням! Обожаю капуста!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "h3nt3x-1ip3qv3.mp3": {
+    "text": "Ням-ням! Обожаю клубничка!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
   "4ex5o2-1ajp5qo.mp3": {
     "text": "Ням-ням! Обожаю косточка!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "akv50o-h87y6i.mp3": {
+    "text": "Ням-ням! Обожаю крошки!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "77oate-11k3mg0.mp3": {
+    "text": "Ням-ням! Обожаю кукуруза!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "zram3o-uk093a.mp3": {
+    "text": "Ням-ням! Обожаю листик!",
     "voice": "ru-RU-DmitryNeural",
     "rate": "-10%",
     "from": "pet-shop"
@@ -2027,8 +3185,20 @@
     "rate": "-10%",
     "from": "pet-shop"
   },
+  "kqu4pb-2tqe25.mp3": {
+    "text": "Ням-ням! Обожаю мороженое!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
   "1m10clm-q8h8iw.mp3": {
     "text": "Ням-ням! Обожаю мясо!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "1djjbil-g5e773.mp3": {
+    "text": "Ням-ням! Обожаю огурчик!",
     "voice": "ru-RU-DmitryNeural",
     "rate": "-10%",
     "from": "pet-shop"
@@ -2039,8 +3209,74 @@
     "rate": "-10%",
     "from": "pet-shop"
   },
+  "ttlill-pvgj2j.mp3": {
+    "text": "Ням-ням! Обожаю перчик!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
   "5pnr51-145qog7.mp3": {
     "text": "Ням-ням! Обожаю печенька!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "17l6g9h-ma2dbr.mp3": {
+    "text": "Ням-ням! Обожаю рачок!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "1ai74k6-j194s4.mp3": {
+    "text": "Ням-ням! Обожаю рыбка!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "1g9jh3a-bif89w.mp3": {
+    "text": "Ням-ням! Обожаю сахарок!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "1e4p9j2-1vhpgv0.mp3": {
+    "text": "Ням-ням! Обожаю семечки!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "1nhonld-qems43.mp3": {
+    "text": "Ням-ням! Обожаю сено!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "124cjsb-1nbp7ux.mp3": {
+    "text": "Ням-ням! Обожаю сосиска!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "ckbdyk-1krlo0e.mp3": {
+    "text": "Ням-ням! Обожаю сыр!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "alwwj0-z1us0e.mp3": {
+    "text": "Ням-ням! Обожаю травка!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "1538wa2-bdw6bs.mp3": {
+    "text": "Ням-ням! Обожаю червячок!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "zaetet-1i4qx6v.mp3": {
+    "text": "Ням-ням! Обожаю шашлычок!",
     "voice": "ru-RU-DmitryNeural",
     "rate": "-10%",
     "from": "pet-shop"
@@ -2051,8 +3287,80 @@
     "rate": "-10%",
     "from": "pet-shop"
   },
+  "1g2nd2y-1a1txaw.mp3": {
+    "text": "Ням-ням! Обожаю ягодка!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "6bk07r-jyp6d1.mp3": {
+    "text": "Ням-ням! Спасибо за арбузик!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "bj3okx-6x8ff7.mp3": {
+    "text": "Ням-ням! Спасибо за банан!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "ib38zk-14ic7s2.mp3": {
+    "text": "Ням-ням! Спасибо за вишенка!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "1eyo8sa-rvqvdk.mp3": {
+    "text": "Ням-ням! Спасибо за водоросли!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "gucc2m-1rg5hdo.mp3": {
+    "text": "Ням-ням! Спасибо за грибок!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "1inx5ei-11hkrqw.mp3": {
+    "text": "Ням-ням! Спасибо за зёрнышки!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "1ds1i05-17wgmmf.mp3": {
+    "text": "Ням-ням! Спасибо за капуста!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "1l9azcr-ko2kt5.mp3": {
+    "text": "Ням-ням! Спасибо за клубничка!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
   "z851qs-10qv6ba.mp3": {
     "text": "Ням-ням! Спасибо за косточка!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "1ekiaku-1i928h8.mp3": {
+    "text": "Ням-ням! Спасибо за крошки!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "gegotg-gczk7a.mp3": {
+    "text": "Ням-ням! Спасибо за кукуруза!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "4oa4aq-1swv6ao.mp3": {
+    "text": "Ням-ням! Спасибо за листик!",
     "voice": "ru-RU-DmitryNeural",
     "rate": "-10%",
     "from": "pet-shop"
@@ -2069,8 +3377,20 @@
     "rate": "-10%",
     "from": "pet-shop"
   },
+  "8bwu09-1lprp1n.mp3": {
+    "text": "Ням-ням! Спасибо за мороженое!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
   "18kp8ks-1brivpq.mp3": {
     "text": "Ням-ням! Спасибо за мясо!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "13p6off-14ownk9.mp3": {
+    "text": "Ням-ням! Спасибо за огурчик!",
     "voice": "ru-RU-DmitryNeural",
     "rate": "-10%",
     "from": "pet-shop"
@@ -2081,14 +3401,86 @@
     "rate": "-10%",
     "from": "pet-shop"
   },
+  "kyrd1r-cohe3x.mp3": {
+    "text": "Ням-ням! Спасибо за перчик!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
   "1e8h75v-16nzejl.mp3": {
     "text": "Ням-ням! Спасибо за печенька!",
     "voice": "ru-RU-DmitryNeural",
     "rate": "-10%",
     "from": "pet-shop"
   },
+  "n4n92r-5iuidt.mp3": {
+    "text": "Ням-ням! Спасибо за рачок!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "owf5f4-4mt11u.mp3": {
+    "text": "Ням-ням! Спасибо за рыбка!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "19k4pnk-k4tw8y.mp3": {
+    "text": "Ням-ням! Спасибо за сахарок!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "ltn1w8-oxwiey.mp3": {
+    "text": "Ням-ням! Спасибо за семечки!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "19vw80n-19fdzqt.mp3": {
+    "text": "Ням-ням! Спасибо за сено!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "1ilhf0t-1107ib3.mp3": {
+    "text": "Ням-ням! Спасибо за сосиска!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "1al8tfu-1pn5o6g.mp3": {
+    "text": "Ням-ням! Спасибо за сыр!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "1td5nre-1e8d42w.mp3": {
+    "text": "Ням-ням! Спасибо за травка!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "1byntxo-1mtkywe.mp3": {
+    "text": "Ням-ням! Спасибо за червячок!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "1m0xepv-ivypwh.mp3": {
+    "text": "Ням-ням! Спасибо за шашлычок!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
   "gbv56g-1ehbpi2.mp3": {
     "text": "Ням-ням! Спасибо за яблочко!",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "5o6rvg-vvyaim.mp3": {
+    "text": "Ням-ням! Спасибо за ягодка!",
     "voice": "ru-RU-DmitryNeural",
     "rate": "-10%",
     "from": "pet-shop"
@@ -2123,146 +3515,146 @@
     "rate": "-10%",
     "from": "pet-shop"
   },
-  "ovxrz4-uk2miq.mp3": {
-    "text": "Ура! У тебя новый друг — дракончик!",
+  "5g6m5t-7rgyab.mp3": {
+    "text": "Ура! У тебя новый друг — дракончик! Смотри, какой у него домик!",
     "voice": "ru-RU-DmitryNeural",
     "rate": "-10%",
     "from": "pet-shop"
   },
-  "g7fdbx-1yasdb.mp3": {
-    "text": "Ура! У тебя новый друг — ёжик!",
+  "1dsv7cc-tufw5q.mp3": {
+    "text": "Ура! У тебя новый друг — ёжик! Смотри, какой у него домик!",
     "voice": "ru-RU-DmitryNeural",
     "rate": "-10%",
     "from": "pet-shop"
   },
-  "d14zkw-1aqmz9e.mp3": {
-    "text": "Ура! У тебя новый друг — корова!",
+  "108v4hd-5h91cj.mp3": {
+    "text": "Ура! У тебя новый друг — корова! Смотри, какой у него домик!",
     "voice": "ru-RU-DmitryNeural",
     "rate": "-10%",
     "from": "pet-shop"
   },
-  "1kcztj0-1crow4e.mp3": {
-    "text": "Ура! У тебя новый друг — котик!",
+  "oqevsd-ar4dqn.mp3": {
+    "text": "Ура! У тебя новый друг — котик! Смотри, какой у него домик!",
     "voice": "ru-RU-DmitryNeural",
     "rate": "-10%",
     "from": "pet-shop"
   },
-  "jb2fb9-1apdo4n.mp3": {
-    "text": "Ура! У тебя новый друг — кролик!",
+  "1lw7r4k-o6ls8m.mp3": {
+    "text": "Ура! У тебя новый друг — кролик! Смотри, какой у него домик!",
     "voice": "ru-RU-DmitryNeural",
     "rate": "-10%",
     "from": "pet-shop"
   },
-  "1er04bc-5jl4ze.mp3": {
-    "text": "Ура! У тебя новый друг — лабрадор!",
+  "14m8kw9-x8rxyj.mp3": {
+    "text": "Ура! У тебя новый друг — лабрадор! Смотри, какой у него домик!",
     "voice": "ru-RU-DmitryNeural",
     "rate": "-10%",
     "from": "pet-shop"
   },
-  "dnlmmz-1fcbq61.mp3": {
-    "text": "Ура! У тебя новый друг — лошадка!",
+  "19xsk3u-2qqm08.mp3": {
+    "text": "Ура! У тебя новый друг — лошадка! Смотри, какой у него домик!",
     "voice": "ru-RU-DmitryNeural",
     "rate": "-10%",
     "from": "pet-shop"
   },
-  "15qs75x-1wlyaef.mp3": {
-    "text": "Ура! У тебя новый друг — мальтипу!",
+  "9p9gic-nq5fg6.mp3": {
+    "text": "Ура! У тебя новый друг — мальтипу! Смотри, какой у него домик!",
     "voice": "ru-RU-DmitryNeural",
     "rate": "-10%",
     "from": "pet-shop"
   },
-  "1je69cd-bbspnz.mp3": {
-    "text": "Ура! У тебя новый друг — мышка!",
+  "tdwajg-13lyv9a.mp3": {
+    "text": "Ура! У тебя новый друг — мышка! Смотри, какой у него домик!",
     "voice": "ru-RU-DmitryNeural",
     "rate": "-10%",
     "from": "pet-shop"
   },
-  "koah61-1t6pci3.mp3": {
-    "text": "Ура! У тебя новый друг — овчарка!",
+  "1pe3s8o-1ni4n4q.mp3": {
+    "text": "Ура! У тебя новый друг — овчарка! Смотри, какой у него домик!",
     "voice": "ru-RU-DmitryNeural",
     "rate": "-10%",
     "from": "pet-shop"
   },
-  "25b1ve-xhkly0.mp3": {
-    "text": "Ура! У тебя новый друг — пёстрая рыбка!",
+  "1p66x2j-19m3jpl.mp3": {
+    "text": "Ура! У тебя новый друг — пёстрая рыбка! Смотри, какой у него домик!",
     "voice": "ru-RU-DmitryNeural",
     "rate": "-10%",
     "from": "pet-shop"
   },
-  "1dfazy7-150q9nh.mp3": {
-    "text": "Ура! У тебя новый друг — попугай!",
+  "gll7ou-199yg24.mp3": {
+    "text": "Ура! У тебя новый друг — попугай! Смотри, какой у него домик!",
     "voice": "ru-RU-DmitryNeural",
     "rate": "-10%",
     "from": "pet-shop"
   },
-  "24kdhu-utoh2o.mp3": {
-    "text": "Ура! У тебя новый друг — пудель!",
+  "1qlvr2b-1xzkhep.mp3": {
+    "text": "Ура! У тебя новый друг — пудель! Смотри, какой у него домик!",
     "voice": "ru-RU-DmitryNeural",
     "rate": "-10%",
     "from": "pet-shop"
   },
-  "tpzju-n5givs.mp3": {
-    "text": "Ура! У тебя новый друг — пузырик!",
+  "153jmqz-1gnp3bd.mp3": {
+    "text": "Ура! У тебя новый друг — пузырик! Смотри, какой у него домик!",
     "voice": "ru-RU-DmitryNeural",
     "rate": "-10%",
     "from": "pet-shop"
   },
-  "1cmd7jc-qxle2.mp3": {
-    "text": "Ура! У тебя новый друг — рыбка!",
+  "1vwim2h-115gqe3.mp3": {
+    "text": "Ура! У тебя новый друг — рыбка! Смотри, какой у него домик!",
     "voice": "ru-RU-DmitryNeural",
     "rate": "-10%",
     "from": "pet-shop"
   },
-  "h5thzl-1yudbhv.mp3": {
-    "text": "Ура! У тебя новый друг — рыжий полосатик!",
+  "nugerk-ssfdb6.mp3": {
+    "text": "Ура! У тебя новый друг — рыжий полосатик! Смотри, какой у него домик!",
     "voice": "ru-RU-DmitryNeural",
     "rate": "-10%",
     "from": "pet-shop"
   },
-  "1vwlpvo-ukvg2u.mp3": {
-    "text": "Ура! У тебя новый друг — свинка!",
+  "10wnkl-av1rzr.mp3": {
+    "text": "Ура! У тебя новый друг — свинка! Смотри, какой у него домик!",
     "voice": "ru-RU-DmitryNeural",
     "rate": "-10%",
     "from": "pet-shop"
   },
-  "1ke271s-1ctpphu.mp3": {
-    "text": "Ура! У тебя новый друг — серебрянка!",
+  "1i7jo81-1kebo3n.mp3": {
+    "text": "Ура! У тебя новый друг — серебрянка! Смотри, какой у него домик!",
     "voice": "ru-RU-DmitryNeural",
     "rate": "-10%",
     "from": "pet-shop"
   },
-  "uc3rqo-1laal76.mp3": {
-    "text": "Ура! У тебя новый друг — улитка!",
+  "1o1knkx-95g5s3.mp3": {
+    "text": "Ура! У тебя новый друг — улитка! Смотри, какой у него домик!",
     "voice": "ru-RU-DmitryNeural",
     "rate": "-10%",
     "from": "pet-shop"
   },
-  "d60z37-ovh5oh.mp3": {
-    "text": "Ура! У тебя новый друг — фламинго!",
+  "vhgi5u-1xblx5c.mp3": {
+    "text": "Ура! У тебя новый друг — фламинго! Смотри, какой у него домик!",
     "voice": "ru-RU-DmitryNeural",
     "rate": "-10%",
     "from": "pet-shop"
   },
-  "1niy1rn-vj06vl.mp3": {
-    "text": "Ура! У тебя новый друг — хомячок!",
+  "dd05ya-12bgeo0.mp3": {
+    "text": "Ура! У тебя новый друг — хомячок! Смотри, какой у него домик!",
     "voice": "ru-RU-DmitryNeural",
     "rate": "-10%",
     "from": "pet-shop"
   },
-  "1vxt73m-1cwzjbk.mp3": {
-    "text": "Ура! У тебя новый друг — черепашка!",
+  "1e1cwrn-1k5x3b5.mp3": {
+    "text": "Ура! У тебя новый друг — черепашка! Смотри, какой у него домик!",
     "voice": "ru-RU-DmitryNeural",
     "rate": "-10%",
     "from": "pet-shop"
   },
-  "1netuqn-mssayl.mp3": {
-    "text": "Ура! У тебя новый друг — чёрный уголёк!",
+  "djq7ke-acatnw.mp3": {
+    "text": "Ура! У тебя новый друг — чёрный уголёк! Смотри, какой у него домик!",
     "voice": "ru-RU-DmitryNeural",
     "rate": "-10%",
     "from": "pet-shop"
   },
-  "162mbct-1x2q47z.mp3": {
-    "text": "Ура! У тебя новый друг — щенок!",
+  "1o3sg18-gbk6vi.mp3": {
+    "text": "Ура! У тебя новый друг — щенок! Смотри, какой у него домик!",
     "voice": "ru-RU-DmitryNeural",
     "rate": "-10%",
     "from": "pet-shop"
@@ -2884,6 +4276,180 @@
     "voice": "ru-RU-DmitryNeural",
     "rate": "-10%",
     "from": "sizes"
+  },
+  "l5o8ec-1v59h7q.mp3": {
+    "text": "Голубика",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "sorting"
+  },
+  "1fj7qu9-932zb7.mp3": {
+    "text": "Диван",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "sorting"
+  },
+  "17yn3y1-1c86ndn.mp3": {
+    "text": "Карандаш",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "sorting"
+  },
+  "17o08o6-1amy5s4.mp3": {
+    "text": "Картошка",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "sorting"
+  },
+  "ningbe-dwaz3s.mp3": {
+    "text": "Кровать",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "sorting"
+  },
+  "4rbfy0-5pzzoa.mp3": {
+    "text": "Кроссовки",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "sorting"
+  },
+  "1xmd4yr-jpkhmp.mp3": {
+    "text": "Куртка",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "sorting"
+  },
+  "lgbpm-8uiep4.mp3": {
+    "text": "Линейка",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "sorting"
+  },
+  "89szjj-127s0zx.mp3": {
+    "text": "Матрёшка",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "sorting"
+  },
+  "rn6lyo-194fv9u.mp3": {
+    "text": "Медведь",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "sorting"
+  },
+  "1yofcq7-m0tmdp.mp3": {
+    "text": "Огурец",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "sorting"
+  },
+  "3pxn0x-lsxz03.mp3": {
+    "text": "Пазл",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "sorting"
+  },
+  "13djtju-1szs1mg.mp3": {
+    "text": "Паровозик",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "sorting"
+  },
+  "zmzikv-1pbp7sd.mp3": {
+    "text": "Перчатки",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "sorting"
+  },
+  "2jlgxp-k0gnq7.mp3": {
+    "text": "Платье",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "sorting"
+  },
+  "119eqth-1f0l84n.mp3": {
+    "text": "Ракетка",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "sorting"
+  },
+  "1gdmdwh-b43oub.mp3": {
+    "text": "Робот",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "sorting"
+  },
+  "ns0xxp-bmy7fz.mp3": {
+    "text": "Ролики",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "sorting"
+  },
+  "my1efd-d8ohbf.mp3": {
+    "text": "Сапоги",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "sorting"
+  },
+  "19bbyig-oc8062.mp3": {
+    "text": "Сыр",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "sorting"
+  },
+  "1v1krno-kd7vza.mp3": {
+    "text": "Тарелка",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "sorting"
+  },
+  "1gebjxu-b6c1e8.mp3": {
+    "text": "Труба",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "sorting"
+  },
+  "990ib1-2p3sgf.mp3": {
+    "text": "Учебник",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "sorting"
+  },
+  "1y5msqx-1ci52wb.mp3": {
+    "text": "Фламинго",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "sorting"
+  },
+  "1ite4tl-1wysjij.mp3": {
+    "text": "Футболка",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "sorting"
+  },
+  "1gfky7b-b8rcn9.mp3": {
+    "text": "Чашка",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "sorting"
+  },
+  "3pgsxa-lv6098.mp3": {
+    "text": "Шарф",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "sorting"
+  },
+  "1ni8wbx-ggsgjz.mp3": {
+    "text": "Шлёпки",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "sorting"
+  },
+  "1fatxxa-b7rfq4.mp3": {
+    "text": "Штаны",
+    "voice": "ru-RU-DmitryNeural",
+    "rate": "-10%",
+    "from": "sorting"
   },
   "qs0kgd-q24d9r.mp3": {
     "text": "Днём я зелёная и сижу на болоте, а ночью сбрасываю кожу и становлюсь красавицей.",
