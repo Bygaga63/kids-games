@@ -1,0 +1,8 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import RebusGame from '../games/rebus/RebusGame';
+---
+
+<BaseLayout title="Ребусы — Играй и учись">
+  <RebusGame client:only="react" />
+</BaseLayout>

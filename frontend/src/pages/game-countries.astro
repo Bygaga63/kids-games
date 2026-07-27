@@ -1,0 +1,8 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import CountriesGame from '../games/countries/CountriesGame';
+---
+
+<BaseLayout title="Страны мира — Играй и учись">
+  <CountriesGame client:only="react" />
+</BaseLayout>

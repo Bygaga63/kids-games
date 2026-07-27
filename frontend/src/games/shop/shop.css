@@ -1,0 +1,328 @@
+:root {
+  --bg: #fff7ec;
+  --surface: #ffffff;
+  --ink: #1f2a44;
+  --muted: #5b6b86;
+  --border: #ffe3bd;
+  --c: #f08c00;
+  --c2: #ffc078;
+  --good: #12b886;
+  --bad: #fa5252;
+  --shadow: 0 12px 30px rgba(31, 42, 68, 0.1);
+  --font: 'Nunito', system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: var(--font);
+  color: var(--ink);
+  min-height: 100dvh;
+  line-height: 1.5;
+  background: var(--bg);
+  background-image: radial-gradient(
+    900px 500px at 50% -10%,
+    #ffe9c9 0,
+    transparent 60%
+  );
+  -webkit-font-smoothing: antialiased;
+  display: flex;
+  flex-direction: column;
+}
+.bar {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px clamp(16px, 4vw, 32px);
+  max-width: 860px;
+  margin: 0 auto;
+  width: 100%;
+}
+.back {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: var(--ink);
+  font-weight: 800;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: 10px 16px;
+  border-radius: 999px;
+  box-shadow: var(--shadow);
+  min-height: 44px;
+}
+.back:hover {
+  color: var(--c);
+}
+.back svg {
+  width: 18px;
+  height: 18px;
+}
+.title {
+  font-weight: 900;
+  font-size: clamp(17px, 3vw, 22px);
+  letter-spacing: -0.01em;
+}
+.spacer {
+  flex: 1;
+}
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 900;
+  font-size: 16px;
+  color: var(--c);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: 8px 14px;
+  border-radius: 999px;
+  box-shadow: var(--shadow);
+  font-variant-numeric: tabular-nums;
+}
+.chip svg {
+  width: 18px;
+  height: 18px;
+}
+
+.stage {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(12px, 2.6vw, 20px);
+  padding: 0 clamp(16px, 4vw, 32px) clamp(20px, 4vw, 32px);
+  max-width: 860px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.ask {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 14px clamp(16px, 4vw, 26px);
+  box-shadow: 0 16px 36px rgba(31, 42, 68, 0.12);
+}
+.ask .txt {
+  font-weight: 800;
+  font-size: clamp(17px, 3.6vw, 22px);
+}
+.ask .txt b {
+  color: var(--c);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+.say {
+  font-family: inherit;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 800;
+  font-size: 14px;
+  color: var(--c);
+  background: color-mix(in srgb, var(--c) 8%, #fff);
+  border: 2px solid var(--border);
+  border-radius: 999px;
+  padding: 9px 16px;
+  min-height: 44px;
+  cursor: pointer;
+}
+.say:hover {
+  border-color: var(--c);
+}
+.say svg {
+  width: 18px;
+  height: 18px;
+}
+
+.shelves {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+}
+.shelfrow {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 10px 10px 4px;
+  box-shadow: var(--shadow);
+}
+.items {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 6px;
+}
+@media (max-width: 520px) {
+  .items {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+.item {
+  font-family: inherit;
+  position: relative;
+  aspect-ratio: 1;
+  border: 2px solid transparent;
+  border-radius: 12px;
+  background: transparent;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  font-size: clamp(30px, 7.5vw, 46px);
+  line-height: 1;
+  transition:
+    transform 0.12s,
+    border-color 0.15s;
+  min-height: 44px;
+}
+.item:hover {
+  transform: translateY(-3px) scale(1.06);
+}
+.item.got {
+  cursor: default;
+  opacity: 0.28;
+  filter: grayscale(0.4);
+}
+.item.got::after {
+  content: '';
+  position: absolute;
+  right: 2px;
+  top: 2px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--good)
+    url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12.5 9.5 17.5 19.5 6.5"/></svg>')
+    center/70% no-repeat;
+}
+.item.grab {
+  animation: grab 0.5s ease;
+}
+@keyframes grab {
+  35% {
+    transform: scale(1.25) rotate(-6deg);
+  }
+  70% {
+    transform: scale(0.6);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.item.no {
+  animation: shake 0.4s;
+}
+@keyframes shake {
+  10%,
+  90% {
+    transform: translateX(-3px);
+  }
+  30%,
+  70% {
+    transform: translateX(5px);
+  }
+  50% {
+    transform: translateX(-5px);
+  }
+}
+.plank {
+  height: 8px;
+  border-radius: 99px;
+  background: linear-gradient(90deg, #ffd9a0, #f3b96b);
+  margin-top: 6px;
+}
+
+.toast {
+  min-height: 26px;
+  font-weight: 900;
+  font-size: 16px;
+  text-align: center;
+}
+.toast.good {
+  color: var(--good);
+}
+.toast.bad {
+  color: var(--bad);
+}
+
+.end {
+  text-align: center;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding-top: 8px;
+}
+.end.show {
+  display: flex;
+}
+.end .stars {
+  display: flex;
+  gap: 8px;
+}
+.end .stars svg {
+  width: 46px;
+  height: 46px;
+  color: #f4e0c4;
+}
+.end .stars svg.on {
+  color: #ffb020;
+  animation: popz 0.4s ease;
+}
+@keyframes popz {
+  0% {
+    transform: scale(0.5);
+  }
+  60% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: none;
+  }
+}
+.end .big {
+  font-size: clamp(26px, 6vw, 40px);
+  font-weight: 900;
+  letter-spacing: -0.02em;
+}
+.end .res {
+  font-weight: 800;
+  color: var(--muted);
+  font-size: 17px;
+}
+.btn {
+  font-family: inherit;
+  font-weight: 900;
+  font-size: 17px;
+  color: #fff;
+  background: linear-gradient(135deg, var(--c2), var(--c));
+  border: 0;
+  border-radius: 14px;
+  padding: 14px 26px;
+  cursor: pointer;
+  min-height: 52px;
+  box-shadow: 0 10px 22px rgba(240, 140, 0, 0.32);
+}
+.btn:active {
+  transform: translateY(1px);
+}
+.hide {
+  display: none !important;
+}
+@media (prefers-reduced-motion: reduce) {
+  .item.grab,
+  .item.no,
+  .end .stars svg.on {
+    animation: none;
+  }
+}

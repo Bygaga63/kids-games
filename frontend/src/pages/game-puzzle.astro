@@ -1,0 +1,8 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PuzzleGame from '../games/puzzle/PuzzleGame';
+---
+
+<BaseLayout title="Пятнашки — Играй и учись">
+  <PuzzleGame client:only="react" />
+</BaseLayout>

@@ -1,0 +1,27 @@
+Фотографии птиц загружены из русской Википедии (лицензии Creative Commons / общественное достояние).
+Источник каждой картинки — статья:
+
+lastochka.jpg   — https://ru.wikipedia.org/wiki/Деревенская_ласточка
+strizh.jpg      — https://ru.wikipedia.org/wiki/Чёрный_стриж
+skvorets.jpg    — https://ru.wikipedia.org/wiki/Обыкновенный_скворец
+grach.jpg       — https://ru.wikipedia.org/wiki/Грач
+solovey.jpg     — https://ru.wikipedia.org/wiki/Обыкновенный_соловей
+kukushka.jpg    — https://ru.wikipedia.org/wiki/Обыкновенная_кукушка
+zhuravl.jpg     — https://ru.wikipedia.org/wiki/Серый_журавль
+gus.jpg         — https://ru.wikipedia.org/wiki/Серый_гусь
+lebed.jpg       — https://ru.wikipedia.org/wiki/Лебедь-кликун
+kryakva.jpg     — https://ru.wikipedia.org/wiki/Кряква
+zhavoronok.jpg  — https://ru.wikipedia.org/wiki/Полевой_жаворонок
+aist.jpg        — https://ru.wikipedia.org/wiki/Белый_аист
+vorobey.jpg     — https://ru.wikipedia.org/wiki/Домовый_воробей
+sinitsa.jpg     — https://ru.wikipedia.org/wiki/Большая_синица
+snegir.jpg      — https://ru.wikipedia.org/wiki/Обыкновенный_снегирь
+vorona.jpg      — https://ru.wikipedia.org/wiki/Серая_ворона
+soroka.jpg      — https://ru.wikipedia.org/wiki/Обыкновенная_сорока
+dyatel.jpg      — https://ru.wikipedia.org/wiki/Большой_пёстрый_дятел
+golub.jpg       — https://ru.wikipedia.org/wiki/Сизый_голубь
+sova.jpg        — https://ru.wikipedia.org/wiki/Ушастая_сова
+klest.jpg       — https://ru.wikipedia.org/wiki/Клёст-еловик
+popolzen.jpg    — https://ru.wikipedia.org/wiki/Обыкновенный_поползень
+sviristel.jpg   — https://ru.wikipedia.org/wiki/Свиристель
+glukhar.jpg     — https://ru.wikipedia.org/wiki/Глухарь

@@ -1,0 +1,8 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import HerbivorePredatorGame from '../games/herbivore-predator/HerbivorePredatorGame';
+---
+
+<BaseLayout title="Травоядные или хищники — Играй и учись">
+  <HerbivorePredatorGame client:only="react" />
+</BaseLayout>

@@ -1,0 +1,8 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import BirdsGame from '../games/birds/BirdsGame';
+---
+
+<BaseLayout title="Перелётные птицы — Играй и учись">
+  <BirdsGame client:only="react" />
+</BaseLayout>

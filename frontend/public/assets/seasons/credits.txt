@@ -1,0 +1,19 @@
+Фотографии времён года загружены из русской Википедии (лицензии Creative Commons / общественное достояние).
+Источник каждой картинки — статья:
+
+zima-1.jpg  — https://ru.wikipedia.org/wiki/Зима
+zima-2.jpg  — https://ru.wikipedia.org/wiki/Снеговик
+zima-3.jpg  — https://ru.wikipedia.org/wiki/Сосулька
+zima-4.jpg  — https://ru.wikipedia.org/wiki/Сугроб
+vesna-1.jpg — https://ru.wikipedia.org/wiki/Весна
+vesna-2.jpg — https://ru.wikipedia.org/wiki/Подснежник
+vesna-3.jpg — https://ru.wikipedia.org/wiki/Ледоход
+vesna-4.jpg — https://ru.wikipedia.org/wiki/Скворечник
+leto-1.jpg  — https://ru.wikipedia.org/wiki/Лето
+leto-2.jpg  — https://ru.wikipedia.org/wiki/Подсолнечник_однолетний
+leto-3.jpg  — https://ru.wikipedia.org/wiki/Земляника_лесная
+leto-4.jpg  — https://ru.wikipedia.org/wiki/Нивяник_обыкновенный
+osen-1.jpg  — https://ru.wikipedia.org/wiki/Осень
+osen-2.jpg  — https://ru.wikipedia.org/wiki/Листопад
+osen-3.jpg  — https://ru.wikipedia.org/wiki/Тыква_обыкновенная
+osen-4.jpg  — https://ru.wikipedia.org/wiki/Жёлудь

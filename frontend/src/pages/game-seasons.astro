@@ -1,0 +1,8 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SeasonsGame from '../games/seasons/SeasonsGame';
+---
+
+<BaseLayout title="Времена года — Играй и учись">
+  <SeasonsGame client:only="react" />
+</BaseLayout>

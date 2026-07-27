@@ -1,0 +1,18 @@
+Фотографии деревьев загружены из русской Википедии (лицензии Creative Commons / общественное достояние).
+Источник каждой картинки — статья:
+
+bereza.jpg       — https://ru.wikipedia.org/wiki/Берёза_повислая
+dub.jpg          — https://ru.wikipedia.org/wiki/Дуб_черешчатый
+el.jpg           — https://ru.wikipedia.org/wiki/Ель_обыкновенная
+sosna.jpg        — https://ru.wikipedia.org/wiki/Сосна_обыкновенная
+klen.jpg         — https://ru.wikipedia.org/wiki/Клён_остролистный
+ryabina.jpg      — https://ru.wikipedia.org/wiki/Рябина_обыкновенная
+lipa.jpg         — https://ru.wikipedia.org/wiki/Липа_сердцевидная
+osina.jpg        — https://ru.wikipedia.org/wiki/Осина
+iva.jpg          — https://ru.wikipedia.org/wiki/Ива_белая
+topol.jpg        — https://ru.wikipedia.org/wiki/Тополь_чёрный
+cheryomuha.jpg   — https://ru.wikipedia.org/wiki/Черёмуха_обыкновенная
+kashtan.jpg      — https://ru.wikipedia.org/wiki/Конский_каштан_обыкновенный
+listvennitsa.jpg — https://ru.wikipedia.org/wiki/Лиственница_сибирская
+kedr.jpg         — https://ru.wikipedia.org/wiki/Сосна_сибирская_кедровая
+yablonya.jpg     — https://ru.wikipedia.org/wiki/Яблоня_домашняя

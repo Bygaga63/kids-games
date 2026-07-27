@@ -1,0 +1,8 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Add10Game from '../games/add-10/Add10Game';
+---
+
+<BaseLayout title="Сложение до 10 — Играй и учись">
+  <Add10Game client:only="react" />
+</BaseLayout>

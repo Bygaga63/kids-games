@@ -1,0 +1,8 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import NumbersGame from '../games/numbers/NumbersGame';
+---
+
+<BaseLayout title="Числа до 100 — Играй и учись">
+  <NumbersGame client:only="react" />
+</BaseLayout>

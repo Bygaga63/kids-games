@@ -1,0 +1,29 @@
+Фотографии животных загружены из русской Википедии (лицензии Creative Commons / общественное достояние).
+Источник каждой картинки — статья:
+
+slon.jpg     — https://ru.wikipedia.org/wiki/Саванный_слон
+zhiraf.jpg   — https://ru.wikipedia.org/wiki/Жираф
+zebra.jpg    — https://ru.wikipedia.org/wiki/Бурчеллова_зебра
+korova.jpg   — https://ru.wikipedia.org/wiki/Корова
+zayats.jpg   — https://ru.wikipedia.org/wiki/Заяц-русак
+loshad.jpg   — https://ru.wikipedia.org/wiki/Лошадь
+olen.jpg     — https://ru.wikipedia.org/wiki/Благородный_олень
+koza.jpg     — https://ru.wikipedia.org/wiki/Домашняя_коза
+ovtsa.jpg    — https://ru.wikipedia.org/wiki/Домашняя_овца
+panda.jpg    — https://ru.wikipedia.org/wiki/Большая_панда
+begemot.jpg  — https://ru.wikipedia.org/wiki/Обыкновенный_бегемот
+koala.jpg    — https://ru.wikipedia.org/wiki/Коала
+verblyud.jpg — https://ru.wikipedia.org/wiki/Двугорбый_верблюд
+lev.jpg      — https://ru.wikipedia.org/wiki/Лев
+tigr.jpg     — https://ru.wikipedia.org/wiki/Тигр
+volk.jpg     — https://ru.wikipedia.org/wiki/Волк
+lisa.jpg     — https://ru.wikipedia.org/wiki/Обыкновенная_лисица
+krokodil.jpg — https://ru.wikipedia.org/wiki/Нильский_крокодил
+oryol.jpg    — https://ru.wikipedia.org/wiki/Беркут
+akula.jpg    — https://ru.wikipedia.org/wiki/Акулы
+zmeya.jpg    — https://ru.wikipedia.org/wiki/Обыкновенная_гадюка
+gepard.jpg   — https://ru.wikipedia.org/wiki/Гепард
+pingvin.jpg  — https://ru.wikipedia.org/wiki/Императорский_пингвин
+delfin.jpg   — https://ru.wikipedia.org/wiki/Афалина
+
+Сова — фото ../birds/sova.jpg (https://ru.wikipedia.org/wiki/Ушастая_сова), общее с игрой «Перелётные птицы».

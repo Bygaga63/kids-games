@@ -1,0 +1,8 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ShapesGame from '../games/shapes/ShapesGame';
+---
+
+<BaseLayout title="Учим фигуры — Играй и учись">
+  <ShapesGame client:only="react" />
+</BaseLayout>

@@ -1,0 +1,21 @@
+Картинки героев сказок загружены из русской Википедии — это классические
+иллюстрации и картины (Билибин, Васнецов, лубок и др.), находящиеся
+в общественном достоянии или под свободными лицензиями.
+Источник каждой картинки — статья:
+
+baba-yaga.jpg   — https://ru.wikipedia.org/wiki/Баба-яга
+koschei.jpg     — https://ru.wikipedia.org/wiki/Кощей_Бессмертный
+zmey.jpg        — https://ru.wikipedia.org/wiki/Змей_Горыныч
+zhar-ptitsa.jpg — https://ru.wikipedia.org/wiki/Жар-птица
+ivan.jpg        — https://ru.wikipedia.org/wiki/Иван-царевич
+lyagushka.jpg   — https://ru.wikipedia.org/wiki/Царевна-лягушка
+kolobok.jpg     — https://ru.wikipedia.org/wiki/Колобок
+snegurochka.jpg — https://ru.wikipedia.org/wiki/Снегурочка
+ilya.jpg        — https://ru.wikipedia.org/wiki/Илья_Муромец
+vasilisa.jpg    — https://ru.wikipedia.org/wiki/Василиса_Прекрасная
+emelya.jpg      — https://ru.wikipedia.org/wiki/По_щучьему_велению
+ryaba.jpg       — https://ru.wikipedia.org/wiki/Курочка_Ряба
+rybka.jpg       — https://ru.wikipedia.org/wiki/Сказка_о_рыбаке_и_рыбке
+gusi.jpg        — https://ru.wikipedia.org/wiki/Гуси-лебеди
+alyonushka.jpg  — https://ru.wikipedia.org/wiki/Алёнушка
+vodyanoy.jpg    — https://ru.wikipedia.org/wiki/Водяной

@@ -1,0 +1,8 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import EmotionsGame from '../games/emotions/EmotionsGame';
+---
+
+<BaseLayout title="Отгадай эмоцию — Играй и учись">
+  <EmotionsGame client:only="react" />
+</BaseLayout>

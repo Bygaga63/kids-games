@@ -1,0 +1,8 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import MemoGame from '../games/memo/MemoGame';
+---
+
+<BaseLayout title="Мемо с животными — Играй и учись">
+  <MemoGame client:only="react" />
+</BaseLayout>

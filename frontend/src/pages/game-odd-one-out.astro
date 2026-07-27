@@ -1,0 +1,8 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import OddOneOutGame from '../games/odd-one-out/OddOneOutGame';
+---
+
+<BaseLayout title="Убери лишнее — Играй и учись">
+  <OddOneOutGame client:only="react" />
+</BaseLayout>

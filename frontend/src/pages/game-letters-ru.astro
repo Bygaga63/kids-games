@@ -1,0 +1,8 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import LettersRuGame from '../games/letters-ru/LettersRuGame';
+---
+
+<BaseLayout title="Буквы — Играй и учись">
+  <LettersRuGame client:only="react" />
+</BaseLayout>

@@ -1,0 +1,8 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import DomesticWildGame from '../games/domestic-wild/DomesticWildGame';
+---
+
+<BaseLayout title="Домашние или дикие — Играй и учись">
+  <DomesticWildGame client:only="react" />
+</BaseLayout>

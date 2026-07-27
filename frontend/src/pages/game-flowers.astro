@@ -1,0 +1,8 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import FlowersGame from '../games/flowers/FlowersGame';
+---
+
+<BaseLayout title="Что это за цветок? — Играй и учись">
+  <FlowersGame client:only="react" />
+</BaseLayout>

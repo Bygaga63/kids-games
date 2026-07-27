@@ -1,0 +1,8 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ColorsGame from '../games/colors/ColorsGame';
+---
+
+<BaseLayout title="Цвета — Играй и учись">
+  <ColorsGame client:only="react" />
+</BaseLayout>

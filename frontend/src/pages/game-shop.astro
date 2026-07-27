@@ -1,0 +1,8 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ShopGame from '../games/shop/ShopGame';
+---
+
+<BaseLayout title="Продуктовый магазин — Играй и учись">
+  <ShopGame client:only="react" />
+</BaseLayout>

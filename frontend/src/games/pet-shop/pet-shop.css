@@ -1,0 +1,345 @@
+:root {
+  --bg: #fff8e8;
+  --surface: #ffffff;
+  --ink: #1f2a44;
+  --muted: #5b6b86;
+  --border: #ffe8b8;
+  --c: #f59f00;
+  --c2: #ffd43b;
+  --good: #12b886;
+  --bad: #fa5252;
+  --shadow: 0 12px 30px rgba(31, 42, 68, 0.1);
+  --font: 'Nunito', system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: var(--font);
+  color: var(--ink);
+  min-height: 100dvh;
+  line-height: 1.5;
+  background: var(--bg);
+  background-image: radial-gradient(
+    900px 500px at 50% -10%,
+    #ffedbf 0,
+    transparent 60%
+  );
+  -webkit-font-smoothing: antialiased;
+  display: flex;
+  flex-direction: column;
+}
+.bar {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px clamp(16px, 4vw, 32px);
+  max-width: 960px;
+  margin: 0 auto;
+  width: 100%;
+}
+.back {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: var(--ink);
+  font-weight: 800;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: 10px 16px;
+  border-radius: 999px;
+  box-shadow: var(--shadow);
+  min-height: 44px;
+}
+.back:hover {
+  color: var(--c);
+}
+.back svg {
+  width: 18px;
+  height: 18px;
+}
+.title {
+  font-weight: 900;
+  font-size: clamp(17px, 3vw, 22px);
+  letter-spacing: -0.01em;
+}
+.spacer {
+  flex: 1;
+}
+.wallet {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 900;
+  font-size: 18px;
+  color: #a86400;
+  background: linear-gradient(135deg, #fff3cd, #ffe49a);
+  border: 1px solid #ffd43b;
+  padding: 8px 16px;
+  border-radius: 999px;
+  box-shadow: var(--shadow);
+  font-variant-numeric: tabular-nums;
+}
+.wallet svg {
+  width: 20px;
+  height: 20px;
+}
+.wallet.shake {
+  animation: shake 0.4s;
+}
+@keyframes shake {
+  10%,
+  90% {
+    transform: translateX(-3px);
+  }
+  30%,
+  70% {
+    transform: translateX(5px);
+  }
+  50% {
+    transform: translateX(-5px);
+  }
+}
+
+.stage {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: clamp(12px, 2.6vw, 20px);
+  padding: 0 clamp(16px, 4vw, 32px) clamp(24px, 5vw, 40px);
+  max-width: 960px;
+  margin: 0 auto;
+  width: 100%;
+}
+.hint {
+  font-weight: 700;
+  color: var(--muted);
+  font-size: 14px;
+  text-align: center;
+}
+.hint b {
+  color: #a86400;
+}
+
+h2.sect {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: clamp(18px, 3vw, 23px);
+  font-weight: 900;
+  letter-spacing: -0.01em;
+  margin-top: 4px;
+}
+h2.sect small {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--muted);
+  align-self: end;
+  margin-bottom: 3px;
+}
+
+/* ---- деревушка: настоящая 2D-сцена на Phaser (canvas) ---- */
+.village {
+  position: relative;
+  border: 1px solid var(--border);
+  border-radius: 22px;
+  box-shadow: var(--shadow);
+  height: clamp(440px, 74vw, 620px);
+  overflow: hidden;
+  background: linear-gradient(160deg, #a2d36c, #7cb840);
+}
+.village canvas {
+  display: block;
+}
+.vsign {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 40;
+  font-weight: 800;
+  font-size: 14.5px;
+  color: var(--muted);
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 10px 18px;
+  text-align: center;
+  max-width: 80%;
+  pointer-events: none;
+}
+
+.seg {
+  display: inline-flex;
+  background: var(--surface);
+  border: 2px solid var(--border);
+  border-radius: 999px;
+  padding: 4px;
+  gap: 2px;
+  align-self: center;
+}
+.seg button {
+  font-family: inherit;
+  font-weight: 800;
+  font-size: 14.5px;
+  color: var(--muted);
+  background: transparent;
+  border: 0;
+  border-radius: 999px;
+  padding: 10px 20px;
+  cursor: pointer;
+  min-height: 44px;
+}
+.seg button[aria-pressed='true'] {
+  color: #fff;
+  background: linear-gradient(135deg, var(--c2), var(--c));
+}
+
+.grid {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(4, 1fr);
+}
+@media (max-width: 860px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 560px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.pet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 16px 12px 14px;
+  box-shadow: var(--shadow);
+}
+.pet .e {
+  font-size: clamp(44px, 9vw, 58px);
+  line-height: 1;
+}
+.pet h3 {
+  font-size: 16px;
+  font-weight: 800;
+  text-align: center;
+  line-height: 1.2;
+}
+.pet .price {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 900;
+  font-size: 14px;
+  color: #a86400;
+  font-variant-numeric: tabular-nums;
+}
+.pet .price svg {
+  width: 15px;
+  height: 15px;
+}
+.pet button {
+  font-family: inherit;
+  font-weight: 900;
+  font-size: 14px;
+  border-radius: 12px;
+  padding: 10px 14px;
+  min-height: 44px;
+  cursor: pointer;
+  border: 0;
+  color: #fff;
+  background: linear-gradient(135deg, var(--c2), var(--c));
+  box-shadow: 0 8px 16px rgba(245, 159, 0, 0.3);
+  width: 100%;
+}
+.pet button:active {
+  transform: translateY(1px);
+}
+.pet button:disabled {
+  background: #eef1f6;
+  color: var(--muted);
+  box-shadow: none;
+  cursor: default;
+}
+.pet.owned {
+  border-color: var(--good);
+}
+.pet.owned > button {
+  background: color-mix(in srgb, var(--good) 12%, #fff);
+  color: #0c7a59;
+  box-shadow: none;
+  cursor: default;
+}
+.pet.new {
+  animation: pop 0.5s ease;
+}
+@keyframes pop {
+  0% {
+    transform: scale(0.8);
+  }
+  60% {
+    transform: scale(1.06);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.breeds {
+  display: none;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+.pet.open .breeds {
+  display: flex;
+}
+.breed {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid var(--border);
+  border-radius: 14px;
+  padding: 8px 10px;
+}
+.breed .be {
+  font-size: 30px;
+  line-height: 1;
+}
+.breed .bn {
+  flex: 1;
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 1.2;
+}
+.breed button {
+  width: auto;
+  padding: 8px 14px;
+  min-height: 40px;
+  font-size: 13px;
+}
+.breed.owned {
+  border-color: var(--good);
+}
+.breed.owned button {
+  background: color-mix(in srgb, var(--good) 12%, #fff);
+  color: #0c7a59;
+  box-shadow: none;
+  cursor: default;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pet.new,
+  .wallet.shake {
+    animation: none;
+  }
+}

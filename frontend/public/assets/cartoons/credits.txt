@@ -1,0 +1,22 @@
+Картинки героев мультфильмов загружены из русской Википедии.
+Кадры из мультфильмов не использовались (они под авторским правом) —
+это свободные фотографии: памятники героям, куклы, почтовые марки и т.п.
+Источник каждой картинки — статья:
+
+cheburashka.jpg — https://ru.wikipedia.org/wiki/Чебурашка
+gena.jpg        — https://ru.wikipedia.org/wiki/Крокодил_Гена
+vinni.jpg       — https://ru.wikipedia.org/wiki/Винни-Пух
+volk.jpg        — https://ru.wikipedia.org/wiki/Ну,_погоди!
+leopold.jpg     — https://ru.wikipedia.org/wiki/Кот_Леопольд
+karlson.jpg     — https://ru.wikipedia.org/wiki/Карлсон
+buratino.jpg    — https://ru.wikipedia.org/wiki/Буратино
+neznayka.jpg    — https://ru.wikipedia.org/wiki/Незнайка
+matroskin.jpg   — https://ru.wikipedia.org/wiki/Кот_Матроскин
+kuzya.jpg       — https://ru.wikipedia.org/wiki/Домовёнок_Кузя
+yozhik.jpg      — https://ru.wikipedia.org/wiki/Ёжик_в_тумане
+umka.jpg        — https://ru.wikipedia.org/wiki/Умка_(мультфильм)
+bremen.jpg      — https://ru.wikipedia.org/wiki/Бременские_музыканты_(мультфильм)
+lvyonok.jpg     — https://ru.wikipedia.org/wiki/Как_львёнок_и_черепаха_пели_песню
+mashamedved.jpg — https://ru.wikipedia.org/wiki/Маша_и_Медведь
+smeshariki.jpg  — https://ru.wikipedia.org/wiki/Смешарики
+fiksiki.jpg     — https://ru.wikipedia.org/wiki/Фиксики

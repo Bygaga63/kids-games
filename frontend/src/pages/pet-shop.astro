@@ -1,0 +1,9 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PetShopPage from '../games/pet-shop/PetShopPage';
+---
+
+<BaseLayout title="Зоомагазин — Играй и учись">
+  <script is:inline src="/vendor/phaser.min.js"></script>
+  <PetShopPage client:only="react" />
+</BaseLayout>
