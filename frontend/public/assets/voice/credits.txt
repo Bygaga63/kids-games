@@ -1,3 +1,3 @@
-Озвучка сгенерирована edge-tts (нейроголоса Microsoft: ru-RU-SvetlanaNeural, en-US-JennyNeural).
+Озвучка сгенерирована edge-tts (нейроголоса Microsoft: ru-RU-DmitryNeural, en-US-JennyNeural).
 Файлы именуются hash(голос|скорость|текст) — см. scripts/generate-voice.mjs и frontend/src/lib/voice.ts.
 Перегенерация: node scripts/generate-voice.mjs

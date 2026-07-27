@@ -17,7 +17,7 @@ const PRESETS: Record<
   }
 > = {
   ru: {
-    voice: 'ru-RU-SvetlanaNeural',
+    voice: 'ru-RU-DmitryNeural',
     rate: '-10%',
     fbLang: 'ru-RU',
     fbRate: 0.92,
@@ -25,7 +25,7 @@ const PRESETS: Record<
     fbVoice: /ru/i,
   },
   'ru-letter': {
-    voice: 'ru-RU-SvetlanaNeural',
+    voice: 'ru-RU-DmitryNeural',
     rate: '-25%',
     fbLang: 'ru-RU',
     fbRate: 0.8,

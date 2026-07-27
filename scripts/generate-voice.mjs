@@ -28,8 +28,8 @@ const FORCE = process.argv.includes('--force');
 
 // ВАЖНО: голоса и скорости должны совпадать с PRESETS в frontend/src/lib/voice.ts
 const PRESETS = {
-  ru: { voice: 'ru-RU-SvetlanaNeural', rate: '-10%' },
-  'ru-letter': { voice: 'ru-RU-SvetlanaNeural', rate: '-25%' },
+  ru: { voice: 'ru-RU-DmitryNeural', rate: '-10%' },
+  'ru-letter': { voice: 'ru-RU-DmitryNeural', rate: '-25%' },
   'en-letter': { voice: 'en-US-JennyNeural', rate: '-25%' },
 };
 
@@ -192,7 +192,7 @@ writeFileSync(
 );
 writeFileSync(
   join(OUT, 'credits.txt'),
-  'Озвучка сгенерирована edge-tts (нейроголоса Microsoft: ru-RU-SvetlanaNeural, en-US-JennyNeural).\n' +
+  'Озвучка сгенерирована edge-tts (нейроголоса Microsoft: ru-RU-DmitryNeural, en-US-JennyNeural).\n' +
     'Файлы именуются hash(голос|скорость|текст) — см. scripts/generate-voice.mjs и frontend/src/lib/voice.ts.\n' +
     'Перегенерация: node scripts/generate-voice.mjs\n',
 );
