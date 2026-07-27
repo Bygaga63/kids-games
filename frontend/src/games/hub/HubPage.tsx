@@ -40,27 +40,63 @@ const GO_SVG = (
   </svg>
 );
 
-const PAW_SICO = (
-  <svg
-    width="19"
-    height="19"
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="white"
-    strokeWidth="2"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-  >
-    <circle cx="7.2" cy="7.6" r="1.5" />
-    <circle cx="12" cy="6.4" r="1.5" />
-    <circle cx="16.8" cy="7.6" r="1.5" />
-    <path d="M12 11c-3.1 0-5.6 2.3-5.6 4.8 0 1.7 1.3 3 2.9 3 1 0 1.8-.4 2.7-.4s1.7.4 2.7.4c1.6 0 2.9-1.3 2.9-3 0-2.5-2.5-4.8-5.6-4.8z" />
+// милый котёнок для плавающей кнопки зоомагазина
+const FAB_CAT = (
+  <svg viewBox="0 0 96 96" aria-hidden="true">
+    <path
+      d="M79 68c9-2 13-9 10-16"
+      stroke="#f2811d"
+      strokeWidth="7"
+      fill="none"
+      strokeLinecap="round"
+    />
+    <path d="M25 42 20 15l21 13z" fill="#f2811d" />
+    <path d="M71 42 76 15 55 28z" fill="#f2811d" />
+    <path d="M27 37l-3-15 13 8z" fill="#ffc9de" />
+    <path d="M69 37l3-15-13 8z" fill="#ffc9de" />
+    <ellipse cx="48" cy="56" rx="30" ry="27" fill="#ff9f43" />
+    <path
+      d="M41 32c1.4 3.2 1.4 5.4 0 8.6M48 31c1.4 3.4 1.4 6 0 9.6M55 32c1.4 3.2 1.4 5.4 0 8.6"
+      stroke="#f2811d"
+      strokeWidth="2.6"
+      fill="none"
+      strokeLinecap="round"
+    />
+    <circle cx="38" cy="52" r="7.5" fill="#fff" />
+    <circle cx="58" cy="52" r="7.5" fill="#fff" />
+    <circle cx="39.5" cy="53.5" r="4" fill="#3b2313" />
+    <circle cx="56.5" cy="53.5" r="4" fill="#3b2313" />
+    <circle cx="41" cy="52" r="1.4" fill="#fff" />
+    <circle cx="58" cy="52" r="1.4" fill="#fff" />
+    <circle cx="29" cy="64" r="5" fill="#ffb8cf" opacity=".7" />
+    <circle cx="67" cy="64" r="5" fill="#ffb8cf" opacity=".7" />
+    <path d="M44 63h8l-4 5.5z" fill="#ff7aa2" />
+    <path
+      d="M48 68.5v3M48 71.5c-2 2.8-5 2.8-7 .8M48 71.5c2 2.8 5 2.8 7 .8"
+      stroke="#7a4a1d"
+      strokeWidth="2"
+      fill="none"
+      strokeLinecap="round"
+    />
+    <path
+      d="M19 58h10M20.5 64.5l9-2M77 58H67M75.5 64.5l-9-2"
+      stroke="#e78a2e"
+      strokeWidth="2"
+      strokeLinecap="round"
+    />
+    <ellipse cx="38" cy="81" rx="9" ry="6.5" fill="#ffb367" />
+    <ellipse cx="58" cy="81" rx="9" ry="6.5" fill="#ffb367" />
+    <path
+      d="M35 78v5M41 78v5M55 78v5M61 78v5"
+      stroke="#f2811d"
+      strokeWidth="1.6"
+      strokeLinecap="round"
+    />
   </svg>
 );
 
 const GAME_CARDS = HUB_CARDS.filter((c) => c.section === 'games');
 const RIDDLE_CARDS = HUB_CARDS.filter((c) => c.section === 'riddles');
-const SHOP_CARD = HUB_CARDS.find((c) => c.section === 'shop')!;
 
 /** показывать ли карточку при выбранном возрасте (как в оригинале: data-age||'a b c') */
 function isShown(card: HubCard, age: AgeKey | null): boolean {
@@ -281,39 +317,29 @@ export default function HubPage() {
         ))}
       </div>
 
-      <h2 className="sect">
-        <span
-          className="sico"
-          aria-hidden="true"
-          style={{
-            background: 'linear-gradient(135deg,#ffd43b,#f59f00)',
-            boxShadow: '0 8px 16px rgba(245,159,0,.3)',
-          }}
-        >
-          {PAW_SICO}
+      <a
+        className="petfab"
+        href="/pet-shop"
+        title="Зоомагазин: питомцы, еда и вещи за монетки из игр"
+      >
+        <span className="bubble">
+          {FAB_CAT}
+          <span className="coins">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2.4"
+              strokeLinecap="round"
+            >
+              <circle cx="12" cy="12" r="8.5" />
+              <path d="M12 8.2v7.6M9.8 10c0-.9 1-1.5 2.2-1.5s2.2.6 2.2 1.5c0 2.3-4.4 1.1-4.4 3.4 0 .9 1 1.5 2.2 1.5s2.2-.6 2.2-1.5" />
+            </svg>
+            <b>{balance}</b>
+          </span>
         </span>
-        Зоомагазин <small>питомцы, еда и вещи за монетки</small>
-      </h2>
-      <div className="grid">
-        <a
-          className="card shopcard"
-          style={{ '--c': SHOP_CARD.c, '--c2': SHOP_CARD.c2 } as CSSProperties}
-          href={SHOP_CARD.href}
-          data-key={SHOP_CARD.key}
-        >
-          <span className="ico" aria-hidden="true">
-            {SHOP_CARD.icon}
-          </span>
-          <h3>{SHOP_CARD.title}</h3>
-          <p>{SHOP_CARD.desc}</p>
-          <span className="tag" id="coin-tag">
-            Монетки: {balance}
-          </span>
-          <span className="go" aria-hidden="true">
-            {GO_SVG}
-          </span>
-        </a>
-      </div>
+        <span className="label">Зоомагазин</span>
+      </a>
 
       <footer>
         <span className="made">
