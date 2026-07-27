@@ -13,6 +13,7 @@
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
+    "voice:generate": "node scripts/generate-voice.mjs",
     "prepare": "husky"
   },
   "devDependencies": {

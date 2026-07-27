@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { addCoins, syncWallet } from '@lib/wallet';
 import { sfx } from '@lib/sfx';
+import { say } from '@lib/voice';
 import { shuffle } from '@lib/random';
 import { saveBest } from '@lib/best';
 import { burstConfetti } from '@lib/confetti';
@@ -83,21 +84,8 @@ const STAR = (
   <path d="M12 3l2.4 4.9 5.4.8-3.9 3.8.9 5.4L12 16.3 7.2 18.7l.9-5.4L4.2 8.7l5.4-.8z" />
 );
 
-// озвучка как в оригинале: rate .85, pitch 1.2, русский голос
-function speak(txt: string): void {
-  try {
-    if (!('speechSynthesis' in window)) return;
-    window.speechSynthesis.cancel();
-    const u = new SpeechSynthesisUtterance(txt);
-    u.lang = 'ru-RU';
-    u.rate = 0.85;
-    u.pitch = 1.2;
-    const vs = window.speechSynthesis.getVoices();
-    const ru = vs.filter((v) => /ru/i.test(v.lang))[0];
-    if (ru) u.voice = ru;
-    window.speechSynthesis.speak(u);
-  } catch {}
-}
+// озвучка — предзаписанный клип, при отсутствии — speechSynthesis
+const speak = (txt: string) => say(txt, 'ru');
 
 type Question = { current: Animal; choices: Animal[] };
 

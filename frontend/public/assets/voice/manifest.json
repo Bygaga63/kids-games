@@ -1,0 +1,1172 @@
+{
+  "1cyn7kd-f2oa27.mp3": {
+    "text": "column",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "animals"
+  },
+  "h7r8cq-x4xzc8.mp3": {
+    "text": "Бее",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "animals"
+  },
+  "1ww8raz-ke7al5.mp3": {
+    "text": "Гав гав",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "animals"
+  },
+  "h7rast-x4y4un.mp3": {
+    "text": "Жжж",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "animals"
+  },
+  "1oaa3ta-ha1wto.mp3": {
+    "text": "Иго-го",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "animals"
+  },
+  "x4s6uz-15aslp5.mp3": {
+    "text": "Ква ква",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "animals"
+  },
+  "1m2jkzn-jyyvoh.mp3": {
+    "text": "Корова",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "animals"
+  },
+  "1uc16xp-2rb6m7.mp3": {
+    "text": "Кошка",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "animals"
+  },
+  "1qehmgr-1rdeuxl.mp3": {
+    "text": "Кря кря",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "animals"
+  },
+  "ocofwk-k00hye.mp3": {
+    "text": "Кукареку",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "animals"
+  },
+  "h7qydj-x4xvvp.mp3": {
+    "text": "Лев",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "animals"
+  },
+  "1asy0k8-1yjvjcq.mp3": {
+    "text": "Лошадка",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "animals"
+  },
+  "ug7671-95qzcv.mp3": {
+    "text": "Лягушка",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "animals"
+  },
+  "1yw47j8-s2cyva.mp3": {
+    "text": "Мууу",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "animals"
+  },
+  "h7r66j-x4xvhl.mp3": {
+    "text": "Мяу",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "animals"
+  },
+  "1ogx7vz-l2s9al.mp3": {
+    "text": "Овечка",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "animals"
+  },
+  "1uci9g5-2uiu9j.mp3": {
+    "text": "Петух",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "animals"
+  },
+  "1paoaar-lwhyrl.mp3": {
+    "text": "Пчёлка",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "animals"
+  },
+  "h7quhn-x4xol5.mp3": {
+    "text": "Ррр",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "animals"
+  },
+  "1huaazr-c393wl.mp3": {
+    "text": "Свинка",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "animals"
+  },
+  "1hrlrwv-c0p2b1.mp3": {
+    "text": "Собака",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "animals"
+  },
+  "1yvug12-s23c78.mp3": {
+    "text": "Сова",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "animals"
+  },
+  "1yvsryo-s28vg2.mp3": {
+    "text": "Утка",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "animals"
+  },
+  "h7qtoe-x4xr4s.mp3": {
+    "text": "Уху",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "animals"
+  },
+  "zgdlff-glltg9.mp3": {
+    "text": "Хрю хрю",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "animals"
+  },
+  "1v4psz3-kb3vrh.mp3": {
+    "text": "Им мы говорим, поём песенки и улыбаемся.",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "body"
+  },
+  "1jznpnt-120ezbf.mp3": {
+    "text": "Им мы нюхаем цветы и свежие пирожки.",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "body"
+  },
+  "1kvmyi8-qlo07m.mp3": {
+    "text": "Ими мы рисуем, строим башни и обнимаем маму.",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "body"
+  },
+  "1b61364-154vqb2.mp3": {
+    "text": "Ими мы слушаем сказки и мамин голос.",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "body"
+  },
+  "9b01wu-hux6ks.mp3": {
+    "text": "Ими мы смотрим на мир, а ночью они закрываются и спят.",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "body"
+  },
+  "twlqrc-1u17dzu.mp3": {
+    "text": "Их по пять на каждой руке, и у каждого есть своё имя.",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "body"
+  },
+  "ytf163-15j7jm1.mp3": {
+    "text": "Он живёт в голове: думает, запоминает и показывает сны.",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "body"
+  },
+  "h9uvr7-dtgkwx.mp3": {
+    "text": "Он живёт во рту и различает сладкое, кислое и солёное.",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "body"
+  },
+  "z14zmw-1cwuzwq.mp3": {
+    "text": "Они белые и крепкие: грызут яблоки и морковку.",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "body"
+  },
+  "pmi5f0-is185q.mp3": {
+    "text": "Они как два воздушных шарика: надуваются, когда мы вдыхаем.",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "body"
+  },
+  "13jt870-xm1k7y.mp3": {
+    "text": "Они крепкие и держат всё тело, как каркас у дома.",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "body"
+  },
+  "1t2jzbw-1pa5e66.mp3": {
+    "text": "Они умеют бегать, прыгать и танцевать.",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "body"
+  },
+  "vcugm9-18xiv7n.mp3": {
+    "text": "Оно стучит в груди «тук-тук» и никогда не отдыхает.",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "body"
+  },
+  "36nztd-igwp0z.mp3": {
+    "text": "A",
+    "voice": "en-US-JennyNeural",
+    "rate": "-25%",
+    "from": "english"
+  },
+  "36nzte-igwp0w.mp3": {
+    "text": "B",
+    "voice": "en-US-JennyNeural",
+    "rate": "-25%",
+    "from": "english"
+  },
+  "36nztf-igwp0x.mp3": {
+    "text": "C",
+    "voice": "en-US-JennyNeural",
+    "rate": "-25%",
+    "from": "english"
+  },
+  "36nztg-igwp12.mp3": {
+    "text": "D",
+    "voice": "en-US-JennyNeural",
+    "rate": "-25%",
+    "from": "english"
+  },
+  "36nzth-igwp13.mp3": {
+    "text": "E",
+    "voice": "en-US-JennyNeural",
+    "rate": "-25%",
+    "from": "english"
+  },
+  "36nzti-igwp10.mp3": {
+    "text": "F",
+    "voice": "en-US-JennyNeural",
+    "rate": "-25%",
+    "from": "english"
+  },
+  "36nztj-igwp11.mp3": {
+    "text": "G",
+    "voice": "en-US-JennyNeural",
+    "rate": "-25%",
+    "from": "english"
+  },
+  "36nztk-igwp16.mp3": {
+    "text": "H",
+    "voice": "en-US-JennyNeural",
+    "rate": "-25%",
+    "from": "english"
+  },
+  "36nztl-igwp17.mp3": {
+    "text": "I",
+    "voice": "en-US-JennyNeural",
+    "rate": "-25%",
+    "from": "english"
+  },
+  "36nztm-igwp14.mp3": {
+    "text": "J",
+    "voice": "en-US-JennyNeural",
+    "rate": "-25%",
+    "from": "english"
+  },
+  "36nztn-igwp15.mp3": {
+    "text": "K",
+    "voice": "en-US-JennyNeural",
+    "rate": "-25%",
+    "from": "english"
+  },
+  "36nzto-igwp1a.mp3": {
+    "text": "L",
+    "voice": "en-US-JennyNeural",
+    "rate": "-25%",
+    "from": "english"
+  },
+  "36nztp-igwp1b.mp3": {
+    "text": "M",
+    "voice": "en-US-JennyNeural",
+    "rate": "-25%",
+    "from": "english"
+  },
+  "36nztq-igwp18.mp3": {
+    "text": "N",
+    "voice": "en-US-JennyNeural",
+    "rate": "-25%",
+    "from": "english"
+  },
+  "36nztr-igwp19.mp3": {
+    "text": "O",
+    "voice": "en-US-JennyNeural",
+    "rate": "-25%",
+    "from": "english"
+  },
+  "36nzsw-igwp0i.mp3": {
+    "text": "P",
+    "voice": "en-US-JennyNeural",
+    "rate": "-25%",
+    "from": "english"
+  },
+  "36nzsx-igwp0j.mp3": {
+    "text": "Q",
+    "voice": "en-US-JennyNeural",
+    "rate": "-25%",
+    "from": "english"
+  },
+  "36nzsy-igwp0g.mp3": {
+    "text": "R",
+    "voice": "en-US-JennyNeural",
+    "rate": "-25%",
+    "from": "english"
+  },
+  "36nzsz-igwp0h.mp3": {
+    "text": "S",
+    "voice": "en-US-JennyNeural",
+    "rate": "-25%",
+    "from": "english"
+  },
+  "36nzt0-igwp0m.mp3": {
+    "text": "T",
+    "voice": "en-US-JennyNeural",
+    "rate": "-25%",
+    "from": "english"
+  },
+  "36nzt1-igwp0n.mp3": {
+    "text": "U",
+    "voice": "en-US-JennyNeural",
+    "rate": "-25%",
+    "from": "english"
+  },
+  "36nzt2-igwp0k.mp3": {
+    "text": "V",
+    "voice": "en-US-JennyNeural",
+    "rate": "-25%",
+    "from": "english"
+  },
+  "36nzt3-igwp0l.mp3": {
+    "text": "W",
+    "voice": "en-US-JennyNeural",
+    "rate": "-25%",
+    "from": "english"
+  },
+  "36nzt4-igwp0q.mp3": {
+    "text": "X",
+    "voice": "en-US-JennyNeural",
+    "rate": "-25%",
+    "from": "english"
+  },
+  "36nzt5-igwp0r.mp3": {
+    "text": "Y",
+    "voice": "en-US-JennyNeural",
+    "rate": "-25%",
+    "from": "english"
+  },
+  "36nzt6-igwp0o.mp3": {
+    "text": "Z",
+    "voice": "en-US-JennyNeural",
+    "rate": "-25%",
+    "from": "english"
+  },
+  "1psmcjx-ul6gj3.mp3": {
+    "text": "А",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-25%",
+    "from": "letters-ru"
+  },
+  "1psmcjw-ul6gj2.mp3": {
+    "text": "Б",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-25%",
+    "from": "letters-ru"
+  },
+  "1psmcjz-ul6gj1.mp3": {
+    "text": "В",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-25%",
+    "from": "letters-ru"
+  },
+  "1psmcjy-ul6gj0.mp3": {
+    "text": "Г",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-25%",
+    "from": "letters-ru"
+  },
+  "1psmcjt-ul6giz.mp3": {
+    "text": "Д",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-25%",
+    "from": "letters-ru"
+  },
+  "1psmcjs-ul6giy.mp3": {
+    "text": "Е",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-25%",
+    "from": "letters-ru"
+  },
+  "1psmckc-ul6gji.mp3": {
+    "text": "Ё",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-25%",
+    "from": "letters-ru"
+  },
+  "1psmcjv-ul6gix.mp3": {
+    "text": "Ж",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-25%",
+    "from": "letters-ru"
+  },
+  "1psmcju-ul6giw.mp3": {
+    "text": "З",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-25%",
+    "from": "letters-ru"
+  },
+  "1psmcjp-ul6giv.mp3": {
+    "text": "И",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-25%",
+    "from": "letters-ru"
+  },
+  "1psmcjo-ul6giu.mp3": {
+    "text": "Й",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-25%",
+    "from": "letters-ru"
+  },
+  "1psmcjr-ul6git.mp3": {
+    "text": "К",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-25%",
+    "from": "letters-ru"
+  },
+  "1psmcjq-ul6gis.mp3": {
+    "text": "Л",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-25%",
+    "from": "letters-ru"
+  },
+  "1psmcjl-ul6gir.mp3": {
+    "text": "М",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-25%",
+    "from": "letters-ru"
+  },
+  "1psmcjk-ul6giq.mp3": {
+    "text": "Н",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-25%",
+    "from": "letters-ru"
+  },
+  "1psmcjn-ul6gip.mp3": {
+    "text": "О",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-25%",
+    "from": "letters-ru"
+  },
+  "1psmcjm-ul6gio.mp3": {
+    "text": "П",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-25%",
+    "from": "letters-ru"
+  },
+  "1psmcl9-ul6gin.mp3": {
+    "text": "Р",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-25%",
+    "from": "letters-ru"
+  },
+  "1psmcl8-ul6gim.mp3": {
+    "text": "С",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-25%",
+    "from": "letters-ru"
+  },
+  "1psmclb-ul6gil.mp3": {
+    "text": "Т",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-25%",
+    "from": "letters-ru"
+  },
+  "1psmcla-ul6gik.mp3": {
+    "text": "У",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-25%",
+    "from": "letters-ru"
+  },
+  "1psmcl5-ul6gij.mp3": {
+    "text": "Ф",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-25%",
+    "from": "letters-ru"
+  },
+  "1psmcl4-ul6gii.mp3": {
+    "text": "Х",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-25%",
+    "from": "letters-ru"
+  },
+  "1psmcl7-ul6gih.mp3": {
+    "text": "Ц",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-25%",
+    "from": "letters-ru"
+  },
+  "1psmcl6-ul6gig.mp3": {
+    "text": "Ч",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-25%",
+    "from": "letters-ru"
+  },
+  "1psmcl1-ul6gif.mp3": {
+    "text": "Ш",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-25%",
+    "from": "letters-ru"
+  },
+  "1psmcl0-ul6gie.mp3": {
+    "text": "Щ",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-25%",
+    "from": "letters-ru"
+  },
+  "1psmcl3-ul6gid.mp3": {
+    "text": "Ъ",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-25%",
+    "from": "letters-ru"
+  },
+  "1psmcl2-ul6gic.mp3": {
+    "text": "Ы",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-25%",
+    "from": "letters-ru"
+  },
+  "1psmckx-ul6gib.mp3": {
+    "text": "Ь",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-25%",
+    "from": "letters-ru"
+  },
+  "1psmckw-ul6gia.mp3": {
+    "text": "Э",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-25%",
+    "from": "letters-ru"
+  },
+  "1psmckz-ul6gi9.mp3": {
+    "text": "Ю",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-25%",
+    "from": "letters-ru"
+  },
+  "1psmcky-ul6gi8.mp3": {
+    "text": "Я",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-25%",
+    "from": "letters-ru"
+  },
+  "184xj1z-1v6k1qt.mp3": {
+    "text": "Буль-буль!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "1ijpcl5-2ghixn.mp3": {
+    "text": "Га-га-га!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "i7xtj-xr63yt.mp3": {
+    "text": "Гав-гав!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "z11ucx-14177kj.mp3": {
+    "text": "И-го-го-о!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "16x0wx9-1etzxcf.mp3": {
+    "text": "Класс! Теперь в комнате есть бантик!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "d9tmwt-1pr6c67.mp3": {
+    "text": "Класс! Теперь в комнате есть будка!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "vyoad0-6j928m.mp3": {
+    "text": "Класс! Теперь в комнате есть клубочек!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "109awxa-1rus1jg.mp3": {
+    "text": "Класс! Теперь в комнате есть лежанка!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "nlky66-1yv6z18.mp3": {
+    "text": "Класс! Теперь в комнате есть миска!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "ldtao7-63qzp.mp3": {
+    "text": "Класс! Теперь в комнате есть мячик!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "svxc05-13n2mw7.mp3": {
+    "text": "Класс! Теперь в комнате есть фрисби!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "628e3p-5003bb.mp3": {
+    "text": "Му-у-у!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "1vafah6-w8rzvs.mp3": {
+    "text": "Мя-я-яу!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "1xwv6gr-1upd3vd.mp3": {
+    "text": "Ням-ням! Обожаю косточка!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "wwiluz-1axkdxl.mp3": {
+    "text": "Ням-ням! Обожаю молочко!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "jhujpt-myyhbn.mp3": {
+    "text": "Ням-ням! Обожаю морковка!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "12be3gj-4n73q9.mp3": {
+    "text": "Ням-ням! Обожаю мясо!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "usowo3-2u3kox.mp3": {
+    "text": "Ням-ням! Обожаю орешек!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "1se018-1f1u026.mp3": {
+    "text": "Ням-ням! Обожаю печенька!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "p4erav-1dezw7p.mp3": {
+    "text": "Ням-ням! Обожаю яблочко!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "n1x6n1-5vvdof.mp3": {
+    "text": "Ням-ням! Спасибо за косточка!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "1db8365-1upkbhr.mp3": {
+    "text": "Ням-ням! Спасибо за молочко!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "14gpp9z-fe5ihh.mp3": {
+    "text": "Ням-ням! Спасибо за морковка!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "1uw7fl1-fyrcef.mp3": {
+    "text": "Ням-ням! Спасибо за мясо!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "1w5jurp-1wj1b6v.mp3": {
+    "text": "Ням-ням! Спасибо за орешек!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "b2vop6-1xhsmy0.mp3": {
+    "text": "Ням-ням! Спасибо за печенька!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "1tn2s7l-lwnyyb.mp3": {
+    "text": "Ням-ням! Спасибо за яблочко!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "2b0n0d-l8wvbz.mp3": {
+    "text": "Пи-пи-пи!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "jstut1-18arf87.mp3": {
+    "text": "Прив-е-е-ет!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "zd8zco-izkhsq.mp3": {
+    "text": "Привет!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "fydzef-1b96oph.mp3": {
+    "text": "Р-р-р-р!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "1vmhx40-1vdlmwy.mp3": {
+    "text": "Ура! Новый уровень!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "1u24xux-cyjh57.mp3": {
+    "text": "Ура! У тебя новый друг — дракончик!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "1aaw904-1hmgp9y.mp3": {
+    "text": "Ура! У тебя новый друг — ёжик!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "1do3gp-1jke4bv.mp3": {
+    "text": "Ура! У тебя новый друг — корова!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "271d6d-18qcd7b.mp3": {
+    "text": "Ура! У тебя новый друг — котик!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "1kjefho-1ymmn2m.mp3": {
+    "text": "Ура! У тебя новый друг — кролик!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "2rna41-1tketv.mp3": {
+    "text": "Ура! У тебя новый друг — лабрадор!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "ea6gnm-hetank.mp3": {
+    "text": "Ура! У тебя новый друг — лошадка!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "15f698-kx4r7y.mp3": {
+    "text": "Ура! У тебя новый друг — мальтипу!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "2lu3us-1aegexy.mp3": {
+    "text": "Ура! У тебя новый друг — мышка!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "3xiy74-ir4ate.mp3": {
+    "text": "Ура! У тебя новый друг — овчарка!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "1errigj-c9hqq9.mp3": {
+    "text": "Ура! У тебя новый друг — пёстрая рыбка!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "6fq0om-1b6ff10.mp3": {
+    "text": "Ура! У тебя новый друг — попугай!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "8svsl7-xhw97d.mp3": {
+    "text": "Ура! У тебя новый друг — пудель!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "a5kn3n-140kggh.mp3": {
+    "text": "Ура! У тебя новый друг — пузырик!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "1ahq4bl-182b2f7.mp3": {
+    "text": "Ура! У тебя новый друг — рыбка!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "14zjna0-9l4bei.mp3": {
+    "text": "Ура! У тебя новый друг — рыжий полосатик!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "qk9rl9-jysslr.mp3": {
+    "text": "Ура! У тебя новый друг — свинка!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "1jhu5w9-1wf9ncr.mp3": {
+    "text": "Ура! У тебя новый друг — серебрянка!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "1yxril5-1gn7i4b.mp3": {
+    "text": "Ура! У тебя новый друг — улитка!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "1cfa6bu-11cx3s8.mp3": {
+    "text": "Ура! У тебя новый друг — фламинго!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "z90b96-z219w8.mp3": {
+    "text": "Ура! У тебя новый друг — хомячок!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "dy0xyz-1to9ryx.mp3": {
+    "text": "Ура! У тебя новый друг — черепашка!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "1oekk2e-1atul6c.mp3": {
+    "text": "Ура! У тебя новый друг — чёрный уголёк!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "1dz8xtg-1cvo6fq.mp3": {
+    "text": "Ура! У тебя новый друг — щенок!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "1o9c6l1-6zs2pj.mp3": {
+    "text": "Фыр-фыр-фыр!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "1n443kn-1k2x3ud.mp3": {
+    "text": "Хрум-хрум!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "xoxcon-1g1yaad.mp3": {
+    "text": "Хрю-хрю!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "sluaz6-tf1y40.mp3": {
+    "text": "Ш-ш-ш!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "1qbffcg-1m89lzm.mp3": {
+    "text": "Шур-шур…",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "pet-shop"
+  },
+  "1c0keo-1en57le.mp3": {
+    "text": "Молодец! Все покупки собраны!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "shop"
+  },
+  "1nxib3t-1q91xgb.mp3": {
+    "text": "Найди бананы",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "shop"
+  },
+  "1pr792c-1jio6va.mp3": {
+    "text": "Найди картошку",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "shop"
+  },
+  "1qviplz-1x003lx.mp3": {
+    "text": "Найди курицу",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "shop"
+  },
+  "1sx0uzl-1tteiir.mp3": {
+    "text": "Найди лук",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "shop"
+  },
+  "tpfnd9-te6f8v.mp3": {
+    "text": "Найди макароны",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "shop"
+  },
+  "jbu3u3-4964eh.mp3": {
+    "text": "Найди масло",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "shop"
+  },
+  "1sx0yt6-1tteftk.mp3": {
+    "text": "Найди мёд",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "shop"
+  },
+  "1w53cg0-1vyfh7m.mp3": {
+    "text": "Найди молоко",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "shop"
+  },
+  "18keezy-9zusy4.mp3": {
+    "text": "Найди морковку",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "shop"
+  },
+  "1go6bhm-87awaw.mp3": {
+    "text": "Найди мороженое",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "shop"
+  },
+  "1wd5874-1ynj5nm.mp3": {
+    "text": "Найди огурцы",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "shop"
+  },
+  "1mkex4v-13lyndp.mp3": {
+    "text": "Найди печенье",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "shop"
+  },
+  "248613-9jjmp1.mp3": {
+    "text": "Найди помидоры",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "shop"
+  },
+  "bcn8oq-14zmpzs.mp3": {
+    "text": "Найди рыбу",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "shop"
+  },
+  "1sx1346-1ttd46c.mp3": {
+    "text": "Найди сок",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "shop"
+  },
+  "1sx11ux-1ttd4i3.mp3": {
+    "text": "Найди сыр",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "shop"
+  },
+  "be11p5-14yeddn.mp3": {
+    "text": "Найди хлеб",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "shop"
+  },
+  "2es5br-147az9x.mp3": {
+    "text": "Найди шоколадку",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "shop"
+  },
+  "1ajrf6i-1x93gu0.mp3": {
+    "text": "Найди яблоки",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "shop"
+  },
+  "be5f5v-14yk8m9.mp3": {
+    "text": "Найди яйца",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "shop"
+  },
+  "1jcifc4-11uz9za.mp3": {
+    "text": "Днём я зелёная и сижу на болоте, а ночью сбрасываю кожу и становлюсь красавицей.",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "tales"
+  },
+  "1tdxfif-11cd63p.mp3": {
+    "text": "Живу в избушке на курьих ножках, летаю в ступе и мету след метлой.",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "tales"
+  },
+  "13pj1q1-wu3sbf.mp3": {
+    "text": "Моё перо светится, как огонь, — за мной охотятся царские сыновья.",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "tales"
+  },
+  "qw5jsh-agi383.mp3": {
+    "text": "Мы служим Бабе-Яге: подхватили братца на крылья и унесли за тёмный лес.",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "tales"
+  },
+  "17ijshk-noiv6i.mp3": {
+    "text": "Тридцать лет я сидел на печи, а потом стал самым сильным богатырём.",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "tales"
+  },
+  "187hn0l-vvo21z.mp3": {
+    "text": "У меня целых три головы, и каждая умеет дышать огнём!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "tales"
+  },
+  "177z3w3-1mb2ms1.mp3": {
+    "text": "Я внучка из снега: боюсь солнышка и тёплого костра.",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "tales"
+  },
+  "1heu10k-1cghe9y.mp3": {
+    "text": "Я живу в синем море и исполняю желания старика-рыбака.",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "tales"
+  },
+  "1qc245i-7oha5g.mp3": {
+    "text": "Я зимний волшебник, спрашиваю в лесу: «Тепло ли тебе, девица?»",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "tales"
+  },
+  "xoieye-18vigd0.mp3": {
+    "text": "Я круглый и румяный: от бабушки ушёл и от дедушки ушёл!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "tales"
+  },
+  "1s9fpkn-1jaepcl.mp3": {
+    "text": "Я лежу на печи, а вёдра сами домой идут — стоит сказать: «По щучьему велению!»",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "tales"
+  },
+  "o4wcjx-1gujcq7.mp3": {
+    "text": "Я младший сын царя: ловлю Жар-птицу и выручаю царевну из беды.",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "tales"
+  },
+  "bz313c-1nzj56.mp3": {
+    "text": "Я мчу Ивана-царевича на своей спине быстрее ветра.",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "tales"
+  },
+  "65gcb2-1fp8d4c.mp3": {
+    "text": "Я снесла яичко — не простое, а золотое!",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "tales"
+  },
+  "12dfqjg-14j9qta.mp3": {
+    "text": "Я спряталась в короб с пирожками и приговаривала: «Высоко сижу, далеко гляжу!»",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "tales"
+  },
+  "6gtno1-1az75ir.mp3": {
+    "text": "Я худой и очень злой, а смерть моя — на конце иглы, игла — в яйце.",
+    "voice": "ru-RU-SvetlanaNeural",
+    "rate": "-10%",
+    "from": "tales"
+  }
+}

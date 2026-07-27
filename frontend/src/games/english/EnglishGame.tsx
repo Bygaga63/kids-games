@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { addCoins, syncWallet } from '@lib/wallet';
 import { sfx } from '@lib/sfx';
+import { say } from '@lib/voice';
 import { shuffle } from '@lib/random';
 import { saveBest } from '@lib/best';
 import { burstConfetti } from '@lib/confetti';
@@ -21,21 +22,8 @@ const STAR = (
   <path d="M12 3l2.4 4.9 5.4.8-3.9 3.8.9 5.4L12 16.3 7.2 18.7l.9-5.4L4.2 8.7l5.4-.8z" />
 );
 
-// озвучка буквы — свой вариант из оригинала (en-US, rate .8, pitch 1.1, выбор английского голоса)
-function speak(ch: string): void {
-  try {
-    if (!('speechSynthesis' in window)) return;
-    window.speechSynthesis.cancel();
-    const u = new SpeechSynthesisUtterance(ch);
-    u.lang = 'en-US';
-    u.rate = 0.8;
-    u.pitch = 1.1;
-    const vs = window.speechSynthesis.getVoices();
-    const en = vs.filter((v) => /en[-_]/i.test(v.lang))[0];
-    if (en) u.voice = en;
-    window.speechSynthesis.speak(u);
-  } catch {}
-}
+// озвучка буквы — предзаписанный клип, при отсутствии — speechSynthesis
+const speak = (ch: string) => say(ch, 'en-letter');
 
 export default function EnglishGame() {
   const [round, setRound] = useState(0);
@@ -56,9 +44,6 @@ export default function EnglishGame() {
 
   useEffect(() => {
     syncWallet();
-    if ('speechSynthesis' in window) {
-      window.speechSynthesis.getVoices();
-    }
     next(0);
     return () => {
       if (speakTimer.current) clearTimeout(speakTimer.current);

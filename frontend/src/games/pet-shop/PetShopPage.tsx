@@ -2,6 +2,7 @@ import { useEffect, useRef, useState, type CSSProperties } from 'react';
 import { loadWallet, saveWallet, coinBalance, syncWallet } from '@lib/wallet';
 import type { Wallet } from '@lib/wallet';
 import { burstConfetti } from '@lib/confetti';
+import { say } from '@lib/voice';
 import { pick, shuffle } from '@lib/random';
 import './pet-shop.css';
 
@@ -98,15 +99,8 @@ if (TEST_MODE) {
   });
 }
 
-function speak(text: string, pitch?: number, rate?: number): void {
-  if (!('speechSynthesis' in window)) return;
-  window.speechSynthesis.cancel();
-  const u = new SpeechSynthesisUtterance(text);
-  u.lang = 'ru-RU';
-  u.rate = rate || 0.95;
-  u.pitch = pitch || 1.1;
-  window.speechSynthesis.speak(u);
-}
+// озвучка — предзаписанный клип, при отсутствии — speechSynthesis
+const speak = (text: string) => say(text, 'ru');
 
 // настоящие звуки животных из /assets/sounds/ (Wikimedia Commons, см. credits.txt);
 // если файл не проиграется — запасной «голос» через синтез речи
@@ -139,9 +133,9 @@ function petVoice(key: string): void {
   a = SOUND_ALIAS[a] || a;
   try {
     const audio = new Audio('/assets/sounds/' + a + '.mp3');
-    audio.play().catch(() => speak(VOICES[a] || 'Привет!', 1.4, 1.05));
+    audio.play().catch(() => speak(VOICES[a] || 'Привет!'));
   } catch {
-    speak(VOICES[a] || 'Привет!', 1.4, 1.05);
+    speak(VOICES[a] || 'Привет!');
   }
 }
 

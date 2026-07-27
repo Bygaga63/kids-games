@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { addCoins, syncWallet } from '@lib/wallet';
-import { sfx, speak } from '@lib/sfx';
+import { sfx } from '@lib/sfx';
+import { say, stopVoice } from '@lib/voice';
 import { shuffle } from '@lib/random';
 import { saveBest } from '@lib/best';
 import { burstConfetti } from '@lib/confetti';
@@ -125,9 +126,7 @@ export default function BodyGame() {
     syncWallet();
     next(0);
     return () => {
-      try {
-        window.speechSynthesis?.cancel();
-      } catch {}
+      stopVoice();
     };
   }, []);
 
@@ -148,9 +147,7 @@ export default function BodyGame() {
   function choose(o: BodyPart) {
     if (locked || !current) return;
     setLocked(true);
-    try {
-      window.speechSynthesis?.cancel();
-    } catch {}
+    stopVoice();
     const correct = o.n === current.n;
     setPicked(o.n);
     if (correct) {
@@ -259,9 +256,7 @@ export default function BodyGame() {
               <button
                 className="say"
                 type="button"
-                onClick={() =>
-                  speak(current.riddle, { rate: 0.92, pitch: 1.05 })
-                }
+                onClick={() => say(current.riddle)}
               >
                 <svg
                   viewBox="0 0 24 24"

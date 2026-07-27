@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { addCoins, syncWallet } from '@lib/wallet';
-import { speak } from '@lib/sfx';
+import { say as sayClip } from '@lib/voice';
 import { shuffle } from '@lib/random';
 import { saveBest } from '@lib/best';
 import { burstConfetti } from '@lib/confetti';
@@ -42,9 +42,8 @@ const CONFETTI_COLORS = [
   '#3b6cf6',
 ];
 
-// озвучка как в оригинале: rate .92, pitch 1.05, ru-RU
-const say = (text: string) =>
-  speak(text, { rate: 0.92, pitch: 1.05, lang: 'ru-RU' });
+// озвучка — предзаписанный клип, при отсутствии — speechSynthesis
+const say = (text: string) => sayClip(text, 'ru');
 
 const STAR = (
   <path d="M12 3l2.4 4.9 5.4.8-3.9 3.8.9 5.4L12 16.3 7.2 18.7l.9-5.4L4.2 8.7l5.4-.8z" />
